@@ -1,4 +1,6 @@
-﻿Public Class Welcome
+﻿Imports System.Runtime.CompilerServices
+
+Public Class Welcome
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
@@ -25,6 +27,19 @@
     End Sub
 
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        ' Hide the Welcome Page
+        Me.Hide()
+
+        ' Loads the projectDescription Windows
+        Dim projectDescription As New projectDescription()
+        projectDescription.Show()
+
+
 
     End Sub
 End Class
