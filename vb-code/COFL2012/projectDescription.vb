@@ -8,6 +8,12 @@
            String.IsNullOrEmpty(project_year.Text) Then
             MessageBox.Show("Please fill in all required fields.")
         Else
+            ' Hide the Welcome Page
+            Me.Hide()
+
+            Dim district As New District()
+            district.Show()
+
 
         End If
     End Sub
