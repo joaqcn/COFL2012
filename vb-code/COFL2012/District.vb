@@ -32,7 +32,9 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         If districtSelected Then
-            'something
+            Dim IntersectionType As New IntersectionType()
+            Me.Hide()
+            IntersectionType.Show()
         Else
             MessageBox.Show("Please select a district before proceeding")
         End If
