@@ -117,4 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>NOTES:
+
+1) APPROACH TRAFFIC is the peak hour
+volume on that leg, including left and right
+turning traffic, if applicable
+
+2) SPEED is the cruise speed as vehicles
+approach the intersection before entering
+the queue, sometimes referred to as mid-
+block speed. If cruise speed is unknown,
+use the speed limit
+</value>
+  </data>
 </root>

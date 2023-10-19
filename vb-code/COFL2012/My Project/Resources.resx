@@ -124,11 +124,11 @@
   <data name="6x4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\6x4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fdot-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\fdot-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Tool Booth" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Tool Booth.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="swamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\swamp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="continue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\continue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,6 +142,9 @@
   <data name="florida-beach" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\florida-beach.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="blue-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\blue-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="4x4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\4x4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,22 +157,34 @@
   <data name="N-S Freeway" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\N-S Freeway.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="blue-arrow-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\blue-arrow-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="district-map" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\district-map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="West Tee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\West Tee.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fdot-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\fdot-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blue-arrow-down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\blue-arrow-down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\swamp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="North Tee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\North Tee.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ucf-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\ucf-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blue-arrow-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\blue-arrow-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="E-W Freeway" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\E-W Freeway.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ucf-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ucf-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue-arrow-top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\blue-arrow-top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
