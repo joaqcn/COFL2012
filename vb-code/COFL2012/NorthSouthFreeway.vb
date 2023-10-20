@@ -1,5 +1,5 @@
 ﻿Public Class NorthSouthFreeway
-    Private Sub Label18_Click(sender As Object, e As EventArgs) Handles Label18.Click
+    Private Sub Label18_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class

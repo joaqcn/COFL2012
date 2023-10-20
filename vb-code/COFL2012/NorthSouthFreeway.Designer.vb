@@ -31,18 +31,12 @@ Partial Class NorthSouthFreeway
         TextBox10 = New TextBox()
         PictureBox8 = New PictureBox()
         TextBox9 = New TextBox()
-        TextBox12 = New TextBox()
         Label15 = New Label()
-        TextBox11 = New TextBox()
-        Label14 = New Label()
-        Label18 = New Label()
-        Label17 = New Label()
         Label4 = New Label()
         PictureBox3 = New PictureBox()
         TextBox3 = New TextBox()
         TextBox4 = New TextBox()
         Label6 = New Label()
-        Label7 = New Label()
         Label5 = New Label()
         PictureBox2 = New PictureBox()
         TextBox2 = New TextBox()
@@ -54,11 +48,17 @@ Partial Class NorthSouthFreeway
         TextBox5 = New TextBox()
         Label9 = New Label()
         TextBox6 = New TextBox()
-        Label10 = New Label()
         TextBox7 = New TextBox()
         Label11 = New Label()
         TextBox8 = New TextBox()
         Label12 = New Label()
+        TextBox11 = New TextBox()
+        TextBox12 = New TextBox()
+        Label13 = New Label()
+        Label17 = New Label()
+        Label18 = New Label()
+        Label7 = New Label()
+        Label10 = New Label()
         CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
@@ -144,13 +144,6 @@ Partial Class NorthSouthFreeway
         TextBox9.Size = New Size(100, 23)
         TextBox9.TabIndex = 103
         ' 
-        ' TextBox12
-        ' 
-        TextBox12.Location = New Point(521, 777)
-        TextBox12.Name = "TextBox12"
-        TextBox12.Size = New Size(100, 23)
-        TextBox12.TabIndex = 104
-        ' 
         ' Label15
         ' 
         Label15.AutoSize = True
@@ -160,43 +153,6 @@ Partial Class NorthSouthFreeway
         Label15.Size = New Size(132, 42)
         Label15.TabIndex = 100
         Label15.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
-        ' 
-        ' TextBox11
-        ' 
-        TextBox11.Location = New Point(521, 742)
-        TextBox11.Name = "TextBox11"
-        TextBox11.Size = New Size(100, 23)
-        TextBox11.TabIndex = 102
-        ' 
-        ' Label14
-        ' 
-        Label14.AutoSize = True
-        Label14.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label14.Location = New Point(1073, 454)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(104, 21)
-        Label14.TabIndex = 99
-        Label14.Text = "Speed (mph)"
-        ' 
-        ' Label18
-        ' 
-        Label18.AutoSize = True
-        Label18.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label18.Location = New Point(383, 775)
-        Label18.Name = "Label18"
-        Label18.Size = New Size(132, 42)
-        Label18.TabIndex = 101
-        Label18.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
-        ' 
-        ' Label17
-        ' 
-        Label17.AutoSize = True
-        Label17.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label17.Location = New Point(397, 740)
-        Label17.Name = "Label17"
-        Label17.Size = New Size(104, 21)
-        Label17.TabIndex = 98
-        Label17.Text = "Speed (mph)"
         ' 
         ' Label4
         ' 
@@ -238,19 +194,9 @@ Partial Class NorthSouthFreeway
         Label6.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label6.Location = New Point(163, 384)
         Label6.Name = "Label6"
-        Label6.Size = New Size(132, 42)
+        Label6.Size = New Size(118, 42)
         Label6.TabIndex = 93
-        Label6.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label7.Location = New Point(181, 337)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(104, 21)
-        Label7.TabIndex = 92
-        Label7.Text = "Speed (mph)"
+        Label6.Text = "On Ramp" & vbCrLf & "Traffic (veh/hr)" & vbCrLf
         ' 
         ' Label5
         ' 
@@ -292,9 +238,9 @@ Partial Class NorthSouthFreeway
         Label3.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label3.Location = New Point(714, 178)
         Label3.Name = "Label3"
-        Label3.Size = New Size(132, 42)
+        Label3.Size = New Size(135, 42)
         Label3.TabIndex = 87
-        Label3.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
+        Label3.Text = "Off- Ramp Traffic" & vbCrLf & "(veh/hr)" & vbCrLf
         ' 
         ' Label2
         ' 
@@ -302,9 +248,9 @@ Partial Class NorthSouthFreeway
         Label2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label2.Location = New Point(714, 138)
         Label2.Name = "Label2"
-        Label2.Size = New Size(104, 21)
+        Label2.Size = New Size(121, 42)
         Label2.TabIndex = 86
-        Label2.Text = "Speed (mph)"
+        Label2.Text = "Freeway Speed" & vbCrLf & "(mph)" & vbCrLf
         ' 
         ' Label1
         ' 
@@ -350,16 +296,6 @@ Partial Class NorthSouthFreeway
         TextBox6.Size = New Size(100, 23)
         TextBox6.TabIndex = 115
         ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label10.Location = New Point(1063, 548)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(162, 21)
-        Label10.TabIndex = 114
-        Label10.Text = "Arterial Speed (mph)"
-        ' 
         ' TextBox7
         ' 
         TextBox7.Location = New Point(852, 98)
@@ -371,40 +307,110 @@ Partial Class NorthSouthFreeway
         ' 
         Label11.AutoSize = True
         Label11.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label11.Location = New Point(718, 79)
+        Label11.Location = New Point(710, 92)
         Label11.Name = "Label11"
-        Label11.Size = New Size(108, 42)
+        Label11.Size = New Size(136, 42)
         Label11.TabIndex = 116
-        Label11.Text = "Freeway" & vbCrLf & " Speed (mph)"
+        Label11.Text = "Approach Traffic " & vbCrLf & "(veh/hr)" & vbCrLf
         ' 
         ' TextBox8
         ' 
-        TextBox8.Location = New Point(521, 692)
+        TextBox8.Location = New Point(522, 683)
         TextBox8.Name = "TextBox8"
         TextBox8.Size = New Size(100, 23)
-        TextBox8.TabIndex = 119
+        TextBox8.TabIndex = 123
         ' 
         ' Label12
         ' 
         Label12.AutoSize = True
         Label12.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label12.Location = New Point(407, 673)
+        Label12.Location = New Point(380, 677)
         Label12.Name = "Label12"
-        Label12.Size = New Size(108, 42)
-        Label12.TabIndex = 118
-        Label12.Text = "Freeway" & vbCrLf & " Speed (mph)"
+        Label12.Size = New Size(136, 42)
+        Label12.TabIndex = 122
+        Label12.Text = "Approach Traffic " & vbCrLf & "(veh/hr)" & vbCrLf
+        ' 
+        ' TextBox11
+        ' 
+        TextBox11.Location = New Point(522, 763)
+        TextBox11.Name = "TextBox11"
+        TextBox11.Size = New Size(100, 23)
+        TextBox11.TabIndex = 121
+        ' 
+        ' TextBox12
+        ' 
+        TextBox12.Location = New Point(522, 721)
+        TextBox12.Name = "TextBox12"
+        TextBox12.Size = New Size(100, 23)
+        TextBox12.TabIndex = 120
+        ' 
+        ' Label13
+        ' 
+        Label13.AutoSize = True
+        Label13.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label13.Location = New Point(384, 763)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(135, 42)
+        Label13.TabIndex = 119
+        Label13.Text = "Off- Ramp Traffic" & vbCrLf & "(veh/hr)" & vbCrLf
+        ' 
+        ' Label17
+        ' 
+        Label17.AutoSize = True
+        Label17.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label17.Location = New Point(384, 723)
+        Label17.Name = "Label17"
+        Label17.Size = New Size(121, 42)
+        Label17.TabIndex = 118
+        Label17.Text = "Freeway Speed" & vbCrLf & "(mph)" & vbCrLf
+        ' 
+        ' Label18
+        ' 
+        Label18.AutoSize = True
+        Label18.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label18.Location = New Point(163, 335)
+        Label18.Name = "Label18"
+        Label18.Size = New Size(132, 42)
+        Label18.TabIndex = 124
+        Label18.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Location = New Point(1063, 544)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(118, 42)
+        Label7.TabIndex = 125
+        Label7.Text = "On Ramp" & vbCrLf & "Traffic (veh/hr)" & vbCrLf
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label10.Location = New Point(1063, 452)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(162, 21)
+        Label10.TabIndex = 126
+        Label10.Text = "Arterial Speed (mph)"
         ' 
         ' NorthSouthFreeway
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
+        Controls.Add(Label10)
+        Controls.Add(Label7)
+        Controls.Add(Label18)
         Controls.Add(TextBox8)
         Controls.Add(Label12)
+        Controls.Add(TextBox11)
+        Controls.Add(TextBox12)
+        Controls.Add(Label13)
+        Controls.Add(Label17)
         Controls.Add(TextBox7)
         Controls.Add(Label11)
         Controls.Add(TextBox6)
-        Controls.Add(Label10)
         Controls.Add(TextBox5)
         Controls.Add(Label9)
         Controls.Add(Button2)
@@ -415,18 +421,12 @@ Partial Class NorthSouthFreeway
         Controls.Add(TextBox10)
         Controls.Add(PictureBox8)
         Controls.Add(TextBox9)
-        Controls.Add(TextBox12)
         Controls.Add(Label15)
-        Controls.Add(TextBox11)
-        Controls.Add(Label14)
-        Controls.Add(Label18)
-        Controls.Add(Label17)
         Controls.Add(Label4)
         Controls.Add(PictureBox3)
         Controls.Add(TextBox3)
         Controls.Add(TextBox4)
         Controls.Add(Label6)
-        Controls.Add(Label7)
         Controls.Add(Label5)
         Controls.Add(PictureBox2)
         Controls.Add(TextBox2)
@@ -454,18 +454,12 @@ Partial Class NorthSouthFreeway
     Friend WithEvents TextBox10 As TextBox
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox12 As TextBox
     Friend WithEvents Label15 As Label
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Label18 As Label
-    Friend WithEvents Label17 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents TextBox2 As TextBox
@@ -477,9 +471,15 @@ Partial Class NorthSouthFreeway
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents Label10 As Label
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Label11 As Label
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label12 As Label
+    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label10 As Label
 End Class
