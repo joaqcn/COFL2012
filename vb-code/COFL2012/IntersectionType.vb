@@ -27,7 +27,7 @@
                 Me.Hide()
                 northTee.Show()
             Case "tollBoothPic"
-                Dim tollBooth As New TollBooth()
+                Dim tollBooth As New TollBoothEW()
                 Me.Hide()
                 tollBooth.Show()
 
