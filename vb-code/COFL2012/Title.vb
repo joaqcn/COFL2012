@@ -1,4 +1,4 @@
-﻿Public Class projectDescription
+﻿Public Class Title
     Private Sub next_buttom_project_Click(sender As Object, e As EventArgs) Handles next_buttom_project.Click
         ' Check if any of the text boxes are empty
         If String.IsNullOrEmpty(project_title.Text) Or

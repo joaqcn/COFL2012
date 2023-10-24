@@ -138,7 +138,7 @@ Public Class Welcome
         Me.Hide()
 
         ' Loads the projectDescription Windows
-        Dim projectDescription As New projectDescription()
+        Dim projectDescription As New Title()
         projectDescription.Show()
 
 
