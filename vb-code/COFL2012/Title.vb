@@ -5,14 +5,7 @@ Public Class Title
     Private Sub next_buttom_project_Click(sender As Object, e As EventArgs) Handles next_buttom_project.Click
 
 
-        Welcome.Job = project_title.Text
-        Welcome.FacilityName = facility_name.Text
-        Welcome.Job = project_title.Text
-        welcome.FacilityName = facility_name.Text
-        welcome.UsersName = user_name.Text
-        welcome.RunName = TextBox4.Text
-        welcome.ProjectYear = project_year.Text
-        welcome.LandUse = roadType
+
 
         ' Check if any of the text boxes are empty
         If String.IsNullOrEmpty(project_title.Text) Or
@@ -23,11 +16,22 @@ Public Class Title
             MessageBox.Show("Please fill in all required fields.")
         Else
             ' Hide the Welcome Page
+            getDataFromTitle()
             Me.Hide()
-
             Dim district As New District()
             district.Show()
         End If
+    End Sub
+
+    Private Sub getDataFromTitle()
+        Welcome.Job = project_title.Text
+        Welcome.FacilityName = facility_name.Text
+        Welcome.Job = project_title.Text
+        Welcome.FacilityName = facility_name.Text
+        Welcome.UsersName = user_name.Text
+        Welcome.RunName = TextBox4.Text
+        Welcome.ProjectYear = project_year.Text
+        Welcome.LandUse = roadType
     End Sub
 
     Private Sub urban_button_Click(sender As Object, e As EventArgs) Handles urban_button.Click
