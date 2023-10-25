@@ -198,9 +198,9 @@ Partial Class Title
         next_buttom_project.Text = "Next"
         next_buttom_project.UseVisualStyleBackColor = False
         ' 
-        ' projectDescription
+        ' Title
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
         Controls.Add(next_buttom_project)
@@ -221,7 +221,7 @@ Partial Class Title
         Controls.Add(Label2)
         Controls.Add(Label1)
         MaximizeBox = False
-        Name = "projectDescription"
+        Name = "Title"
         Text = "projectDescription"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
