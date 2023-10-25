@@ -2,11 +2,12 @@
 
 Public Class Title
     Private roadType As String
-
-    Public welcome As New Welcome()
     Private Sub next_buttom_project_Click(sender As Object, e As EventArgs) Handles next_buttom_project.Click
 
-        welcome.Job = project_title.Text
+
+        Welcome.Job = project_title.Text
+        Welcome.FacilityName = facility_name.Text
+        Welcome.Job = project_title.Text
         welcome.FacilityName = facility_name.Text
         welcome.UsersName = user_name.Text
         welcome.RunName = TextBox4.Text

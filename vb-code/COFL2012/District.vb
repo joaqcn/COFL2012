@@ -5,8 +5,6 @@
         districtSelected = True
     End Sub
 
-
-
     Private Sub district2_Click(sender As Object, e As EventArgs) Handles district2.Click
         districtSelected = True
     End Sub
@@ -40,5 +38,6 @@
         End If
 
     End Sub
+
 
 End Class
