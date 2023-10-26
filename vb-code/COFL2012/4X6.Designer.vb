@@ -29,19 +29,19 @@ Partial Class _4X6
         Label16 = New Label()
         Label19 = New Label()
         PictureBox7 = New PictureBox()
-        TextBox10 = New TextBox()
+        TextBox3 = New TextBox()
         PictureBox8 = New PictureBox()
-        TextBox9 = New TextBox()
-        TextBox12 = New TextBox()
+        TextBox4 = New TextBox()
+        TextBox5 = New TextBox()
         Label15 = New Label()
-        TextBox11 = New TextBox()
+        TextBox6 = New TextBox()
         Label14 = New Label()
         Label18 = New Label()
         Label17 = New Label()
         Label4 = New Label()
         PictureBox3 = New PictureBox()
-        TextBox3 = New TextBox()
-        TextBox4 = New TextBox()
+        TextBox7 = New TextBox()
+        TextBox8 = New TextBox()
         Label6 = New Label()
         Label7 = New Label()
         Label5 = New Label()
@@ -123,12 +123,12 @@ Partial Class _4X6
         PictureBox7.TabIndex = 49
         PictureBox7.TabStop = False
         ' 
-        ' TextBox10
+        ' TextBox3
         ' 
-        TextBox10.Location = New Point(944, 488)
-        TextBox10.Name = "TextBox10"
-        TextBox10.Size = New Size(100, 23)
-        TextBox10.TabIndex = 47
+        TextBox3.Location = New Point(944, 488)
+        TextBox3.Name = "TextBox3"
+        TextBox3.Size = New Size(100, 23)
+        TextBox3.TabIndex = 47
         ' 
         ' PictureBox8
         ' 
@@ -140,41 +140,41 @@ Partial Class _4X6
         PictureBox8.TabIndex = 48
         PictureBox8.TabStop = False
         ' 
-        ' TextBox9
+        ' TextBox4
         ' 
-        TextBox9.Location = New Point(944, 446)
-        TextBox9.Name = "TextBox9"
-        TextBox9.Size = New Size(100, 23)
-        TextBox9.TabIndex = 45
+        TextBox4.Location = New Point(944, 446)
+        TextBox4.Name = "TextBox4"
+        TextBox4.Size = New Size(100, 23)
+        TextBox4.TabIndex = 45
         ' 
-        ' TextBox12
+        ' TextBox5
         ' 
-        TextBox12.Location = New Point(544, 722)
-        TextBox12.Name = "TextBox12"
-        TextBox12.Size = New Size(100, 23)
-        TextBox12.TabIndex = 46
+        TextBox5.Location = New Point(544, 722)
+        TextBox5.Name = "TextBox5"
+        TextBox5.Size = New Size(100, 23)
+        TextBox5.TabIndex = 46
         ' 
         ' Label15
         ' 
         Label15.AutoSize = True
-        Label15.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label15.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label15.Location = New Point(1063, 486)
         Label15.Name = "Label15"
         Label15.Size = New Size(132, 42)
         Label15.TabIndex = 42
         Label15.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
         ' 
-        ' TextBox11
+        ' TextBox6
         ' 
-        TextBox11.Location = New Point(544, 673)
-        TextBox11.Name = "TextBox11"
-        TextBox11.Size = New Size(100, 23)
-        TextBox11.TabIndex = 44
+        TextBox6.Location = New Point(544, 673)
+        TextBox6.Name = "TextBox6"
+        TextBox6.Size = New Size(100, 23)
+        TextBox6.TabIndex = 44
         ' 
         ' Label14
         ' 
         Label14.AutoSize = True
-        Label14.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label14.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label14.Location = New Point(1073, 446)
         Label14.Name = "Label14"
         Label14.Size = New Size(104, 21)
@@ -184,7 +184,7 @@ Partial Class _4X6
         ' Label18
         ' 
         Label18.AutoSize = True
-        Label18.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label18.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label18.Location = New Point(407, 720)
         Label18.Name = "Label18"
         Label18.Size = New Size(132, 42)
@@ -194,7 +194,7 @@ Partial Class _4X6
         ' Label17
         ' 
         Label17.AutoSize = True
-        Label17.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label17.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label17.Location = New Point(420, 671)
         Label17.Name = "Label17"
         Label17.Size = New Size(104, 21)
@@ -221,24 +221,24 @@ Partial Class _4X6
         PictureBox3.TabIndex = 38
         PictureBox3.TabStop = False
         ' 
-        ' TextBox3
+        ' TextBox7
         ' 
-        TextBox3.Location = New Point(301, 386)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(100, 23)
-        TextBox3.TabIndex = 37
+        TextBox7.Location = New Point(301, 386)
+        TextBox7.Name = "TextBox7"
+        TextBox7.Size = New Size(100, 23)
+        TextBox7.TabIndex = 37
         ' 
-        ' TextBox4
+        ' TextBox8
         ' 
-        TextBox4.Location = New Point(301, 337)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(100, 23)
-        TextBox4.TabIndex = 36
+        TextBox8.Location = New Point(301, 337)
+        TextBox8.Name = "TextBox8"
+        TextBox8.Size = New Size(100, 23)
+        TextBox8.TabIndex = 36
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label6.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label6.Location = New Point(163, 384)
         Label6.Name = "Label6"
         Label6.Size = New Size(132, 42)
@@ -248,7 +248,7 @@ Partial Class _4X6
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label7.Location = New Point(181, 337)
         Label7.Name = "Label7"
         Label7.Size = New Size(104, 21)
@@ -292,7 +292,7 @@ Partial Class _4X6
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label3.Location = New Point(696, 176)
         Label3.Name = "Label3"
         Label3.Size = New Size(132, 42)
@@ -302,7 +302,7 @@ Partial Class _4X6
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label2.Location = New Point(722, 125)
         Label2.Name = "Label2"
         Label2.Size = New Size(104, 21)
@@ -331,7 +331,7 @@ Partial Class _4X6
         ' 
         ' _4X6
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
         Controls.Add(Button2)
@@ -340,19 +340,19 @@ Partial Class _4X6
         Controls.Add(Label16)
         Controls.Add(Label19)
         Controls.Add(PictureBox7)
-        Controls.Add(TextBox10)
+        Controls.Add(TextBox3)
         Controls.Add(PictureBox8)
-        Controls.Add(TextBox9)
-        Controls.Add(TextBox12)
+        Controls.Add(TextBox4)
+        Controls.Add(TextBox5)
         Controls.Add(Label15)
-        Controls.Add(TextBox11)
+        Controls.Add(TextBox6)
         Controls.Add(Label14)
         Controls.Add(Label18)
         Controls.Add(Label17)
         Controls.Add(Label4)
         Controls.Add(PictureBox3)
-        Controls.Add(TextBox3)
-        Controls.Add(TextBox4)
+        Controls.Add(TextBox7)
+        Controls.Add(TextBox8)
         Controls.Add(Label6)
         Controls.Add(Label7)
         Controls.Add(Label5)
@@ -380,19 +380,19 @@ Partial Class _4X6
     Friend WithEvents Label16 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents PictureBox7 As PictureBox
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label15 As Label
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents TextBox6 As TextBox
     Friend WithEvents Label14 As Label
     Friend WithEvents Label18 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label5 As Label
