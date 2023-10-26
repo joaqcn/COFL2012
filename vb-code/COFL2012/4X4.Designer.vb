@@ -33,20 +33,20 @@ Partial Class _4X4
         Label5 = New Label()
         Label4 = New Label()
         PictureBox3 = New PictureBox()
-        TextBox3 = New TextBox()
-        TextBox4 = New TextBox()
+        TextBox8 = New TextBox()
+        TextBox7 = New TextBox()
         Label6 = New Label()
         Label7 = New Label()
         Label14 = New Label()
         Label15 = New Label()
-        TextBox9 = New TextBox()
-        TextBox10 = New TextBox()
+        TextBox3 = New TextBox()
+        TextBox4 = New TextBox()
         PictureBox7 = New PictureBox()
         Label16 = New Label()
         Label17 = New Label()
         Label18 = New Label()
-        TextBox11 = New TextBox()
-        TextBox12 = New TextBox()
+        TextBox5 = New TextBox()
+        TextBox6 = New TextBox()
         PictureBox8 = New PictureBox()
         Label19 = New Label()
         Label8 = New Label()
@@ -153,19 +153,19 @@ Partial Class _4X4
         PictureBox3.TabIndex = 13
         PictureBox3.TabStop = False
         ' 
-        ' TextBox3
+        ' TextBox8
         ' 
-        TextBox3.Location = New Point(299, 391)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(100, 23)
-        TextBox3.TabIndex = 12
+        TextBox8.Location = New Point(299, 391)
+        TextBox8.Name = "TextBox8"
+        TextBox8.Size = New Size(100, 23)
+        TextBox8.TabIndex = 12
         ' 
-        ' TextBox4
+        ' TextBox7
         ' 
-        TextBox4.Location = New Point(299, 342)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(100, 23)
-        TextBox4.TabIndex = 11
+        TextBox7.Location = New Point(299, 342)
+        TextBox7.Name = "TextBox7"
+        TextBox7.Size = New Size(100, 23)
+        TextBox7.TabIndex = 11
         ' 
         ' Label6
         ' 
@@ -207,19 +207,19 @@ Partial Class _4X4
         Label15.TabIndex = 16
         Label15.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
         ' 
-        ' TextBox9
+        ' TextBox3
         ' 
-        TextBox9.Location = New Point(942, 451)
-        TextBox9.Name = "TextBox9"
-        TextBox9.Size = New Size(100, 23)
-        TextBox9.TabIndex = 17
+        TextBox3.Location = New Point(942, 451)
+        TextBox3.Name = "TextBox3"
+        TextBox3.Size = New Size(100, 23)
+        TextBox3.TabIndex = 17
         ' 
-        ' TextBox10
+        ' TextBox4
         ' 
-        TextBox10.Location = New Point(942, 493)
-        TextBox10.Name = "TextBox10"
-        TextBox10.Size = New Size(100, 23)
-        TextBox10.TabIndex = 18
+        TextBox4.Location = New Point(942, 493)
+        TextBox4.Name = "TextBox4"
+        TextBox4.Size = New Size(100, 23)
+        TextBox4.TabIndex = 18
         ' 
         ' PictureBox7
         ' 
@@ -261,19 +261,19 @@ Partial Class _4X4
         Label18.TabIndex = 16
         Label18.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
         ' 
-        ' TextBox11
+        ' TextBox5
         ' 
-        TextBox11.Location = New Point(542, 678)
-        TextBox11.Name = "TextBox11"
-        TextBox11.Size = New Size(100, 23)
-        TextBox11.TabIndex = 17
+        TextBox5.Location = New Point(542, 678)
+        TextBox5.Name = "TextBox5"
+        TextBox5.Size = New Size(100, 23)
+        TextBox5.TabIndex = 17
         ' 
-        ' TextBox12
+        ' TextBox6
         ' 
-        TextBox12.Location = New Point(542, 727)
-        TextBox12.Name = "TextBox12"
-        TextBox12.Size = New Size(100, 23)
-        TextBox12.TabIndex = 18
+        TextBox6.Location = New Point(542, 727)
+        TextBox6.Name = "TextBox6"
+        TextBox6.Size = New Size(100, 23)
+        TextBox6.TabIndex = 18
         ' 
         ' PictureBox8
         ' 
@@ -340,19 +340,19 @@ Partial Class _4X4
         Controls.Add(Label16)
         Controls.Add(Label19)
         Controls.Add(PictureBox7)
-        Controls.Add(TextBox10)
+        Controls.Add(TextBox4)
         Controls.Add(PictureBox8)
-        Controls.Add(TextBox9)
-        Controls.Add(TextBox12)
+        Controls.Add(TextBox3)
+        Controls.Add(TextBox6)
         Controls.Add(Label15)
-        Controls.Add(TextBox11)
+        Controls.Add(TextBox5)
         Controls.Add(Label14)
         Controls.Add(Label18)
         Controls.Add(Label17)
         Controls.Add(Label4)
         Controls.Add(PictureBox3)
-        Controls.Add(TextBox3)
-        Controls.Add(TextBox4)
+        Controls.Add(TextBox8)
+        Controls.Add(TextBox7)
         Controls.Add(Label6)
         Controls.Add(Label7)
         Controls.Add(Label5)
@@ -384,20 +384,20 @@ Partial Class _4X4
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents Label16 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents Label18 As Label
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents TextBox6 As TextBox
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents Label19 As Label
     Friend WithEvents Label8 As Label
