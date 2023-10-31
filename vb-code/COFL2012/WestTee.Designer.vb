@@ -27,14 +27,14 @@ Partial Class WestTee
         Button1 = New Button()
         Label8 = New Label()
         PictureBox8 = New PictureBox()
-        TextBox12 = New TextBox()
-        TextBox11 = New TextBox()
+        TextBox7 = New TextBox()
+        TextBox8 = New TextBox()
         Label18 = New Label()
         Label17 = New Label()
         Label4 = New Label()
         PictureBox3 = New PictureBox()
-        TextBox3 = New TextBox()
-        TextBox4 = New TextBox()
+        TextBox5 = New TextBox()
+        TextBox6 = New TextBox()
         Label6 = New Label()
         Label7 = New Label()
         Label5 = New Label()
@@ -95,19 +95,19 @@ Partial Class WestTee
         PictureBox8.TabIndex = 106
         PictureBox8.TabStop = False
         ' 
-        ' TextBox12
+        ' TextBox7
         ' 
-        TextBox12.Location = New Point(576, 725)
-        TextBox12.Name = "TextBox12"
-        TextBox12.Size = New Size(100, 23)
-        TextBox12.TabIndex = 104
+        TextBox7.Location = New Point(576, 725)
+        TextBox7.Name = "TextBox7"
+        TextBox7.Size = New Size(100, 23)
+        TextBox7.TabIndex = 104
         ' 
-        ' TextBox11
+        ' TextBox8
         ' 
-        TextBox11.Location = New Point(576, 676)
-        TextBox11.Name = "TextBox11"
-        TextBox11.Size = New Size(100, 23)
-        TextBox11.TabIndex = 102
+        TextBox8.Location = New Point(576, 676)
+        TextBox8.Name = "TextBox8"
+        TextBox8.Size = New Size(100, 23)
+        TextBox8.TabIndex = 102
         ' 
         ' Label18
         ' 
@@ -149,19 +149,19 @@ Partial Class WestTee
         PictureBox3.TabIndex = 96
         PictureBox3.TabStop = False
         ' 
-        ' TextBox3
+        ' TextBox5
         ' 
-        TextBox3.Location = New Point(301, 386)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(100, 23)
-        TextBox3.TabIndex = 95
+        TextBox5.Location = New Point(301, 386)
+        TextBox5.Name = "TextBox5"
+        TextBox5.Size = New Size(100, 23)
+        TextBox5.TabIndex = 95
         ' 
-        ' TextBox4
+        ' TextBox6
         ' 
-        TextBox4.Location = New Point(301, 337)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(100, 23)
-        TextBox4.TabIndex = 94
+        TextBox6.Location = New Point(301, 337)
+        TextBox6.Name = "TextBox6"
+        TextBox6.Size = New Size(100, 23)
+        TextBox6.TabIndex = 94
         ' 
         ' Label6
         ' 
@@ -266,14 +266,14 @@ Partial Class WestTee
         Controls.Add(Button1)
         Controls.Add(Label8)
         Controls.Add(PictureBox8)
-        Controls.Add(TextBox12)
-        Controls.Add(TextBox11)
+        Controls.Add(TextBox7)
+        Controls.Add(TextBox8)
         Controls.Add(Label18)
         Controls.Add(Label17)
         Controls.Add(Label4)
         Controls.Add(PictureBox3)
-        Controls.Add(TextBox3)
-        Controls.Add(TextBox4)
+        Controls.Add(TextBox5)
+        Controls.Add(TextBox6)
         Controls.Add(Label6)
         Controls.Add(Label7)
         Controls.Add(Label5)
@@ -298,14 +298,14 @@ Partial Class WestTee
     Friend WithEvents Button1 As Button
     Friend WithEvents Label8 As Label
     Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label18 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents TextBox6 As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label5 As Label
