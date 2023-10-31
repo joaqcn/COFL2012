@@ -29,19 +29,19 @@ Partial Class SouthTee
         Label16 = New Label()
         Label19 = New Label()
         PictureBox7 = New PictureBox()
-        TextBox10 = New TextBox()
+        TextBox4 = New TextBox()
         PictureBox8 = New PictureBox()
-        TextBox9 = New TextBox()
-        TextBox12 = New TextBox()
+        TextBox3 = New TextBox()
+        TextBox5 = New TextBox()
         Label15 = New Label()
-        TextBox11 = New TextBox()
+        TextBox6 = New TextBox()
         Label14 = New Label()
         Label18 = New Label()
         Label17 = New Label()
         Label4 = New Label()
         PictureBox3 = New PictureBox()
-        TextBox3 = New TextBox()
-        TextBox4 = New TextBox()
+        TextBox7 = New TextBox()
+        TextBox8 = New TextBox()
         Label6 = New Label()
         Label7 = New Label()
         Label1 = New Label()
@@ -116,12 +116,12 @@ Partial Class SouthTee
         PictureBox7.TabIndex = 78
         PictureBox7.TabStop = False
         ' 
-        ' TextBox10
+        ' TextBox4
         ' 
-        TextBox10.Location = New Point(957, 396)
-        TextBox10.Name = "TextBox10"
-        TextBox10.Size = New Size(100, 23)
-        TextBox10.TabIndex = 76
+        TextBox4.Location = New Point(957, 396)
+        TextBox4.Name = "TextBox4"
+        TextBox4.Size = New Size(100, 23)
+        TextBox4.TabIndex = 76
         ' 
         ' PictureBox8
         ' 
@@ -133,19 +133,19 @@ Partial Class SouthTee
         PictureBox8.TabIndex = 77
         PictureBox8.TabStop = False
         ' 
-        ' TextBox9
+        ' TextBox3
         ' 
-        TextBox9.Location = New Point(957, 354)
-        TextBox9.Name = "TextBox9"
-        TextBox9.Size = New Size(100, 23)
-        TextBox9.TabIndex = 74
+        TextBox3.Location = New Point(957, 354)
+        TextBox3.Name = "TextBox3"
+        TextBox3.Size = New Size(100, 23)
+        TextBox3.TabIndex = 74
         ' 
-        ' TextBox12
+        ' TextBox5
         ' 
-        TextBox12.Location = New Point(559, 654)
-        TextBox12.Name = "TextBox12"
-        TextBox12.Size = New Size(100, 23)
-        TextBox12.TabIndex = 75
+        TextBox5.Location = New Point(559, 654)
+        TextBox5.Name = "TextBox5"
+        TextBox5.Size = New Size(100, 23)
+        TextBox5.TabIndex = 75
         ' 
         ' Label15
         ' 
@@ -157,12 +157,12 @@ Partial Class SouthTee
         Label15.TabIndex = 71
         Label15.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
         ' 
-        ' TextBox11
+        ' TextBox6
         ' 
-        TextBox11.Location = New Point(559, 605)
-        TextBox11.Name = "TextBox11"
-        TextBox11.Size = New Size(100, 23)
-        TextBox11.TabIndex = 73
+        TextBox6.Location = New Point(559, 605)
+        TextBox6.Name = "TextBox6"
+        TextBox6.Size = New Size(100, 23)
+        TextBox6.TabIndex = 73
         ' 
         ' Label14
         ' 
@@ -214,19 +214,19 @@ Partial Class SouthTee
         PictureBox3.TabIndex = 67
         PictureBox3.TabStop = False
         ' 
-        ' TextBox3
+        ' TextBox7
         ' 
-        TextBox3.Location = New Point(310, 308)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(100, 23)
-        TextBox3.TabIndex = 66
+        TextBox7.Location = New Point(310, 308)
+        TextBox7.Name = "TextBox7"
+        TextBox7.Size = New Size(100, 23)
+        TextBox7.TabIndex = 66
         ' 
-        ' TextBox4
+        ' TextBox8
         ' 
-        TextBox4.Location = New Point(310, 259)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(100, 23)
-        TextBox4.TabIndex = 65
+        TextBox8.Location = New Point(310, 259)
+        TextBox8.Name = "TextBox8"
+        TextBox8.Size = New Size(100, 23)
+        TextBox8.TabIndex = 65
         ' 
         ' Label6
         ' 
@@ -279,19 +279,19 @@ Partial Class SouthTee
         Controls.Add(Label16)
         Controls.Add(Label19)
         Controls.Add(PictureBox7)
-        Controls.Add(TextBox10)
+        Controls.Add(TextBox4)
         Controls.Add(PictureBox8)
-        Controls.Add(TextBox9)
-        Controls.Add(TextBox12)
+        Controls.Add(TextBox3)
+        Controls.Add(TextBox5)
         Controls.Add(Label15)
-        Controls.Add(TextBox11)
+        Controls.Add(TextBox6)
         Controls.Add(Label14)
         Controls.Add(Label18)
         Controls.Add(Label17)
         Controls.Add(Label4)
         Controls.Add(PictureBox3)
-        Controls.Add(TextBox3)
-        Controls.Add(TextBox4)
+        Controls.Add(TextBox7)
+        Controls.Add(TextBox8)
         Controls.Add(Label6)
         Controls.Add(Label7)
         Controls.Add(Label1)
@@ -312,19 +312,19 @@ Partial Class SouthTee
     Friend WithEvents Label16 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents PictureBox7 As PictureBox
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label15 As Label
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents TextBox6 As TextBox
     Friend WithEvents Label14 As Label
     Friend WithEvents Label18 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label1 As Label
