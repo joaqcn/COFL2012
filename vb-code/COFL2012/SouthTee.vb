@@ -199,7 +199,7 @@ Public Class SouthTee
     End Sub
 
     Private Sub TextBox5_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox5.TextChanged
-        Welcome.AdATEB = TextBox5.Text
+        Welcome.ATEB = TextBox5.Text
     End Sub
 
 
