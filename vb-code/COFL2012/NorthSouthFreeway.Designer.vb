@@ -28,31 +28,31 @@ Partial Class NorthSouthFreeway
         Label8 = New Label()
         Label16 = New Label()
         PictureBox7 = New PictureBox()
-        TextBox10 = New TextBox()
+        TextBox15 = New TextBox()
         PictureBox8 = New PictureBox()
-        TextBox9 = New TextBox()
+        TextBox16 = New TextBox()
         Label15 = New Label()
         Label4 = New Label()
         PictureBox3 = New PictureBox()
-        TextBox3 = New TextBox()
-        TextBox4 = New TextBox()
+        TextBox6 = New TextBox()
+        TextBox13 = New TextBox()
         Label6 = New Label()
         Label5 = New Label()
         PictureBox2 = New PictureBox()
-        TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
+        TextBox9 = New TextBox()
+        TextBox8 = New TextBox()
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
         PictureBox1 = New PictureBox()
-        TextBox5 = New TextBox()
+        TextBox14 = New TextBox()
         Label9 = New Label()
-        TextBox6 = New TextBox()
+        TextBox4 = New TextBox()
         TextBox7 = New TextBox()
         Label11 = New Label()
-        TextBox8 = New TextBox()
-        Label12 = New Label()
         TextBox11 = New TextBox()
+        Label12 = New Label()
+        TextBox2 = New TextBox()
         TextBox12 = New TextBox()
         Label13 = New Label()
         Label17 = New Label()
@@ -120,12 +120,12 @@ Partial Class NorthSouthFreeway
         PictureBox7.TabIndex = 107
         PictureBox7.TabStop = False
         ' 
-        ' TextBox10
+        ' TextBox15
         ' 
-        TextBox10.Location = New Point(944, 496)
-        TextBox10.Name = "TextBox10"
-        TextBox10.Size = New Size(100, 23)
-        TextBox10.TabIndex = 105
+        TextBox15.Location = New Point(944, 496)
+        TextBox15.Name = "TextBox15"
+        TextBox15.Size = New Size(100, 23)
+        TextBox15.TabIndex = 105
         ' 
         ' PictureBox8
         ' 
@@ -137,12 +137,12 @@ Partial Class NorthSouthFreeway
         PictureBox8.TabIndex = 106
         PictureBox8.TabStop = False
         ' 
-        ' TextBox9
+        ' TextBox16
         ' 
-        TextBox9.Location = New Point(944, 454)
-        TextBox9.Name = "TextBox9"
-        TextBox9.Size = New Size(100, 23)
-        TextBox9.TabIndex = 103
+        TextBox16.Location = New Point(944, 454)
+        TextBox16.Name = "TextBox16"
+        TextBox16.Size = New Size(100, 23)
+        TextBox16.TabIndex = 103
         ' 
         ' Label15
         ' 
@@ -174,19 +174,19 @@ Partial Class NorthSouthFreeway
         PictureBox3.TabIndex = 96
         PictureBox3.TabStop = False
         ' 
-        ' TextBox3
+        ' TextBox6
         ' 
-        TextBox3.Location = New Point(301, 386)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(100, 23)
-        TextBox3.TabIndex = 95
+        TextBox6.Location = New Point(301, 386)
+        TextBox6.Name = "TextBox6"
+        TextBox6.Size = New Size(100, 23)
+        TextBox6.TabIndex = 95
         ' 
-        ' TextBox4
+        ' TextBox13
         ' 
-        TextBox4.Location = New Point(301, 337)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(100, 23)
-        TextBox4.TabIndex = 94
+        TextBox13.Location = New Point(301, 337)
+        TextBox13.Name = "TextBox13"
+        TextBox13.Size = New Size(100, 23)
+        TextBox13.TabIndex = 94
         ' 
         ' Label6
         ' 
@@ -218,19 +218,19 @@ Partial Class NorthSouthFreeway
         PictureBox2.TabIndex = 90
         PictureBox2.TabStop = False
         ' 
-        ' TextBox2
+        ' TextBox9
         ' 
-        TextBox2.Location = New Point(852, 178)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(100, 23)
-        TextBox2.TabIndex = 89
+        TextBox9.Location = New Point(852, 178)
+        TextBox9.Name = "TextBox9"
+        TextBox9.Size = New Size(100, 23)
+        TextBox9.TabIndex = 89
         ' 
-        ' TextBox1
+        ' TextBox8
         ' 
-        TextBox1.Location = New Point(852, 136)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(100, 23)
-        TextBox1.TabIndex = 88
+        TextBox8.Location = New Point(852, 136)
+        TextBox8.Name = "TextBox8"
+        TextBox8.Size = New Size(100, 23)
+        TextBox8.TabIndex = 88
         ' 
         ' Label3
         ' 
@@ -272,12 +272,12 @@ Partial Class NorthSouthFreeway
         PictureBox1.TabIndex = 84
         PictureBox1.TabStop = False
         ' 
-        ' TextBox5
+        ' TextBox14
         ' 
-        TextBox5.Location = New Point(301, 300)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(100, 23)
-        TextBox5.TabIndex = 113
+        TextBox14.Location = New Point(301, 300)
+        TextBox14.Name = "TextBox14"
+        TextBox14.Size = New Size(100, 23)
+        TextBox14.TabIndex = 113
         ' 
         ' Label9
         ' 
@@ -289,12 +289,12 @@ Partial Class NorthSouthFreeway
         Label9.TabIndex = 112
         Label9.Text = "Arterial Speed (mph)"
         ' 
-        ' TextBox6
+        ' TextBox4
         ' 
-        TextBox6.Location = New Point(944, 546)
-        TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(100, 23)
-        TextBox6.TabIndex = 115
+        TextBox4.Location = New Point(944, 546)
+        TextBox4.Name = "TextBox4"
+        TextBox4.Size = New Size(100, 23)
+        TextBox4.TabIndex = 115
         ' 
         ' TextBox7
         ' 
@@ -313,12 +313,12 @@ Partial Class NorthSouthFreeway
         Label11.TabIndex = 116
         Label11.Text = "Approach Traffic " & vbCrLf & "(veh/hr)" & vbCrLf
         ' 
-        ' TextBox8
+        ' TextBox11
         ' 
-        TextBox8.Location = New Point(522, 683)
-        TextBox8.Name = "TextBox8"
-        TextBox8.Size = New Size(100, 23)
-        TextBox8.TabIndex = 123
+        TextBox11.Location = New Point(522, 683)
+        TextBox11.Name = "TextBox11"
+        TextBox11.Size = New Size(100, 23)
+        TextBox11.TabIndex = 123
         ' 
         ' Label12
         ' 
@@ -330,12 +330,12 @@ Partial Class NorthSouthFreeway
         Label12.TabIndex = 122
         Label12.Text = "Approach Traffic " & vbCrLf & "(veh/hr)" & vbCrLf
         ' 
-        ' TextBox11
+        ' TextBox2
         ' 
-        TextBox11.Location = New Point(522, 763)
-        TextBox11.Name = "TextBox11"
-        TextBox11.Size = New Size(100, 23)
-        TextBox11.TabIndex = 121
+        TextBox2.Location = New Point(522, 763)
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(100, 23)
+        TextBox2.TabIndex = 121
         ' 
         ' TextBox12
         ' 
@@ -402,35 +402,35 @@ Partial Class NorthSouthFreeway
         Controls.Add(Label10)
         Controls.Add(Label7)
         Controls.Add(Label18)
-        Controls.Add(TextBox8)
-        Controls.Add(Label12)
         Controls.Add(TextBox11)
+        Controls.Add(Label12)
+        Controls.Add(TextBox2)
         Controls.Add(TextBox12)
         Controls.Add(Label13)
         Controls.Add(Label17)
         Controls.Add(TextBox7)
         Controls.Add(Label11)
-        Controls.Add(TextBox6)
-        Controls.Add(TextBox5)
+        Controls.Add(TextBox4)
+        Controls.Add(TextBox14)
         Controls.Add(Label9)
         Controls.Add(Button2)
         Controls.Add(Button1)
         Controls.Add(Label8)
         Controls.Add(Label16)
         Controls.Add(PictureBox7)
-        Controls.Add(TextBox10)
+        Controls.Add(TextBox15)
         Controls.Add(PictureBox8)
-        Controls.Add(TextBox9)
+        Controls.Add(TextBox16)
         Controls.Add(Label15)
         Controls.Add(Label4)
         Controls.Add(PictureBox3)
-        Controls.Add(TextBox3)
-        Controls.Add(TextBox4)
+        Controls.Add(TextBox6)
+        Controls.Add(TextBox13)
         Controls.Add(Label6)
         Controls.Add(Label5)
         Controls.Add(PictureBox2)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
+        Controls.Add(TextBox9)
+        Controls.Add(TextBox8)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
@@ -451,31 +451,31 @@ Partial Class NorthSouthFreeway
     Friend WithEvents Label8 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents PictureBox7 As PictureBox
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents TextBox15 As TextBox
     Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents TextBox16 As TextBox
     Friend WithEvents Label15 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents TextBox13 As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents TextBox14 As TextBox
     Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Label11 As Label
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents Label12 As Label
     Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox12 As TextBox
     Friend WithEvents Label13 As Label
     Friend WithEvents Label17 As Label
