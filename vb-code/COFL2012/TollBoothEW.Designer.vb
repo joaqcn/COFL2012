@@ -30,41 +30,42 @@ Partial Class TollBoothEW
         PictureBox7 = New PictureBox()
         Label4 = New Label()
         PictureBox3 = New PictureBox()
-        TextBox3 = New TextBox()
-        TextBox4 = New TextBox()
+        TextBox1 = New TextBox()
+        TextBox14 = New TextBox()
         Label6 = New Label()
         Label7 = New Label()
         Label1 = New Label()
-        PictureBox1 = New PictureBox()
-        TextBox5 = New TextBox()
-        Label9 = New Label()
-        TextBox1 = New TextBox()
-        Label2 = New Label()
+        PictureBox2 = New PictureBox()
         TextBox2 = New TextBox()
-        TextBox7 = New TextBox()
+        Label9 = New Label()
+        TextBox3 = New TextBox()
+        Label2 = New Label()
+        TextBox4 = New TextBox()
+        TextBox5 = New TextBox()
         Label3 = New Label()
         Label5 = New Label()
-        PictureBox2 = New PictureBox()
+        PictureBox1 = New PictureBox()
         TextBox6 = New TextBox()
         Label10 = New Label()
+        TextBox7 = New TextBox()
         TextBox8 = New TextBox()
-        TextBox9 = New TextBox()
         Label11 = New Label()
         Label12 = New Label()
         PictureBox4 = New PictureBox()
         Label13 = New Label()
         Label14 = New Label()
         PictureBox5 = New PictureBox()
-        TextBox10 = New TextBox()
+        TextBox9 = New TextBox()
         Label15 = New Label()
+        TextBox10 = New TextBox()
         TextBox11 = New TextBox()
-        TextBox12 = New TextBox()
         Label17 = New Label()
         Label18 = New Label()
+        Label19 = New Label()
         CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -143,19 +144,19 @@ Partial Class TollBoothEW
         PictureBox3.TabIndex = 124
         PictureBox3.TabStop = False
         ' 
-        ' TextBox3
+        ' TextBox1
         ' 
-        TextBox3.Location = New Point(184, 611)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(100, 23)
-        TextBox3.TabIndex = 123
+        TextBox1.Location = New Point(184, 611)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(100, 23)
+        TextBox1.TabIndex = 123
         ' 
-        ' TextBox4
+        ' TextBox14
         ' 
-        TextBox4.Location = New Point(184, 562)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(100, 23)
-        TextBox4.TabIndex = 122
+        TextBox14.Location = New Point(184, 562)
+        TextBox14.Name = "TextBox14"
+        TextBox14.Size = New Size(100, 23)
+        TextBox14.TabIndex = 122
         ' 
         ' Label6
         ' 
@@ -187,22 +188,22 @@ Partial Class TollBoothEW
         Label1.TabIndex = 113
         Label1.Text = "Tollbooth Interchange: E-W Freeway"
         ' 
-        ' PictureBox1
+        ' PictureBox2
         ' 
-        PictureBox1.Image = My.Resources.Resources.Tool_Booth
-        PictureBox1.Location = New Point(294, 227)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(737, 440)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 112
-        PictureBox1.TabStop = False
+        PictureBox2.Image = My.Resources.Resources.Tool_Booth
+        PictureBox2.Location = New Point(294, 227)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(737, 440)
+        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox2.TabIndex = 112
+        PictureBox2.TabStop = False
         ' 
-        ' TextBox5
+        ' TextBox2
         ' 
-        TextBox5.Location = New Point(184, 674)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(100, 23)
-        TextBox5.TabIndex = 136
+        TextBox2.Location = New Point(184, 674)
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(100, 23)
+        TextBox2.TabIndex = 136
         ' 
         ' Label9
         ' 
@@ -214,12 +215,12 @@ Partial Class TollBoothEW
         Label9.TabIndex = 135
         Label9.Text = "% of Vehicles Using" & vbCrLf & "ETC-Only Lanes" & vbCrLf
         ' 
-        ' TextBox1
+        ' TextBox3
         ' 
-        TextBox1.Location = New Point(1201, 575)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(100, 23)
-        TextBox1.TabIndex = 144
+        TextBox3.Location = New Point(1201, 575)
+        TextBox3.Name = "TextBox3"
+        TextBox3.Size = New Size(100, 23)
+        TextBox3.TabIndex = 144
         ' 
         ' Label2
         ' 
@@ -231,19 +232,19 @@ Partial Class TollBoothEW
         Label2.TabIndex = 143
         Label2.Text = "% of Vehicles Using" & vbCrLf & "ETC-Only Lanes" & vbCrLf
         ' 
-        ' TextBox2
+        ' TextBox4
         ' 
-        TextBox2.Location = New Point(1201, 512)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(100, 23)
-        TextBox2.TabIndex = 142
+        TextBox4.Location = New Point(1201, 512)
+        TextBox4.Name = "TextBox4"
+        TextBox4.Size = New Size(100, 23)
+        TextBox4.TabIndex = 142
         ' 
-        ' TextBox7
+        ' TextBox5
         ' 
-        TextBox7.Location = New Point(1201, 463)
-        TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(100, 23)
-        TextBox7.TabIndex = 141
+        TextBox5.Location = New Point(1201, 463)
+        TextBox5.Name = "TextBox5"
+        TextBox5.Size = New Size(100, 23)
+        TextBox5.TabIndex = 141
         ' 
         ' Label3
         ' 
@@ -265,15 +266,15 @@ Partial Class TollBoothEW
         Label5.TabIndex = 139
         Label5.Text = "Freeway " & vbCrLf & "Speed (mph)" & vbCrLf
         ' 
-        ' PictureBox2
+        ' PictureBox1
         ' 
-        PictureBox2.Image = My.Resources.Resources.ToolBoothN_S
-        PictureBox2.Location = New Point(294, 227)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(737, 440)
-        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox2.TabIndex = 145
-        PictureBox2.TabStop = False
+        PictureBox1.Image = My.Resources.Resources.ToolBoothN_S
+        PictureBox1.Location = New Point(294, 228)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(737, 440)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 145
+        PictureBox1.TabStop = False
         ' 
         ' TextBox6
         ' 
@@ -292,19 +293,19 @@ Partial Class TollBoothEW
         Label10.TabIndex = 150
         Label10.Text = "% of Vehicles Using" & vbCrLf & "ETC-Only Lanes" & vbCrLf
         ' 
+        ' TextBox7
+        ' 
+        TextBox7.Location = New Point(693, 198)
+        TextBox7.Name = "TextBox7"
+        TextBox7.Size = New Size(100, 23)
+        TextBox7.TabIndex = 149
+        ' 
         ' TextBox8
         ' 
-        TextBox8.Location = New Point(693, 198)
+        TextBox8.Location = New Point(869, 198)
         TextBox8.Name = "TextBox8"
         TextBox8.Size = New Size(100, 23)
-        TextBox8.TabIndex = 149
-        ' 
-        ' TextBox9
-        ' 
-        TextBox9.Location = New Point(869, 198)
-        TextBox9.Name = "TextBox9"
-        TextBox9.Size = New Size(100, 23)
-        TextBox9.TabIndex = 148
+        TextBox8.TabIndex = 148
         ' 
         ' Label11
         ' 
@@ -366,12 +367,12 @@ Partial Class TollBoothEW
         PictureBox5.TabIndex = 160
         PictureBox5.TabStop = False
         ' 
-        ' TextBox10
+        ' TextBox9
         ' 
-        TextBox10.Location = New Point(329, 719)
-        TextBox10.Name = "TextBox10"
-        TextBox10.Size = New Size(100, 23)
-        TextBox10.TabIndex = 159
+        TextBox9.Location = New Point(329, 719)
+        TextBox9.Name = "TextBox9"
+        TextBox9.Size = New Size(100, 23)
+        TextBox9.TabIndex = 159
         ' 
         ' Label15
         ' 
@@ -383,19 +384,19 @@ Partial Class TollBoothEW
         Label15.TabIndex = 158
         Label15.Text = "% of Vehicles Using" & vbCrLf & "ETC-Only Lanes" & vbCrLf
         ' 
+        ' TextBox10
+        ' 
+        TextBox10.Location = New Point(528, 719)
+        TextBox10.Name = "TextBox10"
+        TextBox10.Size = New Size(100, 23)
+        TextBox10.TabIndex = 157
+        ' 
         ' TextBox11
         ' 
-        TextBox11.Location = New Point(528, 719)
+        TextBox11.Location = New Point(902, 719)
         TextBox11.Name = "TextBox11"
         TextBox11.Size = New Size(100, 23)
-        TextBox11.TabIndex = 157
-        ' 
-        ' TextBox12
-        ' 
-        TextBox12.Location = New Point(902, 719)
-        TextBox12.Name = "TextBox12"
-        TextBox12.Size = New Size(100, 23)
-        TextBox12.TabIndex = 156
+        TextBox11.TabIndex = 156
         ' 
         ' Label17
         ' 
@@ -417,35 +418,46 @@ Partial Class TollBoothEW
         Label18.TabIndex = 154
         Label18.Text = "Freeway " & vbCrLf & "Speed (mph)" & vbCrLf
         ' 
+        ' Label19
+        ' 
+        Label19.AutoSize = True
+        Label19.Font = New Font("Segoe UI Semibold", 20.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label19.Location = New Point(483, 21)
+        Label19.Name = "Label19"
+        Label19.Size = New Size(455, 37)
+        Label19.TabIndex = 162
+        Label19.Text = "Tollbooth Interchange: N-S Freeway"
+        ' 
         ' TollBoothEW
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
+        Controls.Add(Label19)
         Controls.Add(Label14)
         Controls.Add(PictureBox5)
-        Controls.Add(TextBox10)
+        Controls.Add(TextBox9)
         Controls.Add(Label15)
+        Controls.Add(TextBox10)
         Controls.Add(TextBox11)
-        Controls.Add(TextBox12)
         Controls.Add(Label17)
         Controls.Add(Label18)
         Controls.Add(Label13)
         Controls.Add(PictureBox4)
         Controls.Add(TextBox6)
         Controls.Add(Label10)
+        Controls.Add(TextBox7)
         Controls.Add(TextBox8)
-        Controls.Add(TextBox9)
         Controls.Add(Label11)
         Controls.Add(Label12)
-        Controls.Add(PictureBox2)
-        Controls.Add(TextBox1)
+        Controls.Add(PictureBox1)
+        Controls.Add(TextBox3)
         Controls.Add(Label2)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox7)
+        Controls.Add(TextBox4)
+        Controls.Add(TextBox5)
         Controls.Add(Label3)
         Controls.Add(Label5)
-        Controls.Add(TextBox5)
+        Controls.Add(TextBox2)
         Controls.Add(Label9)
         Controls.Add(Button2)
         Controls.Add(Button1)
@@ -454,18 +466,18 @@ Partial Class TollBoothEW
         Controls.Add(PictureBox7)
         Controls.Add(Label4)
         Controls.Add(PictureBox3)
-        Controls.Add(TextBox3)
-        Controls.Add(TextBox4)
+        Controls.Add(TextBox1)
+        Controls.Add(TextBox14)
         Controls.Add(Label6)
         Controls.Add(Label7)
         Controls.Add(Label1)
-        Controls.Add(PictureBox1)
+        Controls.Add(PictureBox2)
         Name = "TollBoothEW"
         Text = "TollBooth"
         CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
@@ -479,35 +491,36 @@ Partial Class TollBoothEW
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox14 As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label2 As Label
+    Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents Label10 As Label
+    Friend WithEvents TextBox7 As TextBox
     Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox9 As TextBox
     Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents TextBox9 As TextBox
     Friend WithEvents Label15 As Label
+    Friend WithEvents TextBox10 As TextBox
     Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
     Friend WithEvents Label17 As Label
     Friend WithEvents Label18 As Label
+    Friend WithEvents Label19 As Label
 End Class
