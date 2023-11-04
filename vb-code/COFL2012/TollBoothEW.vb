@@ -7,6 +7,9 @@ Public Class TollBoothEW
         InitTollBooth()
     End Sub
 
+
+
+
     '************************************************************************************************************************
     '**************************************Initializes Toll Booth Form*******************************************************
     '************************************************************************************************************************
@@ -14,21 +17,20 @@ Public Class TollBoothEW
     Sub InitTollBooth()
         'Load Stored Variables
         TextBox6.Text = Welcome.SSB
-        TextBox5.Text = Welcome.ATSB
-        TextBox7.Text = Welcome.ETCSB
-        TextBox2.Text = Welcome.SWB
-        TextBox14.Text = Welcome.ATWB
-        TextBox1.Text = Welcome.ETCWB
-        TextBox8.Text = Welcome.SNB
-        TextBox9.Text = Welcome.ATNB
-        TextBox10.Text = Welcome.ETCNB
+        TextBox7.Text = Welcome.ATSB
+        TextBox8.Text = Welcome.ETCSB
+        TextBox5.Text = Welcome.SWB
+        TextBox4.Text = Welcome.ATWB
+        TextBox3.Text = Welcome.ETCWB
+        TextBox9.Text = Welcome.SNB
+        TextBox10.Text = Welcome.ATNB
+        TextBox11.Text = Welcome.ETCNB
         TextBox14.Text = Welcome.SEB
-        TextBox3.Text = Welcome.ATEB
-        TextBox4.Text = Welcome.ETCEB
+        TextBox1.Text = Welcome.ATEB
+        TextBox2.Text = Welcome.ETCEB
 
         If Welcome.EWTollBooth = False Then
-
-            PictureBox1.Visible = False
+            PictureBox2.Visible = False
             PictureBox5.Visible = False
             PictureBox4.Visible = False
             Label12.Visible = False
@@ -47,7 +49,7 @@ Public Class TollBoothEW
             TextBox10.Visible = False
             TextBox11.Visible = False
 
-            PictureBox2.Visible = True
+            PictureBox1.Visible = True
             PictureBox3.Visible = True
             PictureBox7.Visible = True
             Label5.Visible = True
@@ -65,7 +67,46 @@ Public Class TollBoothEW
             TextBox14.Visible = True
             TextBox1.Visible = True
             TextBox2.Visible = True
+        Else
+            PictureBox2.Visible = True
+            PictureBox5.Visible = True
+            PictureBox4.Visible = True
+            Label12.Visible = True
+            Label11.Visible = True
+            Label10.Visible = True
+            Label13.Visible = True
+            Label18.Visible = True
+            Label17.Visible = True
+            Label15.Visible = True
+            Label14.Visible = True
+            Label19.Visible = True
+            TextBox6.Visible = True
+            TextBox7.Visible = True
+            TextBox8.Visible = True
+            TextBox9.Visible = True
+            TextBox10.Visible = True
+            TextBox11.Visible = True
+
+            PictureBox1.Visible = False
+            PictureBox3.Visible = False
+            PictureBox7.Visible = False
+            Label5.Visible = False
+            Label3.Visible = False
+            Label2.Visible = False
+            Label16.Visible = False
+            Label4.Visible = False
+            Label7.Visible = False
+            Label6.Visible = False
+            Label9.Visible = False
+            Label1.Visible = False
+            TextBox3.Visible = False
+            TextBox4.Visible = False
+            TextBox5.Visible = False
+            TextBox14.Visible = False
+            TextBox1.Visible = False
+            TextBox2.Visible = False
         End If
+
     End Sub
 
 
@@ -78,17 +119,17 @@ Public Class TollBoothEW
     Sub VerifyTollboothForm()
         'Extracts variables from form
         Welcome.SSB = TextBox6.Text
-        Welcome.ATSB = TextBox5.Text
-        Welcome.ETCSB = TextBox7.Text
-        Welcome.SWB = TextBox2.Text
-        Welcome.ATWB = TextBox14.Text
-        Welcome.ETCWB = TextBox1.Text
-        Welcome.SNB = TextBox8.Text
-        Welcome.ATNB = TextBox9.Text
-        Welcome.ETCNB = TextBox10.Text
+        Welcome.ATSB = TextBox7.Text
+        Welcome.ETCSB = TextBox8.Text
+        Welcome.SWB = TextBox5.Text
+        Welcome.ATWB = TextBox4.Text
+        Welcome.ETCWB = TextBox3.Text
+        Welcome.SNB = TextBox9.Text
+        Welcome.ATNB = TextBox10.Text
+        Welcome.ETCNB = TextBox11.Text
         Welcome.SEB = TextBox14.Text
-        Welcome.ATEB = TextBox3.Text
-        Welcome.ETCEB = TextBox4.Text
+        Welcome.ATEB = TextBox1.Text
+        Welcome.ETCEB = TextBox2.Text
 
         'Verifies that all fields have numeric inputs
         'Checks for EW Orientation:
@@ -100,7 +141,7 @@ Public Class TollBoothEW
                     If Welcome.QuickVerify = False Then
                         MsgBox("All input fields must be positive integers.  Please correct inputs", 0, "CO Florida 2012")
                         Welcome.InputsCorrect(4) = False
-                        TextBox2.Text = ""
+                        TextBox5.Text = ""
                         Exit Sub
                     Else
                         Welcome.InputsCorrect(4) = False
@@ -115,7 +156,7 @@ Public Class TollBoothEW
                     If Welcome.QuickVerify = False Then
                         MsgBox("All input fields must be positive integers.  Please correct inputs", 0, "CO Florida 2012")
                         Welcome.InputsCorrect(4) = False
-                        TextBox14.Text = ""
+                        TextBox4.Text = ""
                         Exit Sub
                     Else
                         Welcome.InputsCorrect(4) = False
@@ -130,7 +171,7 @@ Public Class TollBoothEW
                     If Welcome.QuickVerify = False Then
                         MsgBox("All input fields must be positive integers.  Please correct inputs", 0, "CO Florida 2012")
                         Welcome.InputsCorrect(4) = False
-                        TextBox1.Text = ""
+                        TextBox3.Text = ""
                         Exit Sub
                     Else
                         Welcome.InputsCorrect(4) = False
@@ -160,7 +201,7 @@ Public Class TollBoothEW
                     If Welcome.QuickVerify = False Then
                         MsgBox("All input fields must be positive integers.  Please correct inputs", 0, "CO Florida 2012")
                         Welcome.InputsCorrect(4) = False
-                        TextBox3.Text = ""
+                        TextBox1.Text = ""
                         Exit Sub
                     Else
                         Welcome.InputsCorrect(4) = False
@@ -175,7 +216,7 @@ Public Class TollBoothEW
                     If Welcome.QuickVerify = False Then
                         MsgBox("All input fields must be positive integers.  Please correct inputs", 0, "CO Florida 2012")
                         Welcome.InputsCorrect(4) = False
-                        TextBox4.Text = ""
+                        TextBox2.Text = ""
                         Exit Sub
                     Else
                         Welcome.InputsCorrect(4) = False
@@ -249,7 +290,7 @@ Public Class TollBoothEW
                     If Welcome.QuickVerify = False Then
                         MsgBox("All input fields must be positive integers.  Please correct inputs", 0, "CO Florida 2012")
                         Welcome.InputsCorrect(4) = False
-                        TextBox5.Text = ""
+                        TextBox7.Text = ""
                         Exit Sub
                     Else
                         Welcome.InputsCorrect(4) = False
@@ -264,7 +305,7 @@ Public Class TollBoothEW
                     If Welcome.QuickVerify = False Then
                         MsgBox("All input fields must be positive integers.  Please correct inputs", 0, "CO Florida 2012")
                         Welcome.InputsCorrect(4) = False
-                        TextBox5.Text = ""
+                        TextBox7.Text = ""
                         Exit Sub
                     Else
                         Welcome.InputsCorrect(4) = False
@@ -279,7 +320,7 @@ Public Class TollBoothEW
                     If Welcome.QuickVerify = False Then
                         MsgBox("All input fields must be positive integers.  Please correct inputs", 0, "CO Florida 2012")
                         Welcome.InputsCorrect(4) = False
-                        TextBox7.Text = ""
+                        TextBox8.Text = ""
                         Exit Sub
                     Else
                         Welcome.InputsCorrect(4) = False
@@ -294,7 +335,7 @@ Public Class TollBoothEW
                     If Welcome.QuickVerify = False Then
                         MsgBox("All input fields must be positive integers.  Please correct inputs", 0, "CO Florida 2012")
                         Welcome.InputsCorrect(4) = False
-                        TextBox8.Text = ""
+                        TextBox9.Text = ""
                         Exit Sub
                     Else
                         Welcome.InputsCorrect(4) = False
@@ -309,7 +350,7 @@ Public Class TollBoothEW
                     If Welcome.QuickVerify = False Then
                         MsgBox("All input fields must be positive integers.  Please correct inputs", 0, "CO Florida 2012")
                         Welcome.InputsCorrect(4) = False
-                        TextBox9.Text = ""
+                        TextBox10.Text = ""
                         Exit Sub
                     Else
                         Welcome.InputsCorrect(4) = False
@@ -324,7 +365,7 @@ Public Class TollBoothEW
                     If Welcome.QuickVerify = False Then
                         MsgBox("All input fields must be positive integers.  Please correct inputs", 0, "CO Florida 2012")
                         Welcome.InputsCorrect(4) = False
-                        TextBox10.Text = ""
+                        TextBox11.Text = ""
                         Exit Sub
                     Else
                         Welcome.InputsCorrect(4) = False
@@ -414,7 +455,7 @@ Public Class TollBoothEW
             'MakeARun()
             Me.Visible = False
         Else
-            If Welcome.InputsCorrect(4) = True Then
+            If Welcome.InputsCorrect(4) = False Then
                 MsgBox("A run cannot be made until all input forms have been completed.", 0, "CO Florida 2012")
             End If
         End If
@@ -428,11 +469,11 @@ Public Class TollBoothEW
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox2_Click(sender As System.Object, e As System.EventArgs)
+    Private Sub PictureBox2_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox2.Click
         'Switches to N-S Orientation
         Welcome.EWTollBooth = False
         'N-S
-        PictureBox1.Visible = True
+        PictureBox2.Visible = True
         PictureBox5.Visible = True
         PictureBox4.Visible = True
         Label12.Visible = True
@@ -452,7 +493,7 @@ Public Class TollBoothEW
         TextBox11.Visible = True
 
         'E-W
-        PictureBox2.Visible = False
+        PictureBox1.Visible = False
         PictureBox3.Visible = False
         PictureBox7.Visible = False
         Label5.Visible = False
@@ -473,11 +514,11 @@ Public Class TollBoothEW
     End Sub
 
 
-    Private Sub PictureBox1_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox2.Click
+    Private Sub PictureBox1_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox1.Click
         'Switches to E-W Orientation
         Welcome.EWTollBooth = True
         'N-S
-        PictureBox1.Visible = False
+        PictureBox2.Visible = False
         PictureBox5.Visible = False
         PictureBox4.Visible = False
         Label12.Visible = False
@@ -497,7 +538,7 @@ Public Class TollBoothEW
         TextBox11.Visible = False
 
         'E-W
-        PictureBox2.Visible = True
+        PictureBox1.Visible = True
         PictureBox3.Visible = True
         PictureBox7.Visible = True
         Label5.Visible = True
@@ -514,7 +555,8 @@ Public Class TollBoothEW
         TextBox5.Visible = True
         TextBox14.Visible = True
         TextBox1.Visible = True
-        TextBox10.Visible = True
+        TextBox2.Visible = True
+
     End Sub
 
 
