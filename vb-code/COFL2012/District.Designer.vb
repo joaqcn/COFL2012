@@ -24,17 +24,17 @@ Partial Class District
     Private Sub InitializeComponent()
         Label1 = New Label()
         Panel1 = New Panel()
-        district7 = New Button()
-        district6 = New Button()
-        district5 = New Button()
-        district4 = New Button()
-        district3 = New Button()
-        district2 = New Button()
-        district1 = New Button()
+        Button7 = New Button()
+        Button6 = New Button()
+        Button5 = New Button()
+        Button4 = New Button()
+        Button3 = New Button()
+        Button2 = New Button()
+        Button1 = New Button()
         PictureBox1 = New PictureBox()
         PictureBox2 = New PictureBox()
-        Button1 = New Button()
-        Button3 = New Button()
+        btnPrevious = New Button()
+        btnNext = New Button()
         Panel1.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -54,94 +54,94 @@ Partial Class District
         ' 
         Panel1.BackColor = SystemColors.Control
         Panel1.BorderStyle = BorderStyle.FixedSingle
-        Panel1.Controls.Add(district7)
-        Panel1.Controls.Add(district6)
-        Panel1.Controls.Add(district5)
-        Panel1.Controls.Add(district4)
-        Panel1.Controls.Add(district3)
-        Panel1.Controls.Add(district2)
-        Panel1.Controls.Add(district1)
+        Panel1.Controls.Add(Button7)
+        Panel1.Controls.Add(Button6)
+        Panel1.Controls.Add(Button5)
+        Panel1.Controls.Add(Button4)
+        Panel1.Controls.Add(Button3)
+        Panel1.Controls.Add(Button2)
+        Panel1.Controls.Add(Button1)
         Panel1.Location = New Point(43, 173)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(138, 420)
         Panel1.TabIndex = 1
         ' 
-        ' district7
+        ' Button7
         ' 
-        district7.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        district7.ImageAlign = ContentAlignment.TopCenter
-        district7.Location = New Point(16, 360)
-        district7.Name = "district7"
-        district7.Size = New Size(104, 32)
-        district7.TabIndex = 10
-        district7.Text = "District 7"
-        district7.UseVisualStyleBackColor = True
+        Button7.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button7.ImageAlign = ContentAlignment.TopCenter
+        Button7.Location = New Point(16, 360)
+        Button7.Name = "Button7"
+        Button7.Size = New Size(104, 32)
+        Button7.TabIndex = 10
+        Button7.Text = "District 7"
+        Button7.UseVisualStyleBackColor = True
         ' 
-        ' district6
+        ' Button6
         ' 
-        district6.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        district6.ImageAlign = ContentAlignment.TopCenter
-        district6.Location = New Point(16, 303)
-        district6.Name = "district6"
-        district6.Size = New Size(104, 32)
-        district6.TabIndex = 9
-        district6.Text = "District 6"
-        district6.UseVisualStyleBackColor = True
+        Button6.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button6.ImageAlign = ContentAlignment.TopCenter
+        Button6.Location = New Point(16, 303)
+        Button6.Name = "Button6"
+        Button6.Size = New Size(104, 32)
+        Button6.TabIndex = 9
+        Button6.Text = "District 6"
+        Button6.UseVisualStyleBackColor = True
         ' 
-        ' district5
+        ' Button5
         ' 
-        district5.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        district5.ImageAlign = ContentAlignment.TopCenter
-        district5.Location = New Point(16, 251)
-        district5.Name = "district5"
-        district5.Size = New Size(104, 32)
-        district5.TabIndex = 8
-        district5.Text = "District 5"
-        district5.UseVisualStyleBackColor = True
+        Button5.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button5.ImageAlign = ContentAlignment.TopCenter
+        Button5.Location = New Point(16, 251)
+        Button5.Name = "Button5"
+        Button5.Size = New Size(104, 32)
+        Button5.TabIndex = 8
+        Button5.Text = "District 5"
+        Button5.UseVisualStyleBackColor = True
         ' 
-        ' district4
+        ' Button4
         ' 
-        district4.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        district4.ImageAlign = ContentAlignment.TopCenter
-        district4.Location = New Point(17, 194)
-        district4.Name = "district4"
-        district4.Size = New Size(104, 32)
-        district4.TabIndex = 7
-        district4.Text = "District 4"
-        district4.UseVisualStyleBackColor = True
+        Button4.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button4.ImageAlign = ContentAlignment.TopCenter
+        Button4.Location = New Point(17, 194)
+        Button4.Name = "Button4"
+        Button4.Size = New Size(104, 32)
+        Button4.TabIndex = 7
+        Button4.Text = "District 4"
+        Button4.UseVisualStyleBackColor = True
         ' 
-        ' district3
+        ' Button3
         ' 
-        district3.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        district3.ImageAlign = ContentAlignment.TopCenter
-        district3.Location = New Point(16, 140)
-        district3.Name = "district3"
-        district3.Size = New Size(104, 32)
-        district3.TabIndex = 6
-        district3.Text = "District 3"
-        district3.UseVisualStyleBackColor = True
+        Button3.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button3.ImageAlign = ContentAlignment.TopCenter
+        Button3.Location = New Point(16, 140)
+        Button3.Name = "Button3"
+        Button3.Size = New Size(104, 32)
+        Button3.TabIndex = 6
+        Button3.Text = "District 3"
+        Button3.UseVisualStyleBackColor = True
         ' 
-        ' district2
+        ' Button2
         ' 
-        district2.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        district2.ImageAlign = ContentAlignment.TopCenter
-        district2.Location = New Point(16, 87)
-        district2.Name = "district2"
-        district2.Size = New Size(104, 32)
-        district2.TabIndex = 5
-        district2.Text = "District 2"
-        district2.UseVisualStyleBackColor = True
+        Button2.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button2.ImageAlign = ContentAlignment.TopCenter
+        Button2.Location = New Point(16, 87)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(104, 32)
+        Button2.TabIndex = 5
+        Button2.Text = "District 2"
+        Button2.UseVisualStyleBackColor = True
         ' 
-        ' district1
+        ' Button1
         ' 
-        district1.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        district1.ImageAlign = ContentAlignment.TopCenter
-        district1.Location = New Point(16, 31)
-        district1.Name = "district1"
-        district1.Size = New Size(104, 32)
-        district1.TabIndex = 4
-        district1.Text = "District 1"
-        district1.UseVisualStyleBackColor = True
+        Button1.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button1.ImageAlign = ContentAlignment.TopCenter
+        Button1.Location = New Point(16, 31)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(104, 32)
+        Button1.TabIndex = 4
+        Button1.Text = "District 1"
+        Button1.UseVisualStyleBackColor = True
         ' 
         ' PictureBox1
         ' 
@@ -163,37 +163,37 @@ Partial Class District
         PictureBox2.TabIndex = 3
         PictureBox2.TabStop = False
         ' 
-        ' Button1
+        ' btnPrevious
         ' 
-        Button1.BackColor = SystemColors.ButtonShadow
-        Button1.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Button1.ImageAlign = ContentAlignment.TopCenter
-        Button1.Location = New Point(1031, 723)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(104, 32)
-        Button1.TabIndex = 11
-        Button1.Text = "Previous"
-        Button1.UseVisualStyleBackColor = False
+        btnPrevious.BackColor = SystemColors.ButtonShadow
+        btnPrevious.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        btnPrevious.ImageAlign = ContentAlignment.TopCenter
+        btnPrevious.Location = New Point(1031, 723)
+        btnPrevious.Name = "btnPrevious"
+        btnPrevious.Size = New Size(104, 32)
+        btnPrevious.TabIndex = 11
+        btnPrevious.Text = "Previous"
+        btnPrevious.UseVisualStyleBackColor = False
         ' 
-        ' Button3
+        ' btnNext
         ' 
-        Button3.BackColor = SystemColors.ButtonShadow
-        Button3.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Button3.ImageAlign = ContentAlignment.TopCenter
-        Button3.Location = New Point(1141, 723)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(104, 32)
-        Button3.TabIndex = 12
-        Button3.Text = "Next"
-        Button3.UseVisualStyleBackColor = False
+        btnNext.BackColor = SystemColors.ButtonShadow
+        btnNext.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        btnNext.ImageAlign = ContentAlignment.TopCenter
+        btnNext.Location = New Point(1141, 723)
+        btnNext.Name = "btnNext"
+        btnNext.Size = New Size(104, 32)
+        btnNext.TabIndex = 12
+        btnNext.Text = "Next"
+        btnNext.UseVisualStyleBackColor = False
         ' 
         ' District
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
-        Controls.Add(Button3)
-        Controls.Add(Button1)
+        Controls.Add(btnNext)
+        Controls.Add(btnPrevious)
         Controls.Add(PictureBox2)
         Controls.Add(PictureBox1)
         Controls.Add(Panel1)
@@ -211,13 +211,13 @@ Partial Class District
     Friend WithEvents Panel1 As Panel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents district1 As Button
-    Friend WithEvents district7 As Button
-    Friend WithEvents district6 As Button
-    Friend WithEvents district5 As Button
-    Friend WithEvents district4 As Button
-    Friend WithEvents district3 As Button
-    Friend WithEvents district2 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents btnPrevious As Button
+    Friend WithEvents btnNext As Button
 End Class
