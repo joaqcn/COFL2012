@@ -28,17 +28,17 @@ Partial Class Title
         Label4 = New Label()
         Label5 = New Label()
         Label6 = New Label()
-        project_title = New TextBox()
+        TextBox1 = New TextBox()
         Label7 = New Label()
-        facility_name = New TextBox()
-        user_name = New TextBox()
+        TextBox2 = New TextBox()
+        TextBox3 = New TextBox()
         TextBox4 = New TextBox()
-        project_year = New TextBox()
-        urban_button = New Button()
-        suburban_button = New Button()
-        rural_button = New Button()
+        TextBox5 = New TextBox()
+        Button1 = New Button()
+        Button2 = New Button()
+        Button3 = New Button()
         PictureBox1 = New PictureBox()
-        next_buttom_project = New Button()
+        Button4 = New Button()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -102,12 +102,12 @@ Partial Class Title
         Label6.TabIndex = 5
         Label6.Text = "Land Use"
         ' 
-        ' project_title
+        ' TextBox1
         ' 
-        project_title.Location = New Point(198, 111)
-        project_title.Name = "project_title"
-        project_title.Size = New Size(348, 23)
-        project_title.TabIndex = 6
+        TextBox1.Location = New Point(198, 111)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(348, 23)
+        TextBox1.TabIndex = 6
         ' 
         ' Label7
         ' 
@@ -119,19 +119,19 @@ Partial Class Title
         Label7.TabIndex = 7
         Label7.Text = "Project Description"
         ' 
-        ' facility_name
+        ' TextBox2
         ' 
-        facility_name.Location = New Point(198, 163)
-        facility_name.Name = "facility_name"
-        facility_name.Size = New Size(348, 23)
-        facility_name.TabIndex = 8
+        TextBox2.Location = New Point(198, 163)
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(348, 23)
+        TextBox2.TabIndex = 8
         ' 
-        ' user_name
+        ' TextBox3
         ' 
-        user_name.Location = New Point(198, 210)
-        user_name.Name = "user_name"
-        user_name.Size = New Size(348, 23)
-        user_name.TabIndex = 9
+        TextBox3.Location = New Point(198, 210)
+        TextBox3.Name = "TextBox3"
+        TextBox3.Size = New Size(348, 23)
+        TextBox3.TabIndex = 9
         ' 
         ' TextBox4
         ' 
@@ -140,42 +140,43 @@ Partial Class Title
         TextBox4.Size = New Size(348, 23)
         TextBox4.TabIndex = 10
         ' 
-        ' project_year
+        ' TextBox5
         ' 
-        project_year.Location = New Point(198, 340)
-        project_year.Name = "project_year"
-        project_year.Size = New Size(175, 23)
-        project_year.TabIndex = 11
+        TextBox5.Location = New Point(198, 340)
+        TextBox5.Name = "TextBox5"
+        TextBox5.Size = New Size(175, 23)
+        TextBox5.TabIndex = 11
         ' 
-        ' urban_button
+        ' Button1
         ' 
-        urban_button.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        urban_button.Location = New Point(198, 423)
-        urban_button.Name = "urban_button"
-        urban_button.Size = New Size(132, 34)
-        urban_button.TabIndex = 12
-        urban_button.Text = "Urban"
-        urban_button.UseVisualStyleBackColor = True
+        Button1.BackColor = SystemColors.Control
+        Button1.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Button1.Location = New Point(198, 423)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(132, 34)
+        Button1.TabIndex = 12
+        Button1.Text = "Urban"
+        Button1.UseVisualStyleBackColor = False
         ' 
-        ' suburban_button
+        ' Button2
         ' 
-        suburban_button.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        suburban_button.Location = New Point(198, 466)
-        suburban_button.Name = "suburban_button"
-        suburban_button.Size = New Size(132, 34)
-        suburban_button.TabIndex = 13
-        suburban_button.Text = "Suburban"
-        suburban_button.UseVisualStyleBackColor = True
+        Button2.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Button2.Location = New Point(198, 466)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(132, 34)
+        Button2.TabIndex = 13
+        Button2.Text = "Suburban"
+        Button2.UseVisualStyleBackColor = True
         ' 
-        ' rural_button
+        ' Button3
         ' 
-        rural_button.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        rural_button.Location = New Point(198, 509)
-        rural_button.Name = "rural_button"
-        rural_button.Size = New Size(132, 34)
-        rural_button.TabIndex = 14
-        rural_button.Text = "Rural"
-        rural_button.UseVisualStyleBackColor = True
+        Button3.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Button3.Location = New Point(198, 509)
+        Button3.Name = "Button3"
+        Button3.Size = New Size(132, 34)
+        Button3.TabIndex = 14
+        Button3.Text = "Rural"
+        Button3.UseVisualStyleBackColor = True
         ' 
         ' PictureBox1
         ' 
@@ -187,33 +188,33 @@ Partial Class Title
         PictureBox1.TabIndex = 15
         PictureBox1.TabStop = False
         ' 
-        ' next_buttom_project
+        ' Button4
         ' 
-        next_buttom_project.BackColor = SystemColors.ControlDark
-        next_buttom_project.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
-        next_buttom_project.Location = New Point(278, 717)
-        next_buttom_project.Name = "next_buttom_project"
-        next_buttom_project.Size = New Size(107, 39)
-        next_buttom_project.TabIndex = 17
-        next_buttom_project.Text = "Next"
-        next_buttom_project.UseVisualStyleBackColor = False
+        Button4.BackColor = SystemColors.ControlDark
+        Button4.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
+        Button4.Location = New Point(278, 717)
+        Button4.Name = "Button4"
+        Button4.Size = New Size(107, 39)
+        Button4.TabIndex = 17
+        Button4.Text = "Next"
+        Button4.UseVisualStyleBackColor = False
         ' 
         ' Title
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
-        Controls.Add(next_buttom_project)
+        Controls.Add(Button4)
         Controls.Add(PictureBox1)
-        Controls.Add(rural_button)
-        Controls.Add(suburban_button)
-        Controls.Add(urban_button)
-        Controls.Add(project_year)
+        Controls.Add(Button3)
+        Controls.Add(Button2)
+        Controls.Add(Button1)
+        Controls.Add(TextBox5)
         Controls.Add(TextBox4)
-        Controls.Add(user_name)
-        Controls.Add(facility_name)
+        Controls.Add(TextBox3)
+        Controls.Add(TextBox2)
         Controls.Add(Label7)
-        Controls.Add(project_title)
+        Controls.Add(TextBox1)
         Controls.Add(Label6)
         Controls.Add(Label5)
         Controls.Add(Label4)
@@ -233,15 +234,15 @@ Partial Class Title
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents project_title As TextBox
+    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents facility_name As TextBox
-    Friend WithEvents user_name As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents project_year As TextBox
-    Friend WithEvents urban_button As Button
-    Friend WithEvents suburban_button As Button
-    Friend WithEvents rural_button As Button
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents next_buttom_project As Button
+    Friend WithEvents Button4 As Button
 End Class
