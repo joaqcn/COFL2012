@@ -23,10 +23,10 @@ Partial Class IntersectionType
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Label1 = New Label()
-        fourByFourPic = New PictureBox()
+        PictureBox1 = New PictureBox()
         Label2 = New Label()
         Label3 = New Label()
-        fourbySixPic = New PictureBox()
+        PictureBox3 = New PictureBox()
         Label4 = New Label()
         sixByFourPic = New PictureBox()
         Label5 = New Label()
@@ -45,8 +45,8 @@ Partial Class IntersectionType
         southTeePic = New PictureBox()
         northSouthFreewayPic = New PictureBox()
         eastWestFreewayPic = New PictureBox()
-        CType(fourByFourPic, ComponentModel.ISupportInitialize).BeginInit()
-        CType(fourbySixPic, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(sixByFourPic, ComponentModel.ISupportInitialize).BeginInit()
         CType(sixBySixPic, ComponentModel.ISupportInitialize).BeginInit()
         CType(eastTeePic, ComponentModel.ISupportInitialize).BeginInit()
@@ -61,22 +61,22 @@ Partial Class IntersectionType
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI Semibold", 18.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Font = New Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point)
         Label1.Location = New Point(515, 9)
         Label1.Name = "Label1"
         Label1.Size = New Size(307, 32)
         Label1.TabIndex = 0
         Label1.Text = "Intersection Type Selection"
         ' 
-        ' fourByFourPic
+        ' PictureBox1
         ' 
-        fourByFourPic.Image = My.Resources.Resources._4x4
-        fourByFourPic.Location = New Point(31, 70)
-        fourByFourPic.Name = "fourByFourPic"
-        fourByFourPic.Size = New Size(228, 127)
-        fourByFourPic.SizeMode = PictureBoxSizeMode.StretchImage
-        fourByFourPic.TabIndex = 12
-        fourByFourPic.TabStop = False
+        PictureBox1.Image = My.Resources.Resources._4x4
+        PictureBox1.Location = New Point(31, 70)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(228, 127)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 12
+        PictureBox1.TabStop = False
         ' 
         ' Label2
         ' 
@@ -98,15 +98,15 @@ Partial Class IntersectionType
         Label3.TabIndex = 14
         Label3.Text = "4 X 6"
         ' 
-        ' fourbySixPic
+        ' PictureBox3
         ' 
-        fourbySixPic.Image = My.Resources.Resources._4x6
-        fourbySixPic.Location = New Point(369, 70)
-        fourbySixPic.Name = "fourbySixPic"
-        fourbySixPic.Size = New Size(228, 127)
-        fourbySixPic.SizeMode = PictureBoxSizeMode.StretchImage
-        fourbySixPic.TabIndex = 15
-        fourbySixPic.TabStop = False
+        PictureBox3.Image = My.Resources.Resources._4x6
+        PictureBox3.Location = New Point(369, 70)
+        PictureBox3.Name = "PictureBox3"
+        PictureBox3.Size = New Size(228, 127)
+        PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox3.TabIndex = 15
+        PictureBox3.TabStop = False
         ' 
         ' Label4
         ' 
@@ -297,7 +297,7 @@ Partial Class IntersectionType
         ' 
         ' IntersectionType
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
         Controls.Add(eastWestFreewayPic)
@@ -318,15 +318,15 @@ Partial Class IntersectionType
         Controls.Add(Label5)
         Controls.Add(sixByFourPic)
         Controls.Add(Label4)
-        Controls.Add(fourbySixPic)
+        Controls.Add(PictureBox3)
         Controls.Add(Label3)
         Controls.Add(Label2)
-        Controls.Add(fourByFourPic)
+        Controls.Add(PictureBox1)
         Controls.Add(Label1)
         Name = "IntersectionType"
         Text = "IntersectionType"
-        CType(fourByFourPic, ComponentModel.ISupportInitialize).EndInit()
-        CType(fourbySixPic, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(sixByFourPic, ComponentModel.ISupportInitialize).EndInit()
         CType(sixBySixPic, ComponentModel.ISupportInitialize).EndInit()
         CType(eastTeePic, ComponentModel.ISupportInitialize).EndInit()
@@ -341,10 +341,10 @@ Partial Class IntersectionType
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents fourByFourPic As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents fourbySixPic As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label4 As Label
     Friend WithEvents sixByFourPic As PictureBox
     Friend WithEvents Label5 As Label
