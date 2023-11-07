@@ -27,9 +27,9 @@ Partial Class About
         Label3 = New Label()
         Label4 = New Label()
         Label1 = New Label()
-        Label5 = New Label()
-        Label6 = New Label()
         Button1 = New Button()
+        PictureBox1 = New PictureBox()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label2
@@ -75,24 +75,6 @@ Partial Class About
         Label1.TabIndex = 4
         Label1.Text = "About CO Florida 2012"
         ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Location = New Point(580, 414)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(41, 15)
-        Label5.TabIndex = 5
-        Label5.Text = "Label5"
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.Location = New Point(580, 738)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(41, 15)
-        Label6.TabIndex = 6
-        Label6.Text = "Label6"
-        ' 
         ' Button1
         ' 
         Button1.BackColor = SystemColors.ButtonShadow
@@ -104,20 +86,30 @@ Partial Class About
         Button1.Text = "Close ""About"""
         Button1.UseVisualStyleBackColor = False
         ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = My.Resources.Resources.fdot_logo
+        PictureBox1.Location = New Point(304, 308)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(760, 333)
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox1.TabIndex = 8
+        PictureBox1.TabStop = False
+        ' 
         ' About
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
+        Controls.Add(PictureBox1)
         Controls.Add(Button1)
-        Controls.Add(Label6)
-        Controls.Add(Label5)
         Controls.Add(Label1)
         Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Name = "About"
         Text = "About"
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -126,7 +118,6 @@ Partial Class About
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
