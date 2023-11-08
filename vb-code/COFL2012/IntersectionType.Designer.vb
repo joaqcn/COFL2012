@@ -28,9 +28,9 @@ Partial Class IntersectionType
         Label3 = New Label()
         PictureBox3 = New PictureBox()
         Label4 = New Label()
-        sixByFourPic = New PictureBox()
+        PictureBox4 = New PictureBox()
         Label5 = New Label()
-        sixBySixPic = New PictureBox()
+        PictureBox2 = New PictureBox()
         Label6 = New Label()
         Label7 = New Label()
         Label8 = New Label()
@@ -38,24 +38,26 @@ Partial Class IntersectionType
         Label10 = New Label()
         Label11 = New Label()
         Label12 = New Label()
-        eastTeePic = New PictureBox()
-        northTeePic = New PictureBox()
-        tollBoothPic = New PictureBox()
-        westTeePic = New PictureBox()
-        southTeePic = New PictureBox()
-        northSouthFreewayPic = New PictureBox()
-        eastWestFreewayPic = New PictureBox()
+        PictureBox5 = New PictureBox()
+        PictureBox8 = New PictureBox()
+        PictureBox9 = New PictureBox()
+        PictureBox7 = New PictureBox()
+        PictureBox6 = New PictureBox()
+        PictureBox10 = New PictureBox()
+        PictureBox11 = New PictureBox()
+        btnPrevious = New Button()
+        btnNext = New Button()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
-        CType(sixByFourPic, ComponentModel.ISupportInitialize).BeginInit()
-        CType(sixBySixPic, ComponentModel.ISupportInitialize).BeginInit()
-        CType(eastTeePic, ComponentModel.ISupportInitialize).BeginInit()
-        CType(northTeePic, ComponentModel.ISupportInitialize).BeginInit()
-        CType(tollBoothPic, ComponentModel.ISupportInitialize).BeginInit()
-        CType(westTeePic, ComponentModel.ISupportInitialize).BeginInit()
-        CType(southTeePic, ComponentModel.ISupportInitialize).BeginInit()
-        CType(northSouthFreewayPic, ComponentModel.ISupportInitialize).BeginInit()
-        CType(eastWestFreewayPic, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox9, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox10, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label1
@@ -118,15 +120,15 @@ Partial Class IntersectionType
         Label4.TabIndex = 16
         Label4.Text = "6 X 4"
         ' 
-        ' sixByFourPic
+        ' PictureBox4
         ' 
-        sixByFourPic.Image = My.Resources.Resources._6x4
-        sixByFourPic.Location = New Point(726, 70)
-        sixByFourPic.Name = "sixByFourPic"
-        sixByFourPic.Size = New Size(228, 127)
-        sixByFourPic.SizeMode = PictureBoxSizeMode.StretchImage
-        sixByFourPic.TabIndex = 17
-        sixByFourPic.TabStop = False
+        PictureBox4.Image = My.Resources.Resources._6x4
+        PictureBox4.Location = New Point(726, 70)
+        PictureBox4.Name = "PictureBox4"
+        PictureBox4.Size = New Size(228, 127)
+        PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox4.TabIndex = 17
+        PictureBox4.TabStop = False
         ' 
         ' Label5
         ' 
@@ -138,15 +140,15 @@ Partial Class IntersectionType
         Label5.TabIndex = 18
         Label5.Text = "6 X 6"
         ' 
-        ' sixBySixPic
+        ' PictureBox2
         ' 
-        sixBySixPic.Image = My.Resources.Resources._6x6
-        sixBySixPic.Location = New Point(1075, 70)
-        sixBySixPic.Name = "sixBySixPic"
-        sixBySixPic.Size = New Size(228, 127)
-        sixBySixPic.SizeMode = PictureBoxSizeMode.StretchImage
-        sixBySixPic.TabIndex = 19
-        sixBySixPic.TabStop = False
+        PictureBox2.Image = My.Resources.Resources._6x6
+        PictureBox2.Location = New Point(1075, 70)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(228, 127)
+        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox2.TabIndex = 19
+        PictureBox2.TabStop = False
         ' 
         ' Label6
         ' 
@@ -225,88 +227,112 @@ Partial Class IntersectionType
         Label12.TabIndex = 26
         Label12.Text = "Diamond " & vbCrLf & "Interchange: " & vbCrLf & "E-W Freeway" & vbCrLf
         ' 
-        ' eastTeePic
+        ' PictureBox5
         ' 
-        eastTeePic.Image = My.Resources.Resources.East_Tee
-        eastTeePic.Location = New Point(151, 303)
-        eastTeePic.Name = "eastTeePic"
-        eastTeePic.Size = New Size(228, 127)
-        eastTeePic.SizeMode = PictureBoxSizeMode.StretchImage
-        eastTeePic.TabIndex = 27
-        eastTeePic.TabStop = False
+        PictureBox5.Image = My.Resources.Resources.East_Tee
+        PictureBox5.Location = New Point(151, 303)
+        PictureBox5.Name = "PictureBox5"
+        PictureBox5.Size = New Size(228, 127)
+        PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox5.TabIndex = 27
+        PictureBox5.TabStop = False
         ' 
-        ' northTeePic
+        ' PictureBox8
         ' 
-        northTeePic.Image = My.Resources.Resources.North_Tee
-        northTeePic.Location = New Point(515, 305)
-        northTeePic.Name = "northTeePic"
-        northTeePic.Size = New Size(228, 127)
-        northTeePic.SizeMode = PictureBoxSizeMode.StretchImage
-        northTeePic.TabIndex = 28
-        northTeePic.TabStop = False
+        PictureBox8.Image = My.Resources.Resources.North_Tee
+        PictureBox8.Location = New Point(515, 305)
+        PictureBox8.Name = "PictureBox8"
+        PictureBox8.Size = New Size(228, 127)
+        PictureBox8.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox8.TabIndex = 28
+        PictureBox8.TabStop = False
         ' 
-        ' tollBoothPic
+        ' PictureBox9
         ' 
-        tollBoothPic.Image = My.Resources.Resources.Tool_Booth
-        tollBoothPic.Location = New Point(892, 303)
-        tollBoothPic.Name = "tollBoothPic"
-        tollBoothPic.Size = New Size(228, 127)
-        tollBoothPic.SizeMode = PictureBoxSizeMode.StretchImage
-        tollBoothPic.TabIndex = 29
-        tollBoothPic.TabStop = False
+        PictureBox9.Image = My.Resources.Resources.Tool_Booth
+        PictureBox9.Location = New Point(892, 303)
+        PictureBox9.Name = "PictureBox9"
+        PictureBox9.Size = New Size(228, 127)
+        PictureBox9.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox9.TabIndex = 29
+        PictureBox9.TabStop = False
         ' 
-        ' westTeePic
+        ' PictureBox7
         ' 
-        westTeePic.Image = My.Resources.Resources.West_Tee
-        westTeePic.Location = New Point(31, 557)
-        westTeePic.Name = "westTeePic"
-        westTeePic.Size = New Size(228, 127)
-        westTeePic.SizeMode = PictureBoxSizeMode.StretchImage
-        westTeePic.TabIndex = 30
-        westTeePic.TabStop = False
+        PictureBox7.Image = My.Resources.Resources.West_Tee
+        PictureBox7.Location = New Point(31, 557)
+        PictureBox7.Name = "PictureBox7"
+        PictureBox7.Size = New Size(228, 127)
+        PictureBox7.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox7.TabIndex = 30
+        PictureBox7.TabStop = False
         ' 
-        ' southTeePic
+        ' PictureBox6
         ' 
-        southTeePic.Image = My.Resources.Resources.South_Tee
-        southTeePic.Location = New Point(369, 557)
-        southTeePic.Name = "southTeePic"
-        southTeePic.Size = New Size(228, 127)
-        southTeePic.SizeMode = PictureBoxSizeMode.StretchImage
-        southTeePic.TabIndex = 31
-        southTeePic.TabStop = False
+        PictureBox6.Image = My.Resources.Resources.South_Tee
+        PictureBox6.Location = New Point(369, 557)
+        PictureBox6.Name = "PictureBox6"
+        PictureBox6.Size = New Size(228, 127)
+        PictureBox6.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox6.TabIndex = 31
+        PictureBox6.TabStop = False
         ' 
-        ' northSouthFreewayPic
+        ' PictureBox10
         ' 
-        northSouthFreewayPic.Image = My.Resources.Resources.N_S_Freeway
-        northSouthFreewayPic.Location = New Point(726, 557)
-        northSouthFreewayPic.Name = "northSouthFreewayPic"
-        northSouthFreewayPic.Size = New Size(228, 127)
-        northSouthFreewayPic.SizeMode = PictureBoxSizeMode.StretchImage
-        northSouthFreewayPic.TabIndex = 32
-        northSouthFreewayPic.TabStop = False
+        PictureBox10.Image = My.Resources.Resources.N_S_Freeway
+        PictureBox10.Location = New Point(726, 557)
+        PictureBox10.Name = "PictureBox10"
+        PictureBox10.Size = New Size(228, 127)
+        PictureBox10.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox10.TabIndex = 32
+        PictureBox10.TabStop = False
         ' 
-        ' eastWestFreewayPic
+        ' PictureBox11
         ' 
-        eastWestFreewayPic.Image = My.Resources.Resources.E_W_Freeway
-        eastWestFreewayPic.Location = New Point(1075, 557)
-        eastWestFreewayPic.Name = "eastWestFreewayPic"
-        eastWestFreewayPic.Size = New Size(228, 127)
-        eastWestFreewayPic.SizeMode = PictureBoxSizeMode.StretchImage
-        eastWestFreewayPic.TabIndex = 33
-        eastWestFreewayPic.TabStop = False
+        PictureBox11.Image = My.Resources.Resources.E_W_Freeway
+        PictureBox11.Location = New Point(1075, 557)
+        PictureBox11.Name = "PictureBox11"
+        PictureBox11.Size = New Size(228, 127)
+        PictureBox11.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox11.TabIndex = 33
+        PictureBox11.TabStop = False
+        ' 
+        ' btnPrevious
+        ' 
+        btnPrevious.BackColor = SystemColors.ButtonShadow
+        btnPrevious.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        btnPrevious.Location = New Point(548, 797)
+        btnPrevious.Name = "btnPrevious"
+        btnPrevious.Size = New Size(100, 29)
+        btnPrevious.TabIndex = 34
+        btnPrevious.Text = "Previous"
+        btnPrevious.UseVisualStyleBackColor = False
+        ' 
+        ' btnNext
+        ' 
+        btnNext.BackColor = SystemColors.ButtonShadow
+        btnNext.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        btnNext.Location = New Point(665, 797)
+        btnNext.Name = "btnNext"
+        btnNext.Size = New Size(100, 29)
+        btnNext.TabIndex = 35
+        btnNext.Text = "Next"
+        btnNext.UseVisualStyleBackColor = False
         ' 
         ' IntersectionType
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
-        Controls.Add(eastWestFreewayPic)
-        Controls.Add(northSouthFreewayPic)
-        Controls.Add(southTeePic)
-        Controls.Add(westTeePic)
-        Controls.Add(tollBoothPic)
-        Controls.Add(northTeePic)
-        Controls.Add(eastTeePic)
+        Controls.Add(btnNext)
+        Controls.Add(btnPrevious)
+        Controls.Add(PictureBox11)
+        Controls.Add(PictureBox10)
+        Controls.Add(PictureBox6)
+        Controls.Add(PictureBox7)
+        Controls.Add(PictureBox9)
+        Controls.Add(PictureBox8)
+        Controls.Add(PictureBox5)
         Controls.Add(Label12)
         Controls.Add(Label11)
         Controls.Add(Label10)
@@ -314,9 +340,9 @@ Partial Class IntersectionType
         Controls.Add(Label8)
         Controls.Add(Label7)
         Controls.Add(Label6)
-        Controls.Add(sixBySixPic)
+        Controls.Add(PictureBox2)
         Controls.Add(Label5)
-        Controls.Add(sixByFourPic)
+        Controls.Add(PictureBox4)
         Controls.Add(Label4)
         Controls.Add(PictureBox3)
         Controls.Add(Label3)
@@ -327,15 +353,15 @@ Partial Class IntersectionType
         Text = "IntersectionType"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
-        CType(sixByFourPic, ComponentModel.ISupportInitialize).EndInit()
-        CType(sixBySixPic, ComponentModel.ISupportInitialize).EndInit()
-        CType(eastTeePic, ComponentModel.ISupportInitialize).EndInit()
-        CType(northTeePic, ComponentModel.ISupportInitialize).EndInit()
-        CType(tollBoothPic, ComponentModel.ISupportInitialize).EndInit()
-        CType(westTeePic, ComponentModel.ISupportInitialize).EndInit()
-        CType(southTeePic, ComponentModel.ISupportInitialize).EndInit()
-        CType(northSouthFreewayPic, ComponentModel.ISupportInitialize).EndInit()
-        CType(eastWestFreewayPic, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox8, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox9, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox10, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox11, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -346,9 +372,9 @@ Partial Class IntersectionType
     Friend WithEvents Label3 As Label
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents sixByFourPic As PictureBox
+    Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents sixBySixPic As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
@@ -356,11 +382,13 @@ Partial Class IntersectionType
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
-    Friend WithEvents eastTeePic As PictureBox
-    Friend WithEvents northTeePic As PictureBox
-    Friend WithEvents tollBoothPic As PictureBox
-    Friend WithEvents westTeePic As PictureBox
-    Friend WithEvents southTeePic As PictureBox
-    Friend WithEvents northSouthFreewayPic As PictureBox
-    Friend WithEvents eastWestFreewayPic As PictureBox
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents PictureBox9 As PictureBox
+    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents PictureBox10 As PictureBox
+    Friend WithEvents PictureBox11 As PictureBox
+    Friend WithEvents btnPrevious As Button
+    Friend WithEvents btnNext As Button
 End Class
