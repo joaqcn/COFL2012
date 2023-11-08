@@ -1,5 +1,5 @@
 ﻿Public Class IntersectionType
-    Private Sub PictureBox_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click, PictureBox3.Click, sixByFourPic.Click, sixBySixPic.Click, eastTeePic.Click, northTeePic.Click, tollBoothPic.Click, westTeePic.Click, southTeePic.Click, northSouthFreewayPic.Click, eastWestFreewayPic.Click
+    Private Sub PictureBox_Click(sender As Object, e As EventArgs)
         Select Case DirectCast(sender, PictureBox).Name
             Case "fourByFourPic"
                 Dim fourByFour As New _4X4()
@@ -800,69 +800,69 @@
     Sub InitIntType()
         AllSmallPics()
 
-        'Loads Stored Intersection Type
-        Select Case IntType
-            Case "4 X 4"
-                PictureBox12.Visible = True
-            Case "4 X 6"
-                PictureBox13.Visible = True
-            Case "6 X 4"
-                PictureBox14.Visible = True
-            Case "6 X 6"
-                PictureBox15.Visible = True
-            Case "East Tee"
-                PictureBox16.Visible = True
-            Case "North Tee"
-                PictureBox17.Visible = True
-            Case "Toll Booth"
-                PictureBox18.Visible = True
-            Case "West Tee"
-                PictureBox19.Visible = True
-            Case "South Tee"
-                PictureBox20.Visible = True
-            Case "N-S Diamond"
-                PictureBox21.Visible = True
-            Case "E-W Diamond"
-                PictureBox22.Visible = True
-        End Select
+        ''Loads Stored Intersection Type
+        'Select Case Welcome.IntType
+        '    Case "4 X 4"
+        '        PictureBox12.Visible = True
+        '    Case "4 X 6"
+        '        PictureBox13.Visible = True
+        '    Case "6 X 4"
+        '        PictureBox14.Visible = True
+        '    Case "6 X 6"
+        '        PictureBox15.Visible = True
+        '    Case "East Tee"
+        '        PictureBox16.Visible = True
+        '    Case "North Tee"
+        '        PictureBox17.Visible = True
+        '    Case "Toll Booth"
+        '        PictureBox18.Visible = True
+        '    Case "West Tee"
+        '        PictureBox19.Visible = True
+        '    Case "South Tee"
+        '        PictureBox20.Visible = True
+        '    Case "N-S Diamond"
+        '        PictureBox21.Visible = True
+        '    Case "E-W Diamond"
+        '        PictureBox22.Visible = True
+        'End Select
     End Sub
 
 
     '******************************************************************************************************************
     '****************************************Bottom Navigation Buttons*************************************************
     '******************************************************************************************************************
-    Private Sub btnPrevious_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPrevious.Click
+    Private Sub btnPrevious_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         My.Forms.District.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub btnNext_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnNext.Click
+    Private Sub btnNext_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
         'Verifies that an intersection type has been selected, then advanced to the appropriate intersection data page
         If Welcome.InputsCorrect(3) = True Then
-            Select Case IntType
+            Select Case Welcome.IntType
                 Case "4 X 4"
-                    My.Forms.Int4X4.Show()
+                    My.Forms._4X4.Show()
                 Case "4 X 6"
-                    My.Forms.Int4X6.Show()
+                    My.Forms._4X6.Show()
                 Case "6 X 4"
-                    My.Forms.Int6X4.Show()
+                    My.Forms._6X4.Show()
                 Case "6 X 6"
-                    My.Forms.Int6X6.Show()
+                    My.Forms._6X6.Show()
                 Case "East Tee"
-                    My.Forms.EastTee.Show()
+                    My.Forms.East_Tee.Show()
                 Case "North Tee"
-                    My.Forms.NorthTee.Show()
+                    My.Forms.North_Tee.Show()
                 Case "Toll Booth"
-                    My.Forms.TollBooth.Show()
+                    My.Forms.TollBoothEW.Show()
                 Case "West Tee"
                     My.Forms.WestTee.Show()
                 Case "South Tee"
                     My.Forms.SouthTee.Show()
                 Case "N-S Diamond"
-                    My.Forms.NSDiamond.Show()
+                    My.Forms.NorthSouthFreeway.Show()
                 Case "E-W Diamond"
-                    My.Forms.I11.Show()
+                    My.Forms.EastWestFreeway.Show()
             End Select
             Me.Visible = False
         Else
@@ -877,49 +877,49 @@
     '************************************************User Clicks that Fire Subroutines****************************************************
     '*************************************************************************************************************************************
 
-    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
-        Select4X4()
-    End Sub
+    'Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
+    '    Select4X4()
+    'End Sub
 
-    Private Sub PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Select4X6()
-    End Sub
+    'Private Sub PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox3.Click
+    '    Select4X6()
+    'End Sub
 
-    Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox4.Click
-        Select6X4()
-    End Sub
+    'Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox4.Click
+    '    Select6X4()
+    'End Sub
 
-    Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox2.Click
-        Select6X6()
-    End Sub
+    'Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox2.Click
+    '    Select6X6()
+    'End Sub
 
-    Private Sub PictureBox5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox5.Click
-        SelectEastTee()
-    End Sub
+    'Private Sub PictureBox5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox5.Click
+    '    SelectEastTee()
+    'End Sub
 
-    Private Sub PictureBox8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox8.Click
-        SelectNorthTee()
-    End Sub
+    'Private Sub PictureBox8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox8.Click
+    '    SelectNorthTee()
+    'End Sub
 
-    Private Sub PictureBox9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox9.Click
-        SelectTollBooth()
-    End Sub
+    'Private Sub PictureBox9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox9.Click
+    '    SelectTollBooth()
+    'End Sub
 
-    Private Sub PictureBox7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox7.Click
-        SelectWestTee()
-    End Sub
+    'Private Sub PictureBox7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox7.Click
+    '    SelectWestTee()
+    'End Sub
 
-    Private Sub PictureBox6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox6.Click
-        SelectSouthTee()
-    End Sub
+    'Private Sub PictureBox6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox6.Click
+    '    SelectSouthTee()
+    'End Sub
 
-    Private Sub PictureBox10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox10.Click
-        SelectNSDiamond()
-    End Sub
+    'Private Sub PictureBox10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    '    SelectNSDiamond()
+    'End Sub
 
-    Private Sub PictureBox11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox11.Click
-        SelectEWDiamond()
-    End Sub
+    'Private Sub PictureBox11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    '    SelectEWDiamond()
+    'End Sub
 
     Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
         Select4X4()
@@ -970,70 +970,70 @@
     '**************************************************************************************************************************
     '**********************************************Handle Click-Clicks on Images**********************************************
     '**************************************************************************************************************************
-    Private Sub PictureBox12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox12.Click
+    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Select4X4()
-        My.Forms.Int4X4.Show()
+        My.Forms._4X4.Show()
         Me.Visible = False
     End Sub
 
 
-    Private Sub PictureBox13_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox13.Click
+    Private Sub PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Select4X6()
-        My.Forms.Int4X6.Show()
+        My.Forms._4X6.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox14_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox14.Click
+    Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Select6X4()
-        My.Forms.Int6X4.Show()
+        My.Forms._6X4.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox15.Click
+    Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Select6X6()
-        My.Forms.Int6X6.Show()
+        My.Forms._6X6.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox16_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox16.Click
+    Private Sub PictureBox5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         SelectEastTee()
-        My.Forms.EastTee.Show()
+        My.Forms.East_Tee.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox17.Click
+    Private Sub PictureBox8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         SelectNorthTee()
-        My.Forms.NorthTee.Show()
+        My.Forms.North_Tee.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox18.Click
+    Private Sub PictureBox9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         SelectTollBooth()
-        My.Forms.TollBooth.Show()
+        My.Forms.TollBoothEW.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox19_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox19.Click
+    Private Sub PictureBox7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         SelectWestTee()
         My.Forms.WestTee.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox20.Click
+    Private Sub PictureBox6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         SelectSouthTee()
         My.Forms.SouthTee.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox21_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox21.Click
+    Private Sub PictureBox10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox10.Click
         SelectNSDiamond()
-        My.Forms.NSDiamond.Show()
+        My.Forms.NorthSouthFreeway.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox22_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox22.Click
+    Private Sub PictureBox11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox11.Click
         SelectEWDiamond()
-        My.Forms.I11.Show()
+        My.Forms.EastWestFreeway.Show()
         Me.Visible = False
     End Sub
 
