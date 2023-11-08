@@ -212,7 +212,7 @@ Public Class Title
         Button1.Visible = True
         Button2.Visible = True
         Button3.Visible = True
-        Button4.Visible = False
+        Button4.Visible = True
 
     End Sub
 
@@ -367,7 +367,8 @@ Public Class Title
 
 
     'Land Use Selection Buttons
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+
         AllRegButtons()
 
         'Highlights the selected button and assigns global variable values
@@ -386,7 +387,9 @@ Public Class Title
     End Sub
 
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+
+
         AllRegButtons()
 
         'Highlights the selected button and assigns global variable values
@@ -405,7 +408,8 @@ Public Class Title
         Welcome.COBack8Hr = "2.0"
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+
         AllRegButtons()
 
         'Highlights the selected button and assigns global variable values
@@ -461,6 +465,7 @@ Public Class Title
     '******************************************************************************************************************
     Sub VerifyTitleForm()
 
+        InitTitle()
         Welcome.InputsCorrect(1) = False
 
         'Verifies that ProjectYear has a numeric value
@@ -491,7 +496,7 @@ Public Class Title
     '******************************************************************************************************************
     '****************************************Bottom Navigation Buttons*************************************************
     '******************************************************************************************************************
-    Private Sub next_buttom_project_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles Button4.Click
         'Call the routine to check form inputs
         VerifyTitleForm()
 
