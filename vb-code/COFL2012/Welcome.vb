@@ -526,209 +526,209 @@ Public Class Welcome
 
 
 
-    '****************************************************************************************************************************************
-    '*****************************************Runs CAL3QHC and then Reads and Formats Output to Screen****************************************
-    '****************************************************************************************************************************************
-    Sub GenerateOutput()
-        'Runs CAL3QHC
-        Directory.SetCurrentDirectory(PrimaryDirectory)
-        'sAppPath = "CAL3QHC incal3qhc" & RunNumber & ".in outcal3qhc" & RunNumber & ".out"
-        sAppPath = "CAL3QHC incal3qhc.in outcal3qhc.out"
-        Shell(sAppPath, vbMaximizedFocus)
+    ''****************************************************************************************************************************************
+    ''*****************************************Runs CAL3QHC and then Reads and Formats Output to Screen****************************************
+    ''****************************************************************************************************************************************
+    'Sub GenerateOutput()
+    '    'Runs CAL3QHC
+    '    Directory.SetCurrentDirectory(PrimaryDirectory)
+    '    'sAppPath = "CAL3QHC incal3qhc" & RunNumber & ".in outcal3qhc" & RunNumber & ".out"
+    '    sAppPath = "CAL3QHC incal3qhc.in outcal3qhc.out"
+    '    Shell(sAppPath, vbMaximizedFocus)
 
-        'Reads resulting concentrations from outcal3qhc.out
-        ReadCAL3QHCOUT()
+    '    'Reads resulting concentrations from outcal3qhc.out
+    '    ReadCAL3QHCOUT()
 
-        'Fills out onscreen output screen
-        Run.TextBox2.Text = Format$(Now, "Long Date")
+    '    'Fills out onscreen output screen
+    '    Run.TextBox2.Text = Format$(Now, "Long Date")
 
-        Run.TextBox10.Text = Job
-        Run.TextBox8.Text = FacilityName
-        Run.TextBox6.Text = UsersName
-        Run.TextBox4.Text = RunName
-        Run.TextBox26.Text = DistrictNum
-        Run.TextBox28.Text = ProjectYear
+    '    Run.TextBox10.Text = Job
+    '    Run.TextBox8.Text = FacilityName
+    '    Run.TextBox6.Text = UsersName
+    '    Run.TextBox4.Text = RunName
+    '    Run.TextBox26.Text = DistrictNum
+    '    Run.TextBox28.Text = ProjectYear
 
-        If IntType = "Toll Booth" Then
-            If EWTollBooth = True Then
-                Run.TextBox30.Text = "E-W Freeway " & IntType
-            Else
-                Run.TextBox30.Text = "N-S Freeway " & IntType
-            End If
-        Else
-            Run.TextBox30.Text = IntType
-        End If
+    '    If IntType = "Toll Booth" Then
+    '        If EWTollBooth = True Then
+    '            Run.TextBox30.Text = "E-W Freeway " & IntType
+    '        Else
+    '            Run.TextBox30.Text = "N-S Freeway " & IntType
+    '        End If
+    '    Else
+    '        Run.TextBox30.Text = IntType
+    '    End If
 
-        Run.TextBox38.Text = "Speed"
-        Run.TextBox37.Text = "Approach Traffic"
+    '    Run.TextBox38.Text = "Speed"
+    '    Run.TextBox37.Text = "Approach Traffic"
 
-        If IntType = "Toll Booth" Then
-            If EWTollBooth = True Then
-                Run.TextBox30.Text = "E-W Freeway " & IntType
-            Else
-                Run.TextBox30.Text = "N-S Freeway " & IntType
-            End If
-        Else
-            Run.TextBox30.Text = IntType
-        End If
+    '    If IntType = "Toll Booth" Then
+    '        If EWTollBooth = True Then
+    '            Run.TextBox30.Text = "E-W Freeway " & IntType
+    '        Else
+    '            Run.TextBox30.Text = "N-S Freeway " & IntType
+    '        End If
+    '    Else
+    '        Run.TextBox30.Text = IntType
+    '    End If
 
-        Run.TextBox38.Text = "Speed"
-        Run.TextBox37.Text = "Approach Traffic"
+    '    Run.TextBox38.Text = "Speed"
+    '    Run.TextBox37.Text = "Approach Traffic"
 
-        If IntType = "Toll Booth" Then
-            If EWTollBooth = True Then
-                Run.TextBox38.Text = "East Bound"
-                Run.TextBox37.Text = "EB Stopping"
-                Run.TextBox40.Text = SEB & " mph"
-                Run.TextBox39.Text = CInt(ATEB * (100 - ETCEB) / 100) & " vph"
-                Run.TextBox34.Text = "West Bound"
-                Run.TextBox42.Text = "WB Stopping"
-                Run.TextBox36.Text = SWB & " mph"
-                Run.TextBox41.Text = CInt(ATWB * (100 - ETCWB) / 100) & " vph"
-                If ETCEB > 0 Then
-                    Run.TextBox32.Text = "EB ETC-only"
-                    Run.TextBox35.Text = CInt(ATEB * ETCEB / 100) & " vph"
-                Else
-                    Run.TextBox32.Text = ""
-                    Run.TextBox35.Text = ""
-                End If
-                If ETCWB > 0 Then
-                    Run.TextBox44.Text = "WB ETC-only"
-                    Run.TextBox43.Text = CInt(ATWB * ETCWB / 100) & " vph"
-                Else
-                    Run.TextBox44.Text = ""
-                    Run.TextBox43.Text = ""
-                End If
-            Else
-                Run.TextBox38.Text = "North Bound"
-                Run.TextBox37.Text = "NB Stopping"
-                Run.TextBox40.Text = SNB & " mph"
-                Run.TextBox39.Text = CInt(ATNB * (100 - ETCNB) / 100) & " vph"
-                Run.TextBox34.Text = "South Bound"
-                Run.TextBox42.Text = "SB Stopping"
-                Run.TextBox36.Text = SSB & " mph"
-                Run.TextBox41.Text = CInt(ATSB * (100 - ETCSB) / 100) & " vph"
-                If ETCNB > 0 Then
-                    Run.TextBox32.Text = "NB ETC-only"
-                    Run.TextBox35.Text = CInt(ATNB * ETCNB / 100) & " vph"
-                Else
-                    Run.TextBox32.Text = ""
-                    Run.TextBox35.Text = ""
-                End If
-                If ETCSB > 0 Then
-                    Run.TextBox44.Text = "SB ETC-only"
-                    Run.TextBox43.Text = CInt(ATSB * ETCSB / 100) & " vph"
-                Else
-                    Run.TextBox44.Text = ""
-                    Run.TextBox43.Text = ""
-                End If
-            End If
+    '    If IntType = "Toll Booth" Then
+    '        If EWTollBooth = True Then
+    '            Run.TextBox38.Text = "East Bound"
+    '            Run.TextBox37.Text = "EB Stopping"
+    '            Run.TextBox40.Text = SEB & " mph"
+    '            Run.TextBox39.Text = CInt(ATEB * (100 - ETCEB) / 100) & " vph"
+    '            Run.TextBox34.Text = "West Bound"
+    '            Run.TextBox42.Text = "WB Stopping"
+    '            Run.TextBox36.Text = SWB & " mph"
+    '            Run.TextBox41.Text = CInt(ATWB * (100 - ETCWB) / 100) & " vph"
+    '            If ETCEB > 0 Then
+    '                Run.TextBox32.Text = "EB ETC-only"
+    '                Run.TextBox35.Text = CInt(ATEB * ETCEB / 100) & " vph"
+    '            Else
+    '                Run.TextBox32.Text = ""
+    '                Run.TextBox35.Text = ""
+    '            End If
+    '            If ETCWB > 0 Then
+    '                Run.TextBox44.Text = "WB ETC-only"
+    '                Run.TextBox43.Text = CInt(ATWB * ETCWB / 100) & " vph"
+    '            Else
+    '                Run.TextBox44.Text = ""
+    '                Run.TextBox43.Text = ""
+    '            End If
+    '        Else
+    '            Run.TextBox38.Text = "North Bound"
+    '            Run.TextBox37.Text = "NB Stopping"
+    '            Run.TextBox40.Text = SNB & " mph"
+    '            Run.TextBox39.Text = CInt(ATNB * (100 - ETCNB) / 100) & " vph"
+    '            Run.TextBox34.Text = "South Bound"
+    '            Run.TextBox42.Text = "SB Stopping"
+    '            Run.TextBox36.Text = SSB & " mph"
+    '            Run.TextBox41.Text = CInt(ATSB * (100 - ETCSB) / 100) & " vph"
+    '            If ETCNB > 0 Then
+    '                Run.TextBox32.Text = "NB ETC-only"
+    '                Run.TextBox35.Text = CInt(ATNB * ETCNB / 100) & " vph"
+    '            Else
+    '                Run.TextBox32.Text = ""
+    '                Run.TextBox35.Text = ""
+    '            End If
+    '            If ETCSB > 0 Then
+    '                Run.TextBox44.Text = "SB ETC-only"
+    '                Run.TextBox43.Text = CInt(ATSB * ETCSB / 100) & " vph"
+    '            Else
+    '                Run.TextBox44.Text = ""
+    '                Run.TextBox43.Text = ""
+    '            End If
+    '        End If
 
-        ElseIf (IntType = "N-S Diamond" Or IntType = "E-W Diamond") Then
-            Run.TextBox38.Text = "Arterial"
-            Run.TextBox34.Text = "Freeway"
-            Run.TextBox37.Text = "Arterial"
-            Run.TextBox42.Text = "Freeway"
-            Run.TextBox40.Text = Speed & " mph"
-            Run.TextBox36.Text = HwySpeed & " mph"
-            Run.TextBox39.Text = ATMax & " vph"
-            Run.TextBox41.Text = FTMax & " vph"
-            Run.TextBox32.Text = ""
-            Run.TextBox35.Text = ""
-            Run.TextBox44.Text = ""
-            Run.TextBox43.Text = ""
-        Else
-            Run.TextBox38.Text = "Arterial"
-            Run.TextBox40.Text = Speed & " mph"
-            Run.TextBox37.Text = "Arterial"
-            Run.TextBox39.Text = ATMax & " vph"
-            Run.TextBox34.Text = ""
-            Run.TextBox36.Text = ""
-            Run.TextBox44.Text = ""
-            Run.TextBox42.Text = ""
-            Run.TextBox41.Text = ""
-            Run.TextBox32.Text = ""
-            Run.TextBox35.Text = ""
-            Run.TextBox44.Text = ""
-            Run.TextBox43.Text = ""
-        End If
+    '    ElseIf (IntType = "N-S Diamond" Or IntType = "E-W Diamond") Then
+    '        Run.TextBox38.Text = "Arterial"
+    '        Run.TextBox34.Text = "Freeway"
+    '        Run.TextBox37.Text = "Arterial"
+    '        Run.TextBox42.Text = "Freeway"
+    '        Run.TextBox40.Text = Speed & " mph"
+    '        Run.TextBox36.Text = HwySpeed & " mph"
+    '        Run.TextBox39.Text = ATMax & " vph"
+    '        Run.TextBox41.Text = FTMax & " vph"
+    '        Run.TextBox32.Text = ""
+    '        Run.TextBox35.Text = ""
+    '        Run.TextBox44.Text = ""
+    '        Run.TextBox43.Text = ""
+    '    Else
+    '        Run.TextBox38.Text = "Arterial"
+    '        Run.TextBox40.Text = Speed & " mph"
+    '        Run.TextBox37.Text = "Arterial"
+    '        Run.TextBox39.Text = ATMax & " vph"
+    '        Run.TextBox34.Text = ""
+    '        Run.TextBox36.Text = ""
+    '        Run.TextBox44.Text = ""
+    '        Run.TextBox42.Text = ""
+    '        Run.TextBox41.Text = ""
+    '        Run.TextBox32.Text = ""
+    '        Run.TextBox35.Text = ""
+    '        Run.TextBox44.Text = ""
+    '        Run.TextBox43.Text = ""
+    '    End If
 
-        Run.TextBox14.Text = Temperature & " °F"
-        Run.TextBox16.Text = RVP & " psi"
-        Run.TextBox18.Text = LandUse
-        Run.TextBox20.Text = CLASLetter
-        Run.TextBox22.Text = ZO & " cm"
-        Run.TextBox24.Text = Format(CSng(COBack1Hr), "#0.0") & " ppm"
-        Run.TextBox173.Text = Format(CSng(COBack8Hr), "#0.0") & " ppm"
+    '    Run.TextBox14.Text = Temperature & " °F"
+    '    Run.TextBox16.Text = RVP & " psi"
+    '    Run.TextBox18.Text = LandUse
+    '    Run.TextBox20.Text = CLASLetter
+    '    Run.TextBox22.Text = ZO & " cm"
+    '    Run.TextBox24.Text = Format(CSng(COBack1Hr), "#0.0") & " ppm"
+    '    Run.TextBox173.Text = Format(CSng(COBack8Hr), "#0.0") & " ppm"
 
-        'Outputs for intersections with 20 receptors or leaves blanks for the Tee Intersections with 17 receptors
-        If (IntType = "East Tee" Or IntType = "North Tee" Or IntType = "West Tee" Or IntType = "South Tee") Then
-            Run.TextBox125.Text = ""
-            Run.TextBox124.Text = ""
-            Run.TextBox123.Text = ""
-            Run.TextBox115.Text = ""
-            Run.TextBox114.Text = ""
-            Run.TextBox113.Text = ""
-            Run.TextBox105.Text = ""
-            Run.TextBox104.Text = ""
-            Run.TextBox103.Text = ""
-        Else
-            Run.TextBox125.Text = "18"
-            Run.TextBox124.Text = "19"
-            Run.TextBox123.Text = "20"
-            Run.TextBox115.Text = Format(Conc1(18), "#0.0")
-            Run.TextBox114.Text = Format(Conc1(19), "#0.0")
-            Run.TextBox113.Text = Format(Conc1(20), "#0.0")
-            Run.TextBox105.Text = Format(Conc8(18), "#0.0")
-            Run.TextBox104.Text = Format(Conc8(19), "#0.0")
-            Run.TextBox103.Text = Format(Conc8(20), "#0.0")
-        End If
+    '    'Outputs for intersections with 20 receptors or leaves blanks for the Tee Intersections with 17 receptors
+    '    If (IntType = "East Tee" Or IntType = "North Tee" Or IntType = "West Tee" Or IntType = "South Tee") Then
+    '        Run.TextBox125.Text = ""
+    '        Run.TextBox124.Text = ""
+    '        Run.TextBox123.Text = ""
+    '        Run.TextBox115.Text = ""
+    '        Run.TextBox114.Text = ""
+    '        Run.TextBox113.Text = ""
+    '        Run.TextBox105.Text = ""
+    '        Run.TextBox104.Text = ""
+    '        Run.TextBox103.Text = ""
+    '    Else
+    '        Run.TextBox125.Text = "18"
+    '        Run.TextBox124.Text = "19"
+    '        Run.TextBox123.Text = "20"
+    '        Run.TextBox115.Text = Format(Conc1(18), "#0.0")
+    '        Run.TextBox114.Text = Format(Conc1(19), "#0.0")
+    '        Run.TextBox113.Text = Format(Conc1(20), "#0.0")
+    '        Run.TextBox105.Text = Format(Conc8(18), "#0.0")
+    '        Run.TextBox104.Text = Format(Conc8(19), "#0.0")
+    '        Run.TextBox103.Text = Format(Conc8(20), "#0.0")
+    '    End If
 
-        Run.TextBox152.Text = Format(Conc1(1), "#0.0")
-        Run.TextBox151.Text = Format(Conc1(2), "#0.0")
-        Run.TextBox150.Text = Format(Conc1(3), "#0.0")
-        Run.TextBox149.Text = Format(Conc1(4), "#0.0")
-        Run.TextBox148.Text = Format(Conc1(5), "#0.0")
-        Run.TextBox147.Text = Format(Conc1(6), "#0.0")
-        Run.TextBox146.Text = Format(Conc1(7), "#0.0")
-        Run.TextBox145.Text = Format(Conc1(8), "#0.0")
-        Run.TextBox144.Text = Format(Conc1(9), "#0.0")
-        Run.TextBox143.Text = Format(Conc1(10), "#0.0")
-        Run.TextBox122.Text = Format(Conc1(11), "#0.0")
-        Run.TextBox121.Text = Format(Conc1(12), "#0.0")
-        Run.TextBox120.Text = Format(Conc1(13), "#0.0")
-        Run.TextBox119.Text = Format(Conc1(14), "#0.0")
-        Run.TextBox118.Text = Format(Conc1(15), "#0.0")
-        Run.TextBox117.Text = Format(Conc1(16), "#0.0")
-        Run.TextBox116.Text = Format(Conc1(17), "#0.0")
+    '    Run.TextBox152.Text = Format(Conc1(1), "#0.0")
+    '    Run.TextBox151.Text = Format(Conc1(2), "#0.0")
+    '    Run.TextBox150.Text = Format(Conc1(3), "#0.0")
+    '    Run.TextBox149.Text = Format(Conc1(4), "#0.0")
+    '    Run.TextBox148.Text = Format(Conc1(5), "#0.0")
+    '    Run.TextBox147.Text = Format(Conc1(6), "#0.0")
+    '    Run.TextBox146.Text = Format(Conc1(7), "#0.0")
+    '    Run.TextBox145.Text = Format(Conc1(8), "#0.0")
+    '    Run.TextBox144.Text = Format(Conc1(9), "#0.0")
+    '    Run.TextBox143.Text = Format(Conc1(10), "#0.0")
+    '    Run.TextBox122.Text = Format(Conc1(11), "#0.0")
+    '    Run.TextBox121.Text = Format(Conc1(12), "#0.0")
+    '    Run.TextBox120.Text = Format(Conc1(13), "#0.0")
+    '    Run.TextBox119.Text = Format(Conc1(14), "#0.0")
+    '    Run.TextBox118.Text = Format(Conc1(15), "#0.0")
+    '    Run.TextBox117.Text = Format(Conc1(16), "#0.0")
+    '    Run.TextBox116.Text = Format(Conc1(17), "#0.0")
 
-        Run.TextBox142.Text = Format(Conc8(1), "#0.0")
-        Run.TextBox141.Text = Format(Conc8(2), "#0.0")
-        Run.TextBox140.Text = Format(Conc8(3), "#0.0")
-        Run.TextBox139.Text = Format(Conc8(4), "#0.0")
-        Run.TextBox138.Text = Format(Conc8(5), "#0.0")
-        Run.TextBox137.Text = Format(Conc8(6), "#0.0")
-        Run.TextBox136.Text = Format(Conc8(7), "#0.0")
-        Run.TextBox135.Text = Format(Conc8(8), "#0.0")
-        Run.TextBox134.Text = Format(Conc8(9), "#0.0")
-        Run.TextBox133.Text = Format(Conc8(10), "#0.0")
-        Run.TextBox112.Text = Format(Conc8(11), "#0.0")
-        Run.TextBox111.Text = Format(Conc8(12), "#0.0")
-        Run.TextBox110.Text = Format(Conc8(13), "#0.0")
-        Run.TextBox109.Text = Format(Conc8(14), "#0.0")
-        Run.TextBox108.Text = Format(Conc8(15), "#0.0")
-        Run.TextBox107.Text = Format(Conc8(16), "#0.0")
-        Run.TextBox106.Text = Format(Conc8(17), "#0.0")
+    '    Run.TextBox142.Text = Format(Conc8(1), "#0.0")
+    '    Run.TextBox141.Text = Format(Conc8(2), "#0.0")
+    '    Run.TextBox140.Text = Format(Conc8(3), "#0.0")
+    '    Run.TextBox139.Text = Format(Conc8(4), "#0.0")
+    '    Run.TextBox138.Text = Format(Conc8(5), "#0.0")
+    '    Run.TextBox137.Text = Format(Conc8(6), "#0.0")
+    '    Run.TextBox136.Text = Format(Conc8(7), "#0.0")
+    '    Run.TextBox135.Text = Format(Conc8(8), "#0.0")
+    '    Run.TextBox134.Text = Format(Conc8(9), "#0.0")
+    '    Run.TextBox133.Text = Format(Conc8(10), "#0.0")
+    '    Run.TextBox112.Text = Format(Conc8(11), "#0.0")
+    '    Run.TextBox111.Text = Format(Conc8(12), "#0.0")
+    '    Run.TextBox110.Text = Format(Conc8(13), "#0.0")
+    '    Run.TextBox109.Text = Format(Conc8(14), "#0.0")
+    '    Run.TextBox108.Text = Format(Conc8(15), "#0.0")
+    '    Run.TextBox107.Text = Format(Conc8(16), "#0.0")
+    '    Run.TextBox106.Text = Format(Conc8(17), "#0.0")
 
-        'Prints pass/fail message
-        If PassFail = False Then
-            Run.TextBox171.Visible = True
-            Run.TextBox169.Visible = False
-        Else
-            Run.TextBox169.Visible = True
-            Run.TextBox171.Visible = False
-        End If
-    End Sub
+    '    'Prints pass/fail message
+    '    If PassFail = False Then
+    '        Run.TextBox171.Visible = True
+    '        Run.TextBox169.Visible = False
+    '    Else
+    '        Run.TextBox169.Visible = True
+    '        Run.TextBox171.Visible = False
+    '    End If
+    'End Sub
 
 
 
