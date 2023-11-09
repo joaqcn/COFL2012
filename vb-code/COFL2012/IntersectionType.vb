@@ -1,4 +1,8 @@
-﻿Public Class IntersectionType
+﻿Imports System
+Imports System.IO
+Imports System.Collections
+
+Public Class IntersectionType
     Private Sub PictureBox_Click(sender As Object, e As EventArgs)
         Select Case DirectCast(sender, PictureBox).Name
             Case "fourByFourPic"

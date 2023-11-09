@@ -135,6 +135,8 @@ Public Class Welcome
 
 
 
+
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         ' Hide the Welcome Page
@@ -149,6 +151,8 @@ Public Class Welcome
     End Sub
 
     Private Sub Welcome_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Gets the primary directory
+        PrimaryDirectory = Directory.GetCurrentDirectory()
 
     End Sub
 
