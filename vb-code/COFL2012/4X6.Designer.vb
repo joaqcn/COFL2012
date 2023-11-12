@@ -23,8 +23,8 @@ Partial Class _4X6
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(_4X6))
-        Button2 = New Button()
-        Button1 = New Button()
+        btnNext = New Button()
+        btnPrevious = New Button()
         Label8 = New Label()
         Label16 = New Label()
         Label19 = New Label()
@@ -59,29 +59,29 @@ Partial Class _4X6
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' Button2
+        ' btnNext
         ' 
-        Button2.BackColor = SystemColors.AppWorkspace
-        Button2.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Button2.ForeColor = SystemColors.ControlText
-        Button2.Location = New Point(1207, 744)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(105, 36)
-        Button2.TabIndex = 54
-        Button2.Text = "Run"
-        Button2.UseVisualStyleBackColor = False
+        btnNext.BackColor = SystemColors.AppWorkspace
+        btnNext.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
+        btnNext.ForeColor = SystemColors.ControlText
+        btnNext.Location = New Point(1207, 744)
+        btnNext.Name = "btnNext"
+        btnNext.Size = New Size(105, 36)
+        btnNext.TabIndex = 54
+        btnNext.Text = "Run"
+        btnNext.UseVisualStyleBackColor = False
         ' 
-        ' Button1
+        ' btnPrevious
         ' 
-        Button1.BackColor = SystemColors.AppWorkspace
-        Button1.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Button1.ForeColor = SystemColors.ControlText
-        Button1.Location = New Point(1096, 744)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(105, 36)
-        Button1.TabIndex = 53
-        Button1.Text = "Previous"
-        Button1.UseVisualStyleBackColor = False
+        btnPrevious.BackColor = SystemColors.AppWorkspace
+        btnPrevious.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
+        btnPrevious.ForeColor = SystemColors.ControlText
+        btnPrevious.Location = New Point(1096, 744)
+        btnPrevious.Name = "btnPrevious"
+        btnPrevious.Size = New Size(105, 36)
+        btnPrevious.TabIndex = 53
+        btnPrevious.Text = "Previous"
+        btnPrevious.UseVisualStyleBackColor = False
         ' 
         ' Label8
         ' 
@@ -157,7 +157,7 @@ Partial Class _4X6
         ' Label15
         ' 
         Label15.AutoSize = True
-        Label15.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label15.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label15.Location = New Point(1063, 486)
         Label15.Name = "Label15"
         Label15.Size = New Size(132, 42)
@@ -174,7 +174,7 @@ Partial Class _4X6
         ' Label14
         ' 
         Label14.AutoSize = True
-        Label14.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label14.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label14.Location = New Point(1073, 446)
         Label14.Name = "Label14"
         Label14.Size = New Size(104, 21)
@@ -184,7 +184,7 @@ Partial Class _4X6
         ' Label18
         ' 
         Label18.AutoSize = True
-        Label18.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label18.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label18.Location = New Point(407, 720)
         Label18.Name = "Label18"
         Label18.Size = New Size(132, 42)
@@ -194,7 +194,7 @@ Partial Class _4X6
         ' Label17
         ' 
         Label17.AutoSize = True
-        Label17.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label17.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label17.Location = New Point(420, 671)
         Label17.Name = "Label17"
         Label17.Size = New Size(104, 21)
@@ -238,7 +238,7 @@ Partial Class _4X6
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label6.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label6.Location = New Point(163, 384)
         Label6.Name = "Label6"
         Label6.Size = New Size(132, 42)
@@ -248,7 +248,7 @@ Partial Class _4X6
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label7.Location = New Point(181, 337)
         Label7.Name = "Label7"
         Label7.Size = New Size(104, 21)
@@ -292,7 +292,7 @@ Partial Class _4X6
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label3.Location = New Point(696, 176)
         Label3.Name = "Label3"
         Label3.Size = New Size(132, 42)
@@ -302,7 +302,7 @@ Partial Class _4X6
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label2.Location = New Point(722, 125)
         Label2.Name = "Label2"
         Label2.Size = New Size(104, 21)
@@ -331,11 +331,11 @@ Partial Class _4X6
         ' 
         ' _4X6
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
+        Controls.Add(btnNext)
+        Controls.Add(btnPrevious)
         Controls.Add(Label8)
         Controls.Add(Label16)
         Controls.Add(Label19)
@@ -374,8 +374,8 @@ Partial Class _4X6
         PerformLayout()
     End Sub
 
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnNext As Button
+    Friend WithEvents btnPrevious As Button
     Friend WithEvents Label8 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents Label19 As Label

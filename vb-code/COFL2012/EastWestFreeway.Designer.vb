@@ -37,8 +37,8 @@ Partial Class EastWestFreeway
         TextBox2 = New TextBox()
         TextBox8 = New TextBox()
         Label9 = New Label()
-        Button2 = New Button()
-        Button1 = New Button()
+        btnRun = New Button()
+        btnPrevious = New Button()
         Label8 = New Label()
         Label16 = New Label()
         PictureBox7 = New PictureBox()
@@ -189,29 +189,29 @@ Partial Class EastWestFreeway
         Label9.TabIndex = 149
         Label9.Text = "Arterial Speed (mph)"
         ' 
-        ' Button2
+        ' btnRun
         ' 
-        Button2.BackColor = SystemColors.AppWorkspace
-        Button2.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Button2.ForeColor = SystemColors.ControlText
-        Button2.Location = New Point(1207, 744)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(105, 36)
-        Button2.TabIndex = 148
-        Button2.Text = "Run"
-        Button2.UseVisualStyleBackColor = False
+        btnRun.BackColor = SystemColors.AppWorkspace
+        btnRun.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
+        btnRun.ForeColor = SystemColors.ControlText
+        btnRun.Location = New Point(1207, 744)
+        btnRun.Name = "btnRun"
+        btnRun.Size = New Size(105, 36)
+        btnRun.TabIndex = 148
+        btnRun.Text = "Run"
+        btnRun.UseVisualStyleBackColor = False
         ' 
-        ' Button1
+        ' btnPrevious
         ' 
-        Button1.BackColor = SystemColors.AppWorkspace
-        Button1.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Button1.ForeColor = SystemColors.ControlText
-        Button1.Location = New Point(1096, 744)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(105, 36)
-        Button1.TabIndex = 147
-        Button1.Text = "Previous"
-        Button1.UseVisualStyleBackColor = False
+        btnPrevious.BackColor = SystemColors.AppWorkspace
+        btnPrevious.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
+        btnPrevious.ForeColor = SystemColors.ControlText
+        btnPrevious.Location = New Point(1096, 744)
+        btnPrevious.Name = "btnPrevious"
+        btnPrevious.Size = New Size(105, 36)
+        btnPrevious.TabIndex = 147
+        btnPrevious.Text = "Previous"
+        btnPrevious.UseVisualStyleBackColor = False
         ' 
         ' Label8
         ' 
@@ -425,8 +425,8 @@ Partial Class EastWestFreeway
         Controls.Add(TextBox2)
         Controls.Add(TextBox8)
         Controls.Add(Label9)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
+        Controls.Add(btnRun)
+        Controls.Add(btnPrevious)
         Controls.Add(Label8)
         Controls.Add(Label16)
         Controls.Add(PictureBox7)
@@ -472,8 +472,8 @@ Partial Class EastWestFreeway
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label9 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnRun As Button
+    Friend WithEvents btnPrevious As Button
     Friend WithEvents Label8 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents PictureBox7 As PictureBox
