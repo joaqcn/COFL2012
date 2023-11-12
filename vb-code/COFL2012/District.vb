@@ -1,8 +1,12 @@
-﻿Public Class District
+﻿Imports System.IO
+
+Public Class District
     '*************************************************************************************************************************************
     '******************************************************Form Load and Close Subroutines***********************************************************
     '*************************************************************************************************************************************
     Private Sub District_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'Gets the primary directory
+        Welcome.PrimaryDirectory = Directory.GetCurrentDirectory()
         Welcome.InputsCorrect(2) = False
         'Calls Sub to Initialize District Form
         InitDistrict()
@@ -196,36 +200,36 @@
         'AllRegButtons()
 
         ''Loads Stored District Number
-        'Select Case Welcome.DistrictNum
-        '    Case 1
-        '        Button8.Visible = True
-        '        PictureBox13.Visible = True
-        '        InputsCorrect(2) = True
-        '    Case 2
-        '        Button9.Visible = True
-        '        PictureBox14.Visible = True
-        '        InputsCorrect(2) = True
-        '    Case 3
-        '        Button10.Visible = True
-        '        PictureBox15.Visible = True
-        '        InputsCorrect(2) = True
-        '    Case 4
-        '        Button11.Visible = True
-        '        PictureBox16.Visible = True
-        '        InputsCorrect(2) = True
-        '    Case 5
-        '        Button12.Visible = True
-        '        PictureBox17.Visible = True
-        '        InputsCorrect(2) = True
-        '    Case 6
-        '        Button13.Visible = True
-        '        PictureBox18.Visible = True
-        '        InputsCorrect(2) = True
-        '    Case 7
-        '        Button14.Visible = True
-        '        PictureBox19.Visible = True
-        '        InputsCorrect(2) = True
-        'End Select
+        Select Case Welcome.DistrictNum
+            Case 1
+                '        Button8.Visible = True
+                '        PictureBox13.Visible = True
+                Welcome.InputsCorrect(2) = True
+            Case 2
+                '        Button9.Visible = True
+                '        PictureBox14.Visible = True
+                Welcome.InputsCorrect(2) = True
+            Case 3
+                '        Button10.Visible = True
+                '        PictureBox15.Visible = True
+                Welcome.InputsCorrect(2) = True
+            Case 4
+                '        Button11.Visible = True
+                '        PictureBox16.Visible = True
+                Welcome.InputsCorrect(2) = True
+            Case 5
+                '        Button12.Visible = True
+                '        PictureBox17.Visible = True
+                Welcome.InputsCorrect(2) = True
+            Case 6
+                '        Button13.Visible = True
+                '        PictureBox18.Visible = True
+                Welcome.InputsCorrect(2) = True
+            Case 7
+                '        Button14.Visible = True
+                '        PictureBox19.Visible = True
+                Welcome.InputsCorrect(2) = True
+        End Select
 
         ''Makes PictureBox11 visible and hides all the others
         'PictureBox11.Visible = True

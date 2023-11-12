@@ -974,56 +974,56 @@ Public Class IntersectionType
     '**************************************************************************************************************************
     '**********************************************Handle Click-Clicks on Images**********************************************
     '**************************************************************************************************************************
-    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
         Select4X4()
         My.Forms._4X4.Show()
         Me.Visible = False
     End Sub
 
 
-    Private Sub PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox3.Click
         Select4X6()
         My.Forms._4X6.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox4.Click
         Select6X4()
         My.Forms._6X4.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox2.Click
         Select6X6()
         My.Forms._6X6.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub PictureBox5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox5.Click
         SelectEastTee()
         My.Forms.East_Tee.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub PictureBox8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox8.Click
         SelectNorthTee()
         My.Forms.North_Tee.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub PictureBox9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox9.Click
         SelectTollBooth()
         My.Forms.TollBoothEW.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub PictureBox7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox7.Click
         SelectWestTee()
         My.Forms.WestTee.Show()
         Me.Visible = False
     End Sub
 
-    Private Sub PictureBox6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub PictureBox6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox6.Click
         SelectSouthTee()
         My.Forms.SouthTee.Show()
         Me.Visible = False
@@ -1040,6 +1040,7 @@ Public Class IntersectionType
         My.Forms.EastWestFreeway.Show()
         Me.Visible = False
     End Sub
+
 
 End Class
 

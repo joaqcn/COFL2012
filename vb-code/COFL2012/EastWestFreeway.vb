@@ -3,10 +3,103 @@ Imports System.Text.Encodings
 
 Public Class EastWestFreeway
 
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-
+    '*************************************************************************************************************************************
+    '******************************************************Form Load and Close Subroutines***********************************************************
+    '*************************************************************************************************************************************
+    Private Sub EastWestFreeway_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        InitEWDiamond()
     End Sub
+
+    Private Sub Form_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
+        Application.Exit()
+    End Sub
+
+
+    ''*************************************************************************************************************************************
+    ''************************************************Top Navigation Menus and Buttons*****************************************************
+    ''*************************************************************************************************************************************
+    'Private Sub NewToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NewToolStripButton.Click
+    '    ClearAll()
+    '    District.InitDistrict()
+    '    IntersectionType.InitIntType()
+    '    My.Forms.Title.Show()
+    '    Me.Visible = False
+    '    Title.InitTitle()
+    'End Sub
+
+    'Private Sub ToolStripButton2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OpenToolStripButton.Click
+    '    OpenFileDialog1.InitialDirectory = PrimaryDirectory & "\UsrFiles\"
+    '    OpenFileDialog1.Filter = "Input files (*in)|*.in|All files (*.*)|*.*"
+    '    OpenFileDialog1.FileName = ""
+
+    '    If OpenFileDialog1.ShowDialog() = DialogResult.OK Then
+    '        FDOTin = OpenFileDialog1.FileName
+    '        OpenFile()
+    '        My.Forms.Title.Show()
+    '        Me.Visible = False
+    '        Title.InitTitle()
+    '        District.InitDistrict()
+    '        IntersectionType.InitIntType()
+    '    End If
+    'End Sub
+
+    'Private Sub ToolStripButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SaveToolStripButton.Click
+    '    'Writes user program run inputs to text file
+    '    SaveFileDialog1.InitialDirectory = PrimaryDirectory & "\UsrFiles\"
+    '    SaveFileDialog1.Filter = "Input files (*.in)|*.in|All files (*.*)|*.*"
+    '    SaveFileDialog1.FileName = ""
+
+    '    If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
+    '        FDOTin = SaveFileDialog1.FileName
+    '        SaveFile()
+    '    End If
+    'End Sub
+
+    'Private Sub AboutToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripButton.Click
+    '    My.Forms.About.Show()
+    'End Sub
+
+    'Private Sub ToolStripButton7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TitleToolStripButton.Click
+    '    QuickVerify = True
+    '    VerifyEWDiamondForm()
+    '    QuickVerify = False
+    '    My.Forms.Title.Show()
+    '    Me.Visible = False
+    'End Sub
+
+    'Private Sub ToolStripButton8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DistrictToolStripButton.Click
+    '    QuickVerify = True
+    '    VerifyEWDiamondForm()
+    '    QuickVerify = False
+    '    My.Forms.District.Show()
+    '    Me.Visible = False
+    'End Sub
+
+    'Private Sub ToolStripButton9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles IntersectionTypeToolStripButton.Click
+    '    QuickVerify = True
+    '    VerifyEWDiamondForm()
+    '    QuickVerify = False
+    '    My.Forms.IntersectionType.Show()
+    '    Me.Visible = False
+    'End Sub
+
+    'Private Sub ToolStripButton11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RunToolStripButton.Click
+    '    'Call the routine to check form inputs
+    '    VerifyEWDiamondForm()
+
+    '    'Verifies that all input forms have been completed before making a run
+    '    If (InputsCorrect(1) = True And InputsCorrect(2) = True And InputsCorrect(3) = True And InputsCorrect(4) = True) Then
+    '        BuildEWDiamond()
+    '        MakeARun()
+    '        Me.Visible = False
+    '    Else
+    '        If InputsCorrect(4) = True Then
+    '            MsgBox("A run cannot be made until all input forms have been completed.", 0, "CO Florida 2012")
+    '        End If
+    '    End If
+    'End Sub
+
+
     '************************************************************************************************************************
     '***********************************************Initializes E-W Diamond Form*********************************************
     '************************************************************************************************************************
@@ -301,6 +394,36 @@ Public Class EastWestFreeway
         End If
 
     End Sub
+
+    '***************************************************************************************************************************
+    '***********************************************Bottom navigation buttons***************************************************
+    '***************************************************************************************************************************
+    Private Sub btnPrevious_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPrevious.Click
+        Welcome.QuickVerify = True
+        VerifyEWDiamondForm()
+        Welcome.QuickVerify = False
+        My.Forms.IntersectionType.Show()
+        Me.Visible = False
+    End Sub
+
+
+    Private Sub btnRun_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPrevious.Click
+        'Call the routine to check form inputs
+        VerifyEWDiamondForm()
+
+        'Verifies that all input forms have been completed before making a run
+        If (Welcome.InputsCorrect(1) = True And Welcome.InputsCorrect(2) = True And Welcome.InputsCorrect(3) = True And Welcome.InputsCorrect(4) = True) Then
+            Welcome.BuildEWDiamond()
+            'Welcome.MakeARun()
+            Me.Visible = False
+        Else
+            If Welcome.InputsCorrect(4) = True Then
+                MsgBox("A run cannot be made until all input forms have been completed.", 0, "CO Florida 2012")
+            End If
+        End If
+
+    End Sub
+
 
     '***************************************************************************************************************************
     '*******************************************Changes to variables in input fields********************************************

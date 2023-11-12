@@ -23,8 +23,8 @@ Partial Class _6X4
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(_6X4))
-        Button2 = New Button()
-        Button1 = New Button()
+        btnNext = New Button()
+        btnPrevious = New Button()
         Label8 = New Label()
         Label16 = New Label()
         Label19 = New Label()
@@ -59,29 +59,29 @@ Partial Class _6X4
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' Button2
+        ' btnNext
         ' 
-        Button2.BackColor = SystemColors.AppWorkspace
-        Button2.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Button2.ForeColor = SystemColors.ControlText
-        Button2.Location = New Point(1207, 744)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(105, 36)
-        Button2.TabIndex = 83
-        Button2.Text = "Run"
-        Button2.UseVisualStyleBackColor = False
+        btnNext.BackColor = SystemColors.AppWorkspace
+        btnNext.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
+        btnNext.ForeColor = SystemColors.ControlText
+        btnNext.Location = New Point(1207, 744)
+        btnNext.Name = "btnNext"
+        btnNext.Size = New Size(105, 36)
+        btnNext.TabIndex = 83
+        btnNext.Text = "Run"
+        btnNext.UseVisualStyleBackColor = False
         ' 
-        ' Button1
+        ' btnPrevious
         ' 
-        Button1.BackColor = SystemColors.AppWorkspace
-        Button1.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Button1.ForeColor = SystemColors.ControlText
-        Button1.Location = New Point(1096, 744)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(105, 36)
-        Button1.TabIndex = 82
-        Button1.Text = "Previous"
-        Button1.UseVisualStyleBackColor = False
+        btnPrevious.BackColor = SystemColors.AppWorkspace
+        btnPrevious.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
+        btnPrevious.ForeColor = SystemColors.ControlText
+        btnPrevious.Location = New Point(1096, 744)
+        btnPrevious.Name = "btnPrevious"
+        btnPrevious.Size = New Size(105, 36)
+        btnPrevious.TabIndex = 82
+        btnPrevious.Text = "Previous"
+        btnPrevious.UseVisualStyleBackColor = False
         ' 
         ' Label8
         ' 
@@ -334,8 +334,8 @@ Partial Class _6X4
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
+        Controls.Add(btnNext)
+        Controls.Add(btnPrevious)
         Controls.Add(Label8)
         Controls.Add(Label16)
         Controls.Add(Label19)
@@ -374,8 +374,8 @@ Partial Class _6X4
         PerformLayout()
     End Sub
 
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnNext As Button
+    Friend WithEvents btnPrevious As Button
     Friend WithEvents Label8 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents Label19 As Label

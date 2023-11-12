@@ -2,9 +2,109 @@
 Imports System.Text.Encodings
 
 Public Class _4X6
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
+    '*************************************************************************************************************************************
+    '******************************************************Form Load and Close Subroutines***********************************************************
+    '*************************************************************************************************************************************
+    Private Sub I02_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Init4X6()
     End Sub
+
+    Private Sub Form_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+        Application.Exit()
+    End Sub
+
+
+    ''*************************************************************************************************************************************
+    ''************************************************Top Navigation Menus and Buttons*****************************************************
+    ''*************************************************************************************************************************************
+    'Private Sub ToolStripButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton1.Click
+    '    ClearAll()
+    '    District.InitDistrict()
+    '    IntersectionType.InitIntType()
+    '    My.Forms.Title.Show()
+    '    Me.Visible = False
+    '    Title.InitTitle()
+    'End Sub
+
+    'Private Sub ToolStripButton2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton2.Click
+    '    OpenFileDialog1.InitialDirectory = PrimaryDirectory & "\UsrFiles\"
+    '    OpenFileDialog1.Filter = "Input files (*in)|*.in|All files (*.*)|*.*"
+    '    OpenFileDialog1.FileName = ""
+
+    '    If OpenFileDialog1.ShowDialog() = DialogResult.OK Then
+    '        FDOTin = OpenFileDialog1.FileName
+    '        OpenFile()
+    '        My.Forms.Title.Show()
+    '        Me.Visible = False
+    '        Title.InitTitle()
+    '        District.InitDistrict()
+    '        IntersectionType.InitIntType()
+    '    End If
+    'End Sub
+
+    'Private Sub ToolStripButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton3.Click
+    '    'Writes user program run inputs to text file
+    '    SaveFileDialog1.InitialDirectory = PrimaryDirectory & "\UsrFiles\"
+    '    SaveFileDialog1.Filter = "Input files (*.in)|*.in|All files (*.*)|*.*"
+    '    SaveFileDialog1.FileName = ""
+
+    '    If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
+    '        FDOTin = SaveFileDialog1.FileName
+    '        SaveFile()
+    '    End If
+    'End Sub
+
+    'Private Sub AboutToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripButton.Click
+    '    My.Forms.About.Show()
+    'End Sub
+
+
+    'Private Sub ToolStripButton12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton12.Click
+    '    My.Forms.About.Show()
+    'End Sub
+
+    'Private Sub ToolStripButton7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton7.Click
+    '    QuickVerify = True
+    '    Verify4X6Form()
+    '    QuickVerify = False
+    '    My.Forms.Title.Show()
+    '    Me.Visible = False
+    'End Sub
+
+    'Private Sub ToolStripButton8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton8.Click
+    '    QuickVerify = True
+    '    Verify4X6Form()
+    '    QuickVerify = False
+    '    My.Forms.District.Show()
+    '    Me.Visible = False
+    'End Sub
+
+
+    'Private Sub ToolStripButton9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton9.Click
+    '    QuickVerify = True
+    '    Verify4X6Form()
+    '    QuickVerify = False
+    '    My.Forms.IntersectionType.Show()
+    '    Me.Visible = False
+    'End Sub
+
+    'Private Sub ToolStripButton11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton11.Click
+    '    'Call the routine to check form C
+    '    Verify4X6Form()
+
+    '    'Verifies that all input forms have been completed before making a run
+    '    If (InputsCorrect(1) = True And InputsCorrect(2) = True And InputsCorrect(3) = True And InputsCorrect(4) = True) Then
+    '        Build4X6()
+    '        MakeARun()
+    '        Me.Visible = False
+    '    Else
+    '        If InputsCorrect(4) = True Then
+    '            MsgBox("A run cannot be made until all input forms have been completed.", 0, "CO Florida 2012")
+    '        End If
+    '    End If
+
+    'End Sub
 
     '************************************************************************************************************************
     '***************************************Initializes 4X6 Form*************************************************************
@@ -214,6 +314,71 @@ Public Class _4X6
             End If
         End If
     End Sub
+    '***************************************************************************************************************************
+    '***********************************************Bottom navigation buttons***************************************************
+    '***************************************************************************************************************************
+    Private Sub btnNext_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnNext.Click
+        'Call the routine to check form inputs
+        Verify4X6Form()
+
+        'Verifies that all input forms have been completed before making a run
+        If (Welcome.InputsCorrect(1) = True And Welcome.InputsCorrect(2) = True And Welcome.InputsCorrect(3) = True And Welcome.InputsCorrect(4) = True) Then
+            Welcome.Build4X6()
+            ' Welcome.MakeARun()
+            Me.Visible = False
+        Else
+            If Welcome.InputsCorrect(4) = True Then
+                MsgBox("A run cannot be made until all input forms have been completed.", 0, "CO Florida 2012")
+            End If
+        End If
+    End Sub
+
+
+    Private Sub btnPrevious_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPrevious.Click
+        Welcome.QuickVerify = True
+        Verify4X6Form()
+        Welcome.QuickVerify = False
+        My.Forms.IntersectionType.Show()
+        Me.Visible = False
+    End Sub
+
+
+    '***************************************************************************************************************************
+    '*******************************************Changes to variables in input fields********************************************
+    '***************************************************************************************************************************
+
+    Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.TextChanged
+        Welcome.SSB = TextBox1.Text
+    End Sub
+
+    Private Sub TextBox2_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox2.TextChanged
+        Welcome.ATSB = TextBox2.Text
+    End Sub
+
+    Private Sub TextBox4_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox4.TextChanged
+        Welcome.SWB = TextBox4.Text
+    End Sub
+
+    Private Sub TextBox3_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox3.TextChanged
+        Welcome.ATWB = TextBox3.Text
+    End Sub
+
+    Private Sub TextBox8_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox8.TextChanged
+        Welcome.SNB = TextBox8.Text
+    End Sub
+
+    Private Sub TextBox7_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox7.TextChanged
+        Welcome.ATNB = TextBox7.Text
+    End Sub
+
+    Private Sub TextBox6_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox6.TextChanged
+        Welcome.SEB = TextBox6.Text
+    End Sub
+
+    Private Sub TextBox5_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox5.TextChanged
+        Welcome.ATEB = TextBox5.Text
+    End Sub
+
 
 
 End Class

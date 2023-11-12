@@ -169,8 +169,12 @@ Public Class Welcome
         Dim i As Integer
         Dim j As Integer
 
+
+        Console.WriteLine($"Current Directory: {Directory.GetCurrentDirectory()}")
+
         'Opens the Appropriate EF File for the Selected District
         Directory.SetCurrentDirectory(PrimaryDirectory)
+
         Select Case DistrictNum
             Case 1
                 StreamToDisplay = New StreamReader("EFTextFiles\Dist1EF.txt")
