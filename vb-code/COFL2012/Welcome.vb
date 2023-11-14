@@ -1,8 +1,7 @@
 ﻿Imports System
 Imports System.IO
 Imports System.Collections
-
-
+Imports System.CodeDom.Compiler
 
 Public Class Welcome
     'General Global Variables
@@ -156,6 +155,96 @@ Public Class Welcome
 
     End Sub
 
+
+    '****************************************************************************************************
+    '****************************************Sub MakeARun************************************************
+    '****************************************************************************************************
+    Public Sub MakeARun()
+        'Calls WriteCAL3QIN
+        WriteCAL3QHCIN()
+
+        'Calls GenerateOutput
+        GeneratedCodeAttribute()
+
+        My.Forms.Results.Show()
+    End Sub
+
+    '****************************************************************************************************
+    '***************************Sub ClearAll - Clears all inputs for a new user run**********************
+    '****************************************************************************************************
+    Public Sub ClearAll()
+        Dim i As Integer
+        Dim TempIntType As String
+
+        TempIntType = IntType
+
+        Job = ""
+        FacilityName = ""
+        UsersName = ""
+        RunName = ""
+        ProjectYear = ""
+        LandUse = ""
+        ZO = 0
+        CLAS = 0
+        NL = 0
+        COBack1Hr = 0
+        DistrictNum = 0
+        IntType = ""
+        NR = 0
+        SNB = ""
+        ATNB = ""
+        SEB = ""
+        ATEB = ""
+        SSB = ""
+        ATSB = ""
+        SWB = ""
+        ATWB = ""
+        ATMax = 0
+        ATLeft = 0
+        ATRight = 0
+        ATQ = 0
+        FTMax = 0
+        FTLeft = 0
+        FTRight = 0
+        ORNB = ""
+        OREB = ""
+        ORSB = ""
+        ORWB = ""
+        ETCSB = ""
+        ETCWB = ""
+        ETCNB = ""
+        ETCEB = ""
+
+        For i = 1 To 20
+            XR(i) = 0
+            YR(i) = 0
+        Next
+
+        Select Case TempIntType
+            Case "4 X 4"
+                _4X4.Init4X4()
+            Case "4 X 6"
+                _4X6.Init4X6()
+            Case ("6 X 4")
+                _6X4.Init6X4()
+            Case ("6 X 6")
+                _6X6.Init6X6()
+            Case "East Tee"
+                East_Tee.InitEastTee()
+            Case ("North Tee")
+                North_Tee.InitNorthTee()
+            Case ("Toll Booth")
+                TollBoothEW.InitTollBooth()
+            Case ("West Tee")
+                WestTee.InitWestTee()
+            Case ("South Tee")
+                SouthTee.InitSouthTee()
+            Case ("N-S Diamond")
+                NorthSouthFreeway.InitNSDiamond()
+            Case ("E-W Diamond")
+                EastWestFreeway.InitEWDiamond()
+        End Select
+    End Sub
 
 
 
