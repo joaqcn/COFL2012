@@ -447,8 +447,9 @@ Partial Class EastWestFreeway
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "EastWestFreeway"
-        Text = "EastWestFreeway"
+        Text = "CO Florida 2012 - Diamond Interchange : E-W Freeway"
         CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()

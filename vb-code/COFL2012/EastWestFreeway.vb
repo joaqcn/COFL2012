@@ -398,7 +398,7 @@ Public Class EastWestFreeway
     '***************************************************************************************************************************
     '***********************************************Bottom navigation buttons***************************************************
     '***************************************************************************************************************************
-    Private Sub btnPrevious_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPrevious.Click
+    Private Sub btnPrevious_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Welcome.QuickVerify = True
         VerifyEWDiamondForm()
         Welcome.QuickVerify = False

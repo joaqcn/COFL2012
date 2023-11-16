@@ -13,16 +13,16 @@ Public Class Title
         Welcome.LandUse = roadType
     End Sub
 
-    Private Sub urban_button_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub urban_button_Click(sender As Object, e As EventArgs)
         roadType = "Urban"
 
     End Sub
 
-    Private Sub suburban_button_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub suburban_button_Click(sender As Object, e As EventArgs)
         roadType = "Suburban"
     End Sub
 
-    Private Sub rural_button_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub rural_button_Click(sender As Object, e As EventArgs)
         roadType = "Rural"
     End Sub
 

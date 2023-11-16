@@ -22,6 +22,7 @@ Partial Class District
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(District))
         Label1 = New Label()
         Panel1 = New Panel()
         Button7 = New Button()
@@ -198,8 +199,9 @@ Partial Class District
         Controls.Add(PictureBox1)
         Controls.Add(Panel1)
         Controls.Add(Label1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "District"
-        Text = "District"
+        Text = "CO Florida 2012 - District"
         Panel1.ResumeLayout(False)
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()

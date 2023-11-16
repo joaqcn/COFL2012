@@ -472,8 +472,9 @@ Partial Class TollBoothEW
         Controls.Add(Label7)
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "TollBoothEW"
-        Text = "TollBooth"
+        Text = "CO Florida 2012 - Toll Booth Design"
         CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()

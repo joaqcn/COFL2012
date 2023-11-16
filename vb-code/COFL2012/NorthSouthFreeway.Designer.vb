@@ -435,8 +435,9 @@ Partial Class NorthSouthFreeway
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "NorthSouthFreeway"
-        Text = "NorthSouthFreeway"
+        Text = "CO Florida 2012 - Diamond Interchange : N-S Freeway"
         CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()

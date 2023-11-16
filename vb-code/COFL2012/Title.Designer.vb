@@ -22,6 +22,7 @@ Partial Class Title
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Title))
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
@@ -221,9 +222,10 @@ Partial Class Title
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         MaximizeBox = False
         Name = "Title"
-        Text = "projectDescription"
+        Text = "CO Florida 2012 - Title"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()

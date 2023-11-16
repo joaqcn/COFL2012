@@ -22,6 +22,7 @@ Partial Class IntersectionType
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(IntersectionType))
         Label1 = New Label()
         PictureBox1 = New PictureBox()
         Label2 = New Label()
@@ -349,8 +350,9 @@ Partial Class IntersectionType
         Controls.Add(Label2)
         Controls.Add(PictureBox1)
         Controls.Add(Label1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "IntersectionType"
-        Text = "IntersectionType"
+        Text = "CO Florida 2012 - Intersection Type"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()

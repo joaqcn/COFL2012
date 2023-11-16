@@ -296,8 +296,9 @@ Partial Class SouthTee
         Controls.Add(Label7)
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "SouthTee"
-        Text = "SouthTee"
+        Text = "CO Florida 2012 - South Tee"
         CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
