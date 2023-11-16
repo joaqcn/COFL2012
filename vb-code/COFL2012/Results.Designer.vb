@@ -22,6 +22,7 @@ Partial Class Results
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Results))
         Label1 = New Label()
         Label3 = New Label()
         Label4 = New Label()
@@ -139,6 +140,9 @@ Partial Class Results
         TextBox123 = New TextBox()
         TextBox171 = New TextBox()
         TextBox169 = New TextBox()
+        SaveFileDialog1 = New SaveFileDialog()
+        PrintDialog1 = New PrintDialog()
+        PrintDocument1 = New Printing.PrintDocument()
         SuspendLayout()
         ' 
         ' Label1
@@ -1191,6 +1195,13 @@ Partial Class Results
         TextBox169.Text = "****************************PROJECT PASSES**************************" & vbCrLf & "NO EXCEEDANCES OF NAAQ STANDARDS ARE PREDICTED" & vbCrLf & vbCrLf & vbCrLf
         TextBox169.TextAlign = HorizontalAlignment.Center
         ' 
+        ' PrintDialog1
+        ' 
+        PrintDialog1.UseEXDialog = True
+        ' 
+        ' PrintDocument1
+        ' 
+        ' 
         ' Results
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -1313,8 +1324,10 @@ Partial Class Results
         Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Results"
-        Text = "Intersection Type"
+        RightToLeftLayout = True
+        Text = "CO Florida 2012 - Results"
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -1436,4 +1449,7 @@ Partial Class Results
     Friend WithEvents TextBox123 As TextBox
     Friend WithEvents TextBox171 As TextBox
     Friend WithEvents TextBox169 As TextBox
+    Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents PrintDialog1 As PrintDialog
+    Friend WithEvents PrintDocument1 As Printing.PrintDocument
 End Class
