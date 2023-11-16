@@ -1,34 +1,33 @@
 ﻿Imports System.Drawing.Printing
 Imports System.Runtime.Intrinsics.X86
 Imports System.Text.Encodings
+Imports System.IO
 
 Public Class Results
 
     Dim FinalClose As Boolean = False
 
-
-
     '*************************************************************************************************************************************
     '******************************************************Form Load and Close Subroutines***********************************************************
     '*************************************************************************************************************************************
 
-    'Private Sub Form_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
-    '    If FinalClose = False Then
-    '        Welcome.TestMsg = MsgBox("Click 'Yes' to save inputs or 'No' to exit without saving.", vbYesNo, "Save data?")
-    '        If Welcome.TestMsg = vbYes Then
-    '            SaveFileDialog1.InitialDirectory = PrimaryDirectory & "\UsrFiles\"
-    '            SaveFileDialog1.Filter = "Input files (*.in)|*.in|All files (*.*)|*.*"
-    '            SaveFileDialog1.FileName = ""
+    Private Sub Form_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
+        If FinalClose = False Then
+            Welcome.TestMsg = MsgBox("Click 'Yes' to save inputs or 'No' to exit without saving.", vbYesNo, "Save data?")
+            If Welcome.TestMsg = vbYes Then
+                SaveFileDialog1.InitialDirectory = Welcome.PrimaryDirectory & "\UsrFiles\"
+                SaveFileDialog1.Filter = "Input files (*.in)|*.in|All files (*.*)|*.*"
+                SaveFileDialog1.FileName = ""
 
-    '            If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
-    '                Welcome.FDOTin = SaveFileDialog1.FileName
-    '                Welcome.SaveFile()
-    '            End If
-    '        End If
-    '    End If
-    '    FinalClose = True
-    '    Application.Exit()
-    'End Sub
+                If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
+                    Welcome.FDOTin = SaveFileDialog1.FileName
+                    Welcome.SaveFile()
+                End If
+            End If
+        End If
+        FinalClose = True
+        Application.Exit()
+    End Sub
 
 
 
@@ -633,7 +632,7 @@ Public Class Results
     '****************************************************************************************************************************************
     '**********************************************Bottom Navigation Buttons*****************************************************************
     '***************************************************************************************************************************************
-    Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs)
         PrintDialog1.PrinterSettings = PrintDocument1.PrinterSettings
         If PrintDialog1.ShowDialog() = Windows.Forms.DialogResult.OK Then
             PrintDocument1.PrinterSettings = PrintDialog1.PrinterSettings
@@ -641,9 +640,9 @@ Public Class Results
         End If
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
-        TestMsg = MsgBox("Click 'Yes' to save inputs or 'No' to return to the Intersection Data screen without saving.", vbYesNo, "Save data?")
-        If TestMsg = vbYes Then
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Welcome.TestMsg = MsgBox("Click 'Yes' to save inputs or 'No' to return to the Intersection Data screen without saving.", vbYesNo, "Save data?")
+        If Welcome.TestMsg = vbYes Then
             SaveFileDialog1.InitialDirectory = Welcome.PrimaryDirectory & "\UsrFiles\"
             SaveFileDialog1.Filter = "Input files (*.in)|*.in|All files (*.*)|*.*"
             SaveFileDialog1.FileName = ""
@@ -654,43 +653,43 @@ Public Class Results
             End If
         End If
 
-        Select Case IntType
+        Select Case Welcome.IntType
             Case ""
-                My.Forms.Int4X4.Show()
+                My.Forms._4X4.Show()
             Case "4 X 4"
-                My.Forms.Int4X4.Show()
+                My.Forms._4X6.Show()
             Case "4 X 6"
-                My.Forms.Int4X6.Show()
+                My.Forms._4X6.Show()
             Case "6 X 4"
-                My.Forms.Int6X4.Show()
+                My.Forms._6X4.Show()
             Case "6 X 6"
-                My.Forms.Int6X6.Show()
+                My.Forms._6X6.Show()
             Case "East Tee"
-                My.Forms.EastTee.Show()
+                My.Forms.East_Tee.Show()
             Case "North Tee"
-                My.Forms.NorthTee.Show()
+                My.Forms.North_Tee.Show()
             Case "Toll Booth"
-                My.Forms.TollBooth.Show()
+                My.Forms.TollBoothEW.Show()
             Case "West Tee"
                 My.Forms.WestTee.Show()
             Case "South Tee"
                 My.Forms.SouthTee.Show()
             Case "N-S Diamond"
-                My.Forms.NSDiamond.Show()
+                My.Forms.NorthSouthFreeway.Show()
             Case "E-W Diamond"
-                My.Forms.I11.Show()
+                My.Forms.EastWestFreeway.Show()
         End Select
 
         Me.Visible = False
     End Sub
 
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         SaveOutputFile()
     End Sub
 
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         Welcome.TestMsg = MsgBox("Click 'Yes' to save inputs or 'No' to return to the Title screen without saving.", vbYesNo, "Save data?")
         If Welcome.TestMsg = vbYes Then
             SaveFileDialog1.InitialDirectory = Welcome.PrimaryDirectory & "\UsrFiles\"
@@ -707,11 +706,6 @@ Public Class Results
         Me.Visible = False
     End Sub
 
-    Private Sub Results_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 
-    Private Sub TextBox9_TextChanged(sender As Object, e As EventArgs) Handles TextBox171.TextChanged
-
-    End Sub
 End Class
