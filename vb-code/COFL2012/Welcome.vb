@@ -557,16 +557,16 @@ Public Class Welcome
 
         If IntType = "Toll Booth" Then
             If EWTollBooth = True Then
-                Results..TextBox30.Text = "E-W Freeway " & IntType
+                Results.TextBox30.Text = "E-W Freeway " & IntType
             Else
-                Results..TextBox30.Text = "N-S Freeway " & IntType
+                Results.TextBox30.Text = "N-S Freeway " & IntType
             End If
         Else
-            Results..TextBox30.Text = IntType
+            Results.TextBox30.Text = IntType
         End If
 
-        Results..TextBox38.Text = "Speed"
-        Results..TextBox37.Text = "Approach Traffic"
+        Results.TextBox38.Text = "Speed"
+        Results.TextBox37.Text = "Approach Traffic"
 
         If IntType = "Toll Booth" Then
             If EWTollBooth = True Then
@@ -712,6 +712,7 @@ Public Class Welcome
         Results.TextBox108.Text = Format(Conc8(15), "#0.0")
         Results.TextBox107.Text = Format(Conc8(16), "#0.0")
         Results.TextBox106.Text = Format(Conc8(17), "#0.0")
+
 
         'Prints pass/fail message
         If PassFail = False Then
