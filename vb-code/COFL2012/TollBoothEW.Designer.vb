@@ -35,7 +35,7 @@ Partial Class TollBoothEW
         Label6 = New Label()
         Label7 = New Label()
         Label1 = New Label()
-        PictureBox1 = New PictureBox()
+        PictureBox2 = New PictureBox()
         TextBox2 = New TextBox()
         Label9 = New Label()
         TextBox3 = New TextBox()
@@ -44,7 +44,7 @@ Partial Class TollBoothEW
         TextBox5 = New TextBox()
         Label3 = New Label()
         Label5 = New Label()
-        PictureBox2 = New PictureBox()
+        PictureBox1 = New PictureBox()
         TextBox6 = New TextBox()
         Label10 = New Label()
         TextBox7 = New TextBox()
@@ -64,8 +64,8 @@ Partial Class TollBoothEW
         Label19 = New Label()
         CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -188,15 +188,15 @@ Partial Class TollBoothEW
         Label1.TabIndex = 113
         Label1.Text = "Tollbooth Interchange: E-W Freeway"
         ' 
-        ' PictureBox1
+        ' PictureBox2
         ' 
-        PictureBox1.Image = My.Resources.Resources.Tool_Booth
-        PictureBox1.Location = New Point(294, 227)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(737, 440)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 112
-        PictureBox1.TabStop = False
+        PictureBox2.Image = My.Resources.Resources.Tool_Booth
+        PictureBox2.Location = New Point(294, 227)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(737, 440)
+        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox2.TabIndex = 112
+        PictureBox2.TabStop = False
         ' 
         ' TextBox2
         ' 
@@ -266,15 +266,15 @@ Partial Class TollBoothEW
         Label5.TabIndex = 139
         Label5.Text = "Freeway " & vbCrLf & "Speed (mph)" & vbCrLf
         ' 
-        ' PictureBox2
+        ' PictureBox1
         ' 
-        PictureBox2.Image = My.Resources.Resources.ToolBoothN_S
-        PictureBox2.Location = New Point(294, 227)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(737, 440)
-        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox2.TabIndex = 145
-        PictureBox2.TabStop = False
+        PictureBox1.Image = My.Resources.Resources.ToolBoothN_S
+        PictureBox1.Location = New Point(294, 228)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(737, 440)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 145
+        PictureBox1.TabStop = False
         ' 
         ' TextBox6
         ' 
@@ -450,7 +450,7 @@ Partial Class TollBoothEW
         Controls.Add(TextBox8)
         Controls.Add(Label11)
         Controls.Add(Label12)
-        Controls.Add(PictureBox2)
+        Controls.Add(PictureBox1)
         Controls.Add(TextBox3)
         Controls.Add(Label2)
         Controls.Add(TextBox4)
@@ -471,14 +471,14 @@ Partial Class TollBoothEW
         Controls.Add(Label6)
         Controls.Add(Label7)
         Controls.Add(Label1)
-        Controls.Add(PictureBox1)
+        Controls.Add(PictureBox2)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "TollBoothEW"
         Text = "CO Florida 2012 - Toll Booth Design"
         CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
@@ -497,7 +497,7 @@ Partial Class TollBoothEW
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents TextBox3 As TextBox
@@ -506,7 +506,7 @@ Partial Class TollBoothEW
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents TextBox7 As TextBox
