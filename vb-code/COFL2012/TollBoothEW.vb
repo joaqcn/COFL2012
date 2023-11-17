@@ -120,7 +120,7 @@ Public Class TollBoothEW
         TextBox2.Text = Welcome.ETCEB
 
         If Welcome.EWTollBooth = False Then
-            PictureBox2.Visible = False
+            PictureBox1.Visible = False
             PictureBox5.Visible = False
             PictureBox4.Visible = False
             Label12.Visible = False
@@ -139,7 +139,7 @@ Public Class TollBoothEW
             TextBox10.Visible = False
             TextBox11.Visible = False
 
-            PictureBox1.Visible = True
+            PictureBox2.Visible = True
             PictureBox3.Visible = True
             PictureBox7.Visible = True
             Label5.Visible = True
@@ -158,7 +158,7 @@ Public Class TollBoothEW
             TextBox1.Visible = True
             TextBox2.Visible = True
         Else
-            PictureBox2.Visible = True
+            PictureBox1.Visible = True
             PictureBox5.Visible = True
             PictureBox4.Visible = True
             Label12.Visible = True
@@ -177,7 +177,7 @@ Public Class TollBoothEW
             TextBox10.Visible = True
             TextBox11.Visible = True
 
-            PictureBox1.Visible = False
+            PictureBox2.Visible = False
             PictureBox3.Visible = False
             PictureBox7.Visible = False
             Label5.Visible = False
@@ -223,7 +223,7 @@ Public Class TollBoothEW
 
         'Verifies that all fields have numeric inputs
         'Checks for EW Orientation:
-        If PictureBox1.Visible = True Then
+        If PictureBox2.Visible = True Then
             Try
                 Welcome.SWB = CInt(Welcome.SWB)
             Catch ex As Exception
@@ -542,7 +542,7 @@ Public Class TollBoothEW
         'Verifies that all input forms have been completed before making a run
         If (Welcome.InputsCorrect(1) = True And Welcome.InputsCorrect(2) = True And Welcome.InputsCorrect(3) = True And Welcome.InputsCorrect(4) = True) Then
             Welcome.BuildTollBooth()
-            'Welcome.MakeARun()
+            Welcome.MakeARun()
             Me.Visible = False
         Else
             If Welcome.InputsCorrect(4) = False Then
@@ -563,7 +563,7 @@ Public Class TollBoothEW
         'Switches to N-S Orientation
         Welcome.EWTollBooth = False
         'N-S
-        PictureBox2.Visible = True
+        PictureBox1.Visible = True
         PictureBox5.Visible = True
         PictureBox4.Visible = True
         Label12.Visible = True
@@ -583,7 +583,7 @@ Public Class TollBoothEW
         TextBox11.Visible = True
 
         'E-W
-        PictureBox1.Visible = False
+        PictureBox2.Visible = False
         PictureBox3.Visible = False
         PictureBox7.Visible = False
         Label5.Visible = False
@@ -608,7 +608,7 @@ Public Class TollBoothEW
         'Switches to E-W Orientation
         Welcome.EWTollBooth = True
         'N-S
-        PictureBox2.Visible = False
+        PictureBox1.Visible = False
         PictureBox5.Visible = False
         PictureBox4.Visible = False
         Label12.Visible = False
@@ -628,7 +628,7 @@ Public Class TollBoothEW
         TextBox11.Visible = False
 
         'E-W
-        PictureBox1.Visible = True
+        PictureBox2.Visible = True
         PictureBox3.Visible = True
         PictureBox7.Visible = True
         Label5.Visible = True
