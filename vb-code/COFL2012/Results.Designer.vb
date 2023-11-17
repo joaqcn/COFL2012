@@ -394,782 +394,899 @@ Partial Class Results
         ' 
         ' TextBox18
         ' 
+        TextBox18.BorderStyle = BorderStyle.None
+        TextBox18.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox18.Location = New Point(315, 644)
         TextBox18.Name = "TextBox18"
-        TextBox18.Size = New Size(100, 23)
+        TextBox18.Size = New Size(100, 20)
         TextBox18.TabIndex = 81
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(616, 52)
+        TextBox2.BorderStyle = BorderStyle.None
+        TextBox2.Location = New Point(586, 52)
         TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(100, 23)
+        TextBox2.Size = New Size(171, 16)
         TextBox2.TabIndex = 82
         ' 
         ' TextBox10
         ' 
+        TextBox10.BorderStyle = BorderStyle.None
+        TextBox10.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox10.Location = New Point(315, 148)
         TextBox10.Name = "TextBox10"
-        TextBox10.Size = New Size(100, 23)
+        TextBox10.Size = New Size(100, 20)
         TextBox10.TabIndex = 83
         ' 
         ' TextBox8
         ' 
+        TextBox8.BorderStyle = BorderStyle.None
+        TextBox8.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox8.Location = New Point(315, 177)
         TextBox8.Name = "TextBox8"
-        TextBox8.Size = New Size(100, 23)
+        TextBox8.Size = New Size(100, 20)
         TextBox8.TabIndex = 84
         ' 
         ' TextBox6
         ' 
+        TextBox6.BorderStyle = BorderStyle.None
+        TextBox6.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox6.Location = New Point(315, 210)
         TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(100, 23)
+        TextBox6.Size = New Size(100, 20)
         TextBox6.TabIndex = 85
         ' 
         ' TextBox4
         ' 
+        TextBox4.BorderStyle = BorderStyle.None
+        TextBox4.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox4.Location = New Point(315, 241)
         TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(100, 23)
+        TextBox4.Size = New Size(100, 20)
         TextBox4.TabIndex = 86
         ' 
         ' TextBox26
         ' 
+        TextBox26.BorderStyle = BorderStyle.None
+        TextBox26.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox26.Location = New Point(315, 276)
         TextBox26.Name = "TextBox26"
-        TextBox26.Size = New Size(100, 23)
+        TextBox26.Size = New Size(100, 20)
         TextBox26.TabIndex = 87
         ' 
         ' TextBox28
         ' 
+        TextBox28.BorderStyle = BorderStyle.None
+        TextBox28.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox28.Location = New Point(315, 309)
         TextBox28.Name = "TextBox28"
-        TextBox28.Size = New Size(100, 23)
+        TextBox28.Size = New Size(100, 20)
         TextBox28.TabIndex = 88
         ' 
         ' TextBox30
         ' 
+        TextBox30.BorderStyle = BorderStyle.None
+        TextBox30.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox30.Location = New Point(315, 343)
         TextBox30.Name = "TextBox30"
-        TextBox30.Size = New Size(100, 23)
+        TextBox30.Size = New Size(100, 20)
         TextBox30.TabIndex = 89
         ' 
         ' TextBox38
         ' 
+        TextBox38.BorderStyle = BorderStyle.None
+        TextBox38.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox38.Location = New Point(315, 379)
         TextBox38.Name = "TextBox38"
-        TextBox38.Size = New Size(100, 23)
+        TextBox38.Size = New Size(100, 20)
         TextBox38.TabIndex = 90
         ' 
         ' TextBox37
         ' 
+        TextBox37.BorderStyle = BorderStyle.None
+        TextBox37.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox37.Location = New Point(315, 415)
         TextBox37.Name = "TextBox37"
-        TextBox37.Size = New Size(100, 23)
+        TextBox37.Size = New Size(100, 20)
         TextBox37.TabIndex = 91
         ' 
         ' TextBox40
         ' 
+        TextBox40.BorderStyle = BorderStyle.None
+        TextBox40.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox40.Location = New Point(421, 378)
         TextBox40.Name = "TextBox40"
-        TextBox40.Size = New Size(100, 23)
+        TextBox40.Size = New Size(100, 20)
         TextBox40.TabIndex = 92
         ' 
         ' TextBox39
         ' 
+        TextBox39.BorderStyle = BorderStyle.None
+        TextBox39.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox39.Location = New Point(421, 415)
         TextBox39.Name = "TextBox39"
-        TextBox39.Size = New Size(100, 23)
+        TextBox39.Size = New Size(100, 20)
         TextBox39.TabIndex = 93
         ' 
         ' TextBox36
         ' 
+        TextBox36.BorderStyle = BorderStyle.None
+        TextBox36.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox36.Location = New Point(675, 377)
         TextBox36.Name = "TextBox36"
-        TextBox36.Size = New Size(100, 23)
+        TextBox36.Size = New Size(100, 20)
         TextBox36.TabIndex = 95
         ' 
         ' TextBox34
         ' 
+        TextBox34.BorderStyle = BorderStyle.None
+        TextBox34.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox34.Location = New Point(569, 378)
         TextBox34.Name = "TextBox34"
-        TextBox34.Size = New Size(100, 23)
+        TextBox34.Size = New Size(100, 20)
         TextBox34.TabIndex = 94
         ' 
         ' TextBox41
         ' 
+        TextBox41.BorderStyle = BorderStyle.None
+        TextBox41.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox41.Location = New Point(675, 415)
         TextBox41.Name = "TextBox41"
-        TextBox41.Size = New Size(100, 23)
+        TextBox41.Size = New Size(100, 20)
         TextBox41.TabIndex = 97
         ' 
         ' TextBox42
         ' 
+        TextBox42.BorderStyle = BorderStyle.None
+        TextBox42.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox42.Location = New Point(569, 415)
         TextBox42.Name = "TextBox42"
-        TextBox42.Size = New Size(100, 23)
+        TextBox42.Size = New Size(100, 20)
         TextBox42.TabIndex = 96
         ' 
         ' TextBox43
         ' 
+        TextBox43.BorderStyle = BorderStyle.None
+        TextBox43.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox43.Location = New Point(675, 444)
         TextBox43.Name = "TextBox43"
-        TextBox43.Size = New Size(100, 23)
+        TextBox43.Size = New Size(100, 20)
         TextBox43.TabIndex = 101
         ' 
         ' TextBox44
         ' 
+        TextBox44.BorderStyle = BorderStyle.None
+        TextBox44.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox44.Location = New Point(569, 444)
         TextBox44.Name = "TextBox44"
-        TextBox44.Size = New Size(100, 23)
+        TextBox44.Size = New Size(100, 20)
         TextBox44.TabIndex = 100
         ' 
         ' TextBox35
         ' 
+        TextBox35.BorderStyle = BorderStyle.None
+        TextBox35.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox35.Location = New Point(421, 444)
         TextBox35.Name = "TextBox35"
-        TextBox35.Size = New Size(100, 23)
+        TextBox35.Size = New Size(100, 20)
         TextBox35.TabIndex = 99
         ' 
         ' TextBox32
         ' 
+        TextBox32.BorderStyle = BorderStyle.None
+        TextBox32.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox32.Location = New Point(315, 444)
         TextBox32.Name = "TextBox32"
-        TextBox32.Size = New Size(100, 23)
+        TextBox32.Size = New Size(100, 20)
         TextBox32.TabIndex = 98
         ' 
         ' TextBox14
         ' 
+        TextBox14.BorderStyle = BorderStyle.None
+        TextBox14.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox14.Location = New Point(315, 587)
         TextBox14.Name = "TextBox14"
-        TextBox14.Size = New Size(100, 23)
+        TextBox14.Size = New Size(100, 20)
         TextBox14.TabIndex = 102
         ' 
         ' TextBox16
         ' 
+        TextBox16.BorderStyle = BorderStyle.None
+        TextBox16.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox16.Location = New Point(315, 616)
         TextBox16.Name = "TextBox16"
-        TextBox16.Size = New Size(100, 23)
+        TextBox16.Size = New Size(100, 20)
         TextBox16.TabIndex = 103
         ' 
         ' TextBox20
         ' 
+        TextBox20.BorderStyle = BorderStyle.None
+        TextBox20.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox20.Location = New Point(315, 676)
         TextBox20.Name = "TextBox20"
-        TextBox20.Size = New Size(100, 23)
+        TextBox20.Size = New Size(100, 20)
         TextBox20.TabIndex = 105
         ' 
         ' TextBox22
         ' 
+        TextBox22.BorderStyle = BorderStyle.None
+        TextBox22.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox22.Location = New Point(315, 711)
         TextBox22.Name = "TextBox22"
-        TextBox22.Size = New Size(100, 23)
+        TextBox22.Size = New Size(100, 20)
         TextBox22.TabIndex = 106
         ' 
         ' TextBox24
         ' 
+        TextBox24.BorderStyle = BorderStyle.None
+        TextBox24.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox24.Location = New Point(315, 745)
         TextBox24.Name = "TextBox24"
-        TextBox24.Size = New Size(100, 23)
+        TextBox24.Size = New Size(100, 20)
         TextBox24.TabIndex = 107
         ' 
         ' TextBox173
         ' 
+        TextBox173.BorderStyle = BorderStyle.None
+        TextBox173.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox173.Location = New Point(315, 778)
         TextBox173.Name = "TextBox173"
-        TextBox173.Size = New Size(100, 23)
+        TextBox173.Size = New Size(100, 20)
         TextBox173.TabIndex = 108
         ' 
         ' TextBox1
         ' 
+        TextBox1.BorderStyle = BorderStyle.None
         TextBox1.Location = New Point(1038, 136)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(181, 23)
+        TextBox1.Size = New Size(181, 16)
         TextBox1.TabIndex = 109
         TextBox1.Text = "(ppm. including background CO)"
         ' 
         ' TextBox3
         ' 
+        TextBox3.BorderStyle = BorderStyle.None
         TextBox3.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox3.Location = New Point(970, 173)
         TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(69, 27)
+        TextBox3.Size = New Size(69, 20)
         TextBox3.TabIndex = 110
         TextBox3.Text = "Receptor"
         ' 
         ' TextBox5
         ' 
+        TextBox5.BorderStyle = BorderStyle.None
         TextBox5.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox5.Location = New Point(1084, 173)
         TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(73, 27)
+        TextBox5.Size = New Size(73, 20)
         TextBox5.TabIndex = 111
         TextBox5.Text = "Max 1-Hr"
         ' 
         ' TextBox7
         ' 
+        TextBox7.BorderStyle = BorderStyle.None
         TextBox7.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox7.Location = New Point(1198, 173)
         TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(73, 27)
+        TextBox7.Size = New Size(73, 20)
         TextBox7.TabIndex = 112
         TextBox7.Text = "Max 8-Hr"
         ' 
         ' TextBox113
         ' 
+        TextBox113.BorderStyle = BorderStyle.None
         TextBox113.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox113.Location = New Point(1104, 759)
         TextBox113.Name = "TextBox113"
-        TextBox113.Size = New Size(43, 27)
+        TextBox113.Size = New Size(43, 20)
         TextBox113.TabIndex = 152
         TextBox113.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox114
         ' 
+        TextBox114.BorderStyle = BorderStyle.None
         TextBox114.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox114.Location = New Point(1104, 730)
         TextBox114.Name = "TextBox114"
-        TextBox114.Size = New Size(43, 27)
+        TextBox114.Size = New Size(43, 20)
         TextBox114.TabIndex = 151
         TextBox114.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox115
         ' 
+        TextBox115.BorderStyle = BorderStyle.None
         TextBox115.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox115.Location = New Point(1104, 701)
         TextBox115.Name = "TextBox115"
-        TextBox115.Size = New Size(43, 27)
+        TextBox115.Size = New Size(43, 20)
         TextBox115.TabIndex = 150
         TextBox115.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox116
         ' 
+        TextBox116.BorderStyle = BorderStyle.None
         TextBox116.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox116.Location = New Point(1104, 672)
         TextBox116.Name = "TextBox116"
-        TextBox116.Size = New Size(43, 27)
+        TextBox116.Size = New Size(43, 20)
         TextBox116.TabIndex = 149
         TextBox116.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox117
         ' 
+        TextBox117.BorderStyle = BorderStyle.None
         TextBox117.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox117.Location = New Point(1104, 641)
         TextBox117.Name = "TextBox117"
-        TextBox117.Size = New Size(43, 27)
+        TextBox117.Size = New Size(43, 20)
         TextBox117.TabIndex = 148
         TextBox117.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox118
         ' 
+        TextBox118.BorderStyle = BorderStyle.None
         TextBox118.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox118.Location = New Point(1104, 612)
         TextBox118.Name = "TextBox118"
-        TextBox118.Size = New Size(43, 27)
+        TextBox118.Size = New Size(43, 20)
         TextBox118.TabIndex = 147
         TextBox118.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox119
         ' 
+        TextBox119.BorderStyle = BorderStyle.None
         TextBox119.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox119.Location = New Point(1104, 583)
         TextBox119.Name = "TextBox119"
-        TextBox119.Size = New Size(43, 27)
+        TextBox119.Size = New Size(43, 20)
         TextBox119.TabIndex = 146
         TextBox119.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox120
         ' 
+        TextBox120.BorderStyle = BorderStyle.None
         TextBox120.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox120.Location = New Point(1104, 554)
         TextBox120.Name = "TextBox120"
-        TextBox120.Size = New Size(43, 27)
+        TextBox120.Size = New Size(43, 20)
         TextBox120.TabIndex = 145
         TextBox120.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox121
         ' 
+        TextBox121.BorderStyle = BorderStyle.None
         TextBox121.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox121.Location = New Point(1104, 525)
         TextBox121.Name = "TextBox121"
-        TextBox121.Size = New Size(43, 27)
+        TextBox121.Size = New Size(43, 20)
         TextBox121.TabIndex = 144
         TextBox121.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox122
         ' 
+        TextBox122.BorderStyle = BorderStyle.None
         TextBox122.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox122.Location = New Point(1104, 496)
         TextBox122.Name = "TextBox122"
-        TextBox122.Size = New Size(43, 27)
+        TextBox122.Size = New Size(43, 20)
         TextBox122.TabIndex = 143
         TextBox122.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox143
         ' 
+        TextBox143.BorderStyle = BorderStyle.None
         TextBox143.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox143.Location = New Point(1104, 467)
         TextBox143.Name = "TextBox143"
-        TextBox143.Size = New Size(43, 27)
+        TextBox143.Size = New Size(43, 20)
         TextBox143.TabIndex = 142
         TextBox143.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox144
         ' 
+        TextBox144.BorderStyle = BorderStyle.None
         TextBox144.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox144.Location = New Point(1104, 438)
         TextBox144.Name = "TextBox144"
-        TextBox144.Size = New Size(43, 27)
+        TextBox144.Size = New Size(43, 20)
         TextBox144.TabIndex = 141
         TextBox144.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox145
         ' 
+        TextBox145.BorderStyle = BorderStyle.None
         TextBox145.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox145.Location = New Point(1104, 409)
         TextBox145.Name = "TextBox145"
-        TextBox145.Size = New Size(43, 27)
+        TextBox145.Size = New Size(43, 20)
         TextBox145.TabIndex = 140
         TextBox145.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox146
         ' 
+        TextBox146.BorderStyle = BorderStyle.None
         TextBox146.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox146.Location = New Point(1104, 380)
         TextBox146.Name = "TextBox146"
-        TextBox146.Size = New Size(43, 27)
+        TextBox146.Size = New Size(43, 20)
         TextBox146.TabIndex = 139
         TextBox146.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox147
         ' 
+        TextBox147.BorderStyle = BorderStyle.None
         TextBox147.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox147.Location = New Point(1104, 351)
         TextBox147.Name = "TextBox147"
-        TextBox147.Size = New Size(43, 27)
+        TextBox147.Size = New Size(43, 20)
         TextBox147.TabIndex = 138
         TextBox147.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox148
         ' 
+        TextBox148.BorderStyle = BorderStyle.None
         TextBox148.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox148.Location = New Point(1104, 322)
         TextBox148.Name = "TextBox148"
-        TextBox148.Size = New Size(43, 27)
+        TextBox148.Size = New Size(43, 20)
         TextBox148.TabIndex = 137
         TextBox148.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox149
         ' 
+        TextBox149.BorderStyle = BorderStyle.None
         TextBox149.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox149.Location = New Point(1104, 293)
         TextBox149.Name = "TextBox149"
-        TextBox149.Size = New Size(43, 27)
+        TextBox149.Size = New Size(43, 20)
         TextBox149.TabIndex = 136
         TextBox149.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox150
         ' 
+        TextBox150.BorderStyle = BorderStyle.None
         TextBox150.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox150.Location = New Point(1104, 264)
         TextBox150.Name = "TextBox150"
-        TextBox150.Size = New Size(43, 27)
+        TextBox150.Size = New Size(43, 20)
         TextBox150.TabIndex = 135
         TextBox150.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox151
         ' 
+        TextBox151.BorderStyle = BorderStyle.None
         TextBox151.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox151.Location = New Point(1104, 235)
         TextBox151.Name = "TextBox151"
-        TextBox151.Size = New Size(43, 27)
+        TextBox151.Size = New Size(43, 20)
         TextBox151.TabIndex = 134
         TextBox151.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox152
         ' 
+        TextBox152.BorderStyle = BorderStyle.None
         TextBox152.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox152.Location = New Point(1104, 206)
         TextBox152.Name = "TextBox152"
-        TextBox152.Size = New Size(43, 27)
+        TextBox152.Size = New Size(43, 20)
         TextBox152.TabIndex = 133
         TextBox152.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox103
         ' 
+        TextBox103.BorderStyle = BorderStyle.None
         TextBox103.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox103.Location = New Point(1219, 759)
         TextBox103.Name = "TextBox103"
-        TextBox103.Size = New Size(43, 27)
+        TextBox103.Size = New Size(43, 20)
         TextBox103.TabIndex = 172
         TextBox103.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox104
         ' 
+        TextBox104.BorderStyle = BorderStyle.None
         TextBox104.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox104.Location = New Point(1219, 730)
         TextBox104.Name = "TextBox104"
-        TextBox104.Size = New Size(43, 27)
+        TextBox104.Size = New Size(43, 20)
         TextBox104.TabIndex = 171
         TextBox104.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox105
         ' 
+        TextBox105.BorderStyle = BorderStyle.None
         TextBox105.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox105.Location = New Point(1219, 701)
         TextBox105.Name = "TextBox105"
-        TextBox105.Size = New Size(43, 27)
+        TextBox105.Size = New Size(43, 20)
         TextBox105.TabIndex = 170
         TextBox105.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox106
         ' 
+        TextBox106.BorderStyle = BorderStyle.None
         TextBox106.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox106.Location = New Point(1219, 672)
         TextBox106.Name = "TextBox106"
-        TextBox106.Size = New Size(43, 27)
+        TextBox106.Size = New Size(43, 20)
         TextBox106.TabIndex = 169
         TextBox106.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox107
         ' 
+        TextBox107.BorderStyle = BorderStyle.None
         TextBox107.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox107.Location = New Point(1219, 641)
         TextBox107.Name = "TextBox107"
-        TextBox107.Size = New Size(43, 27)
+        TextBox107.Size = New Size(43, 20)
         TextBox107.TabIndex = 168
         TextBox107.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox108
         ' 
+        TextBox108.BorderStyle = BorderStyle.None
         TextBox108.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox108.Location = New Point(1219, 612)
         TextBox108.Name = "TextBox108"
-        TextBox108.Size = New Size(43, 27)
+        TextBox108.Size = New Size(43, 20)
         TextBox108.TabIndex = 167
         TextBox108.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox109
         ' 
+        TextBox109.BorderStyle = BorderStyle.None
         TextBox109.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox109.Location = New Point(1219, 583)
         TextBox109.Name = "TextBox109"
-        TextBox109.Size = New Size(43, 27)
+        TextBox109.Size = New Size(43, 20)
         TextBox109.TabIndex = 166
         TextBox109.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox110
         ' 
+        TextBox110.BorderStyle = BorderStyle.None
         TextBox110.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox110.Location = New Point(1219, 554)
         TextBox110.Name = "TextBox110"
-        TextBox110.Size = New Size(43, 27)
+        TextBox110.Size = New Size(43, 20)
         TextBox110.TabIndex = 165
         TextBox110.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox111
         ' 
+        TextBox111.BorderStyle = BorderStyle.None
         TextBox111.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox111.Location = New Point(1219, 525)
         TextBox111.Name = "TextBox111"
-        TextBox111.Size = New Size(43, 27)
+        TextBox111.Size = New Size(43, 20)
         TextBox111.TabIndex = 164
         TextBox111.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox112
         ' 
+        TextBox112.BorderStyle = BorderStyle.None
         TextBox112.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox112.Location = New Point(1219, 496)
         TextBox112.Name = "TextBox112"
-        TextBox112.Size = New Size(43, 27)
+        TextBox112.Size = New Size(43, 20)
         TextBox112.TabIndex = 163
         TextBox112.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox133
         ' 
+        TextBox133.BorderStyle = BorderStyle.None
         TextBox133.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox133.Location = New Point(1219, 467)
         TextBox133.Name = "TextBox133"
-        TextBox133.Size = New Size(43, 27)
+        TextBox133.Size = New Size(43, 20)
         TextBox133.TabIndex = 162
         TextBox133.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox134
         ' 
+        TextBox134.BorderStyle = BorderStyle.None
         TextBox134.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox134.Location = New Point(1219, 438)
         TextBox134.Name = "TextBox134"
-        TextBox134.Size = New Size(43, 27)
+        TextBox134.Size = New Size(43, 20)
         TextBox134.TabIndex = 161
         TextBox134.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox135
         ' 
+        TextBox135.BorderStyle = BorderStyle.None
         TextBox135.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox135.Location = New Point(1219, 409)
         TextBox135.Name = "TextBox135"
-        TextBox135.Size = New Size(43, 27)
+        TextBox135.Size = New Size(43, 20)
         TextBox135.TabIndex = 160
         TextBox135.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox136
         ' 
+        TextBox136.BorderStyle = BorderStyle.None
         TextBox136.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox136.Location = New Point(1219, 380)
         TextBox136.Name = "TextBox136"
-        TextBox136.Size = New Size(43, 27)
+        TextBox136.Size = New Size(43, 20)
         TextBox136.TabIndex = 159
         TextBox136.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox137
         ' 
+        TextBox137.BorderStyle = BorderStyle.None
         TextBox137.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox137.Location = New Point(1219, 351)
         TextBox137.Name = "TextBox137"
-        TextBox137.Size = New Size(43, 27)
+        TextBox137.Size = New Size(43, 20)
         TextBox137.TabIndex = 158
         TextBox137.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox138
         ' 
+        TextBox138.BorderStyle = BorderStyle.None
         TextBox138.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox138.Location = New Point(1219, 322)
         TextBox138.Name = "TextBox138"
-        TextBox138.Size = New Size(43, 27)
+        TextBox138.Size = New Size(43, 20)
         TextBox138.TabIndex = 157
         TextBox138.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox139
         ' 
+        TextBox139.BorderStyle = BorderStyle.None
         TextBox139.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox139.Location = New Point(1219, 293)
         TextBox139.Name = "TextBox139"
-        TextBox139.Size = New Size(43, 27)
+        TextBox139.Size = New Size(43, 20)
         TextBox139.TabIndex = 156
         TextBox139.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox140
         ' 
+        TextBox140.BorderStyle = BorderStyle.None
         TextBox140.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox140.Location = New Point(1219, 264)
         TextBox140.Name = "TextBox140"
-        TextBox140.Size = New Size(43, 27)
+        TextBox140.Size = New Size(43, 20)
         TextBox140.TabIndex = 155
         TextBox140.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox141
         ' 
+        TextBox141.BorderStyle = BorderStyle.None
         TextBox141.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox141.Location = New Point(1219, 235)
         TextBox141.Name = "TextBox141"
-        TextBox141.Size = New Size(43, 27)
+        TextBox141.Size = New Size(43, 20)
         TextBox141.TabIndex = 154
         TextBox141.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox142
         ' 
+        TextBox142.BorderStyle = BorderStyle.None
         TextBox142.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox142.Location = New Point(1219, 206)
         TextBox142.Name = "TextBox142"
-        TextBox142.Size = New Size(43, 27)
+        TextBox142.Size = New Size(43, 20)
         TextBox142.TabIndex = 153
         TextBox142.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox91
         ' 
+        TextBox91.BorderStyle = BorderStyle.None
         TextBox91.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox91.Location = New Point(981, 206)
         TextBox91.Name = "TextBox91"
-        TextBox91.Size = New Size(43, 27)
+        TextBox91.Size = New Size(43, 20)
         TextBox91.TabIndex = 173
         TextBox91.Text = "1"
         TextBox91.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox92
         ' 
+        TextBox92.BorderStyle = BorderStyle.None
         TextBox92.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox92.Location = New Point(981, 235)
         TextBox92.Name = "TextBox92"
-        TextBox92.Size = New Size(43, 27)
+        TextBox92.Size = New Size(43, 20)
         TextBox92.TabIndex = 174
         TextBox92.Text = "2"
         TextBox92.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox93
         ' 
+        TextBox93.BorderStyle = BorderStyle.None
         TextBox93.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox93.Location = New Point(981, 264)
         TextBox93.Name = "TextBox93"
-        TextBox93.Size = New Size(43, 27)
+        TextBox93.Size = New Size(43, 20)
         TextBox93.TabIndex = 175
         TextBox93.Text = "3"
         TextBox93.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox94
         ' 
+        TextBox94.BorderStyle = BorderStyle.None
         TextBox94.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox94.Location = New Point(981, 293)
         TextBox94.Name = "TextBox94"
-        TextBox94.Size = New Size(43, 27)
+        TextBox94.Size = New Size(43, 20)
         TextBox94.TabIndex = 176
         TextBox94.Text = "4"
         TextBox94.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox95
         ' 
+        TextBox95.BorderStyle = BorderStyle.None
         TextBox95.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox95.Location = New Point(981, 322)
         TextBox95.Name = "TextBox95"
-        TextBox95.Size = New Size(43, 27)
+        TextBox95.Size = New Size(43, 20)
         TextBox95.TabIndex = 177
         TextBox95.Text = "5"
         TextBox95.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox96
         ' 
+        TextBox96.BorderStyle = BorderStyle.None
         TextBox96.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox96.Location = New Point(981, 351)
         TextBox96.Name = "TextBox96"
-        TextBox96.Size = New Size(43, 27)
+        TextBox96.Size = New Size(43, 20)
         TextBox96.TabIndex = 178
         TextBox96.Text = "6"
         TextBox96.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox97
         ' 
+        TextBox97.BorderStyle = BorderStyle.None
         TextBox97.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox97.Location = New Point(981, 380)
         TextBox97.Name = "TextBox97"
-        TextBox97.Size = New Size(43, 27)
+        TextBox97.Size = New Size(43, 20)
         TextBox97.TabIndex = 179
         TextBox97.Text = "7"
         TextBox97.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox98
         ' 
+        TextBox98.BorderStyle = BorderStyle.None
         TextBox98.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox98.Location = New Point(981, 409)
         TextBox98.Name = "TextBox98"
-        TextBox98.Size = New Size(43, 27)
+        TextBox98.Size = New Size(43, 20)
         TextBox98.TabIndex = 180
         TextBox98.Text = "8"
         TextBox98.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox99
         ' 
+        TextBox99.BorderStyle = BorderStyle.None
         TextBox99.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox99.Location = New Point(981, 438)
         TextBox99.Name = "TextBox99"
-        TextBox99.Size = New Size(43, 27)
+        TextBox99.Size = New Size(43, 20)
         TextBox99.TabIndex = 181
         TextBox99.Text = "9"
         TextBox99.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox100
         ' 
+        TextBox100.BorderStyle = BorderStyle.None
         TextBox100.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox100.Location = New Point(981, 467)
         TextBox100.Name = "TextBox100"
-        TextBox100.Size = New Size(43, 27)
+        TextBox100.Size = New Size(43, 20)
         TextBox100.TabIndex = 182
         TextBox100.Text = "10"
         TextBox100.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox101
         ' 
+        TextBox101.BorderStyle = BorderStyle.None
         TextBox101.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox101.Location = New Point(981, 496)
         TextBox101.Name = "TextBox101"
-        TextBox101.Size = New Size(43, 27)
+        TextBox101.Size = New Size(43, 20)
         TextBox101.TabIndex = 183
         TextBox101.Text = "11"
         TextBox101.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox102
         ' 
+        TextBox102.BorderStyle = BorderStyle.None
         TextBox102.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox102.Location = New Point(981, 525)
         TextBox102.Name = "TextBox102"
-        TextBox102.Size = New Size(43, 27)
+        TextBox102.Size = New Size(43, 20)
         TextBox102.TabIndex = 184
         TextBox102.Text = "12"
         TextBox102.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox1031
         ' 
+        TextBox1031.BorderStyle = BorderStyle.None
         TextBox1031.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox1031.Location = New Point(981, 554)
         TextBox1031.Name = "TextBox1031"
-        TextBox1031.Size = New Size(43, 27)
+        TextBox1031.Size = New Size(43, 20)
         TextBox1031.TabIndex = 185
         TextBox1031.Text = "13"
         TextBox1031.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox1041
         ' 
+        TextBox1041.BorderStyle = BorderStyle.None
         TextBox1041.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox1041.Location = New Point(981, 583)
         TextBox1041.Name = "TextBox1041"
-        TextBox1041.Size = New Size(43, 27)
+        TextBox1041.Size = New Size(43, 20)
         TextBox1041.TabIndex = 186
         TextBox1041.Text = "14"
         TextBox1041.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox1051
         ' 
+        TextBox1051.BorderStyle = BorderStyle.None
         TextBox1051.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox1051.Location = New Point(981, 612)
         TextBox1051.Name = "TextBox1051"
-        TextBox1051.Size = New Size(43, 27)
+        TextBox1051.Size = New Size(43, 20)
         TextBox1051.TabIndex = 187
         TextBox1051.Text = "15"
         TextBox1051.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox1061
         ' 
+        TextBox1061.BorderStyle = BorderStyle.None
         TextBox1061.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox1061.Location = New Point(981, 641)
         TextBox1061.Name = "TextBox1061"
-        TextBox1061.Size = New Size(43, 27)
+        TextBox1061.Size = New Size(43, 20)
         TextBox1061.TabIndex = 188
         TextBox1061.Text = "16"
         TextBox1061.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox1071
         ' 
+        TextBox1071.BorderStyle = BorderStyle.None
         TextBox1071.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox1071.Location = New Point(981, 672)
         TextBox1071.Name = "TextBox1071"
-        TextBox1071.Size = New Size(43, 27)
+        TextBox1071.Size = New Size(43, 20)
         TextBox1071.TabIndex = 189
         TextBox1071.Text = "17"
         TextBox1071.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox125
         ' 
+        TextBox125.BorderStyle = BorderStyle.None
         TextBox125.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox125.Location = New Point(981, 701)
         TextBox125.Name = "TextBox125"
-        TextBox125.Size = New Size(43, 27)
+        TextBox125.Size = New Size(43, 20)
         TextBox125.TabIndex = 190
         TextBox125.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox124
         ' 
+        TextBox124.BorderStyle = BorderStyle.None
         TextBox124.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox124.Location = New Point(981, 730)
         TextBox124.Name = "TextBox124"
-        TextBox124.Size = New Size(43, 27)
+        TextBox124.Size = New Size(43, 20)
         TextBox124.TabIndex = 191
         TextBox124.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox123
         ' 
+        TextBox123.BorderStyle = BorderStyle.None
         TextBox123.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox123.Location = New Point(981, 759)
         TextBox123.Name = "TextBox123"
-        TextBox123.Size = New Size(43, 27)
+        TextBox123.Size = New Size(43, 20)
         TextBox123.TabIndex = 192
         TextBox123.TextAlign = HorizontalAlignment.Center
         ' 
