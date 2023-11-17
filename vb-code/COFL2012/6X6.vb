@@ -347,8 +347,8 @@
 
         'Verifies that all input forms have been completed before making a run
         If (Welcome.InputsCorrect(1) = True And Welcome.InputsCorrect(2) = True And Welcome.InputsCorrect(3) = True And Welcome.InputsCorrect(4) = True) Then
-            'Welcome.Build6X6()
-            'Welcome.MakeARun()
+            Welcome.Build6X6()
+            Welcome.MakeARun()
             Me.Visible = False
         Else
             If Welcome.InputsCorrect(4) = True Then

@@ -286,7 +286,7 @@ Public Class East_Tee
         'Verifies that all input forms have been completed before making a run
         If (Welcome.InputsCorrect(1) = True And Welcome.InputsCorrect(2) = True And Welcome.InputsCorrect(3) = True And Welcome.InputsCorrect(4) = True) Then
             Welcome.BuildEastTee()
-            'Welcome.MakeARun()
+            Welcome.MakeARun()
             Me.Visible = False
         Else
             If Welcome.InputsCorrect(4) = True Then

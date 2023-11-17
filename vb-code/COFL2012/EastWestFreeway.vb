@@ -398,7 +398,7 @@ Public Class EastWestFreeway
     '***************************************************************************************************************************
     '***********************************************Bottom navigation buttons***************************************************
     '***************************************************************************************************************************
-    Private Sub btnPrevious_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub btnPrevious_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPrevious.Click
         Welcome.QuickVerify = True
         VerifyEWDiamondForm()
         Welcome.QuickVerify = False
@@ -407,14 +407,14 @@ Public Class EastWestFreeway
     End Sub
 
 
-    Private Sub btnRun_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPrevious.Click
+    Private Sub btnRun_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRun.Click
         'Call the routine to check form inputs
         VerifyEWDiamondForm()
 
         'Verifies that all input forms have been completed before making a run
         If (Welcome.InputsCorrect(1) = True And Welcome.InputsCorrect(2) = True And Welcome.InputsCorrect(3) = True And Welcome.InputsCorrect(4) = True) Then
             Welcome.BuildEWDiamond()
-            'Welcome.MakeARun()
+            Welcome.MakeARun()
             Me.Visible = False
         Else
             If Welcome.InputsCorrect(4) = True Then
@@ -476,5 +476,7 @@ Public Class EastWestFreeway
         Welcome.OREB = TextBox6.Text
     End Sub
 
+    Private Sub btnRun_Click_1(sender As Object, e As EventArgs) Handles btnRun.Click
 
+    End Sub
 End Class
