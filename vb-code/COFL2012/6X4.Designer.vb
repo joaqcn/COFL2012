@@ -52,11 +52,27 @@ Partial Class _6X4
         Label2 = New Label()
         Label1 = New Label()
         PictureBox1 = New PictureBox()
+        ToolStrip1 = New ToolStrip()
+        ToolStripButton1 = New ToolStripButton()
+        ToolStripButton2 = New ToolStripButton()
+        ToolStripButton3 = New ToolStripButton()
+        ToolStripSeparator1 = New ToolStripSeparator()
+        ToolStripLabel1 = New ToolStripLabel()
+        ToolStripButton4 = New ToolStripButton()
+        ToolStripButton5 = New ToolStripButton()
+        ToolStripButton6 = New ToolStripButton()
+        ToolStripButton7 = New ToolStripButton()
+        ToolStripButton8 = New ToolStripButton()
+        ToolStripLabel2 = New ToolStripLabel()
+        AboutToolStripButton = New ToolStripButton()
+        SaveFileDialog1 = New SaveFileDialog()
+        OpenFileDialog1 = New OpenFileDialog()
         CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        ToolStrip1.SuspendLayout()
         SuspendLayout()
         ' 
         ' btnNext
@@ -313,7 +329,7 @@ Partial Class _6X4
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI Semibold", 20.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.Location = New Point(501, 21)
+        Label1.Location = New Point(539, 34)
         Label1.Name = "Label1"
         Label1.Size = New Size(314, 37)
         Label1.TabIndex = 56
@@ -329,11 +345,125 @@ Partial Class _6X4
         PictureBox1.TabIndex = 55
         PictureBox1.TabStop = False
         ' 
+        ' ToolStrip1
+        ' 
+        ToolStrip1.BackColor = SystemColors.InactiveCaption
+        ToolStrip1.Items.AddRange(New ToolStripItem() {ToolStripButton1, ToolStripButton2, ToolStripButton3, ToolStripSeparator1, ToolStripLabel1, ToolStripButton4, ToolStripButton5, ToolStripButton6, ToolStripButton7, ToolStripButton8, ToolStripLabel2, AboutToolStripButton})
+        ToolStrip1.Location = New Point(0, 0)
+        ToolStrip1.Name = "ToolStrip1"
+        ToolStrip1.Size = New Size(1351, 25)
+        ToolStrip1.TabIndex = 84
+        ToolStrip1.Text = "ToolStrip1"
+        ' 
+        ' ToolStripButton1
+        ' 
+        ToolStripButton1.AccessibleRole = AccessibleRole.Equation
+        ToolStripButton1.DisplayStyle = ToolStripItemDisplayStyle.Image
+        ToolStripButton1.Image = My.Resources.Resources.new_file
+        ToolStripButton1.ImageTransparentColor = Color.Magenta
+        ToolStripButton1.Name = "ToolStripButton1"
+        ToolStripButton1.Size = New Size(23, 22)
+        ToolStripButton1.Text = "New"
+        ' 
+        ' ToolStripButton2
+        ' 
+        ToolStripButton2.DisplayStyle = ToolStripItemDisplayStyle.Image
+        ToolStripButton2.Image = My.Resources.Resources.folder
+        ToolStripButton2.ImageTransparentColor = Color.Magenta
+        ToolStripButton2.Name = "ToolStripButton2"
+        ToolStripButton2.Size = New Size(23, 22)
+        ToolStripButton2.Text = "Open"
+        ' 
+        ' ToolStripButton3
+        ' 
+        ToolStripButton3.DisplayStyle = ToolStripItemDisplayStyle.Image
+        ToolStripButton3.Image = My.Resources.Resources.save_file
+        ToolStripButton3.ImageTransparentColor = Color.Magenta
+        ToolStripButton3.Name = "ToolStripButton3"
+        ToolStripButton3.Size = New Size(23, 22)
+        ToolStripButton3.Text = "Save"
+        ' 
+        ' ToolStripSeparator1
+        ' 
+        ToolStripSeparator1.Name = "ToolStripSeparator1"
+        ToolStripSeparator1.Size = New Size(6, 25)
+        ' 
+        ' ToolStripLabel1
+        ' 
+        ToolStripLabel1.Name = "ToolStripLabel1"
+        ToolStripLabel1.Size = New Size(37, 22)
+        ToolStripLabel1.Text = "          "
+        ' 
+        ' ToolStripButton4
+        ' 
+        ToolStripButton4.DisplayStyle = ToolStripItemDisplayStyle.Image
+        ToolStripButton4.Image = CType(resources.GetObject("ToolStripButton4.Image"), Image)
+        ToolStripButton4.ImageTransparentColor = Color.Magenta
+        ToolStripButton4.Name = "ToolStripButton4"
+        ToolStripButton4.Size = New Size(23, 22)
+        ToolStripButton4.Text = "Title"
+        ' 
+        ' ToolStripButton5
+        ' 
+        ToolStripButton5.DisplayStyle = ToolStripItemDisplayStyle.Image
+        ToolStripButton5.Image = My.Resources.Resources._2408276
+        ToolStripButton5.ImageTransparentColor = Color.Magenta
+        ToolStripButton5.Name = "ToolStripButton5"
+        ToolStripButton5.Size = New Size(23, 22)
+        ToolStripButton5.Text = "District"
+        ' 
+        ' ToolStripButton6
+        ' 
+        ToolStripButton6.DisplayStyle = ToolStripItemDisplayStyle.Image
+        ToolStripButton6.Image = My.Resources.Resources.Intersection_icon
+        ToolStripButton6.ImageTransparentColor = Color.Magenta
+        ToolStripButton6.Name = "ToolStripButton6"
+        ToolStripButton6.Size = New Size(23, 22)
+        ToolStripButton6.Text = "Interesection Type"
+        ' 
+        ' ToolStripButton7
+        ' 
+        ToolStripButton7.DisplayStyle = ToolStripItemDisplayStyle.Image
+        ToolStripButton7.Image = My.Resources.Resources.data_type_number
+        ToolStripButton7.ImageTransparentColor = Color.Magenta
+        ToolStripButton7.Name = "ToolStripButton7"
+        ToolStripButton7.Size = New Size(23, 22)
+        ToolStripButton7.Text = "Interesection Data"
+        ' 
+        ' ToolStripButton8
+        ' 
+        ToolStripButton8.DisplayStyle = ToolStripItemDisplayStyle.Image
+        ToolStripButton8.Image = My.Resources.Resources.button_icon_png_21060
+        ToolStripButton8.ImageTransparentColor = Color.Magenta
+        ToolStripButton8.Name = "ToolStripButton8"
+        ToolStripButton8.Size = New Size(23, 22)
+        ToolStripButton8.Text = "Run"
+        ' 
+        ' ToolStripLabel2
+        ' 
+        ToolStripLabel2.Name = "ToolStripLabel2"
+        ToolStripLabel2.Size = New Size(37, 22)
+        ToolStripLabel2.Text = "          "
+        ' 
+        ' AboutToolStripButton
+        ' 
+        AboutToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        AboutToolStripButton.Image = My.Resources.Resources.Info
+        AboutToolStripButton.ImageTransparentColor = Color.Magenta
+        AboutToolStripButton.Name = "AboutToolStripButton"
+        AboutToolStripButton.Size = New Size(23, 22)
+        AboutToolStripButton.Text = "About"
+        ' 
+        ' OpenFileDialog1
+        ' 
+        OpenFileDialog1.FileName = "OpenFileDialog1"
+        ' 
         ' _6X4
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
+        Controls.Add(ToolStrip1)
         Controls.Add(btnNext)
         Controls.Add(btnPrevious)
         Controls.Add(Label8)
@@ -371,6 +501,8 @@ Partial Class _6X4
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        ToolStrip1.ResumeLayout(False)
+        ToolStrip1.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -404,4 +536,19 @@ Partial Class _6X4
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents ToolStrip1 As ToolStrip
+    Friend WithEvents ToolStripButton1 As ToolStripButton
+    Friend WithEvents ToolStripButton2 As ToolStripButton
+    Friend WithEvents ToolStripButton3 As ToolStripButton
+    Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents ToolStripLabel1 As ToolStripLabel
+    Friend WithEvents ToolStripButton4 As ToolStripButton
+    Friend WithEvents ToolStripButton5 As ToolStripButton
+    Friend WithEvents ToolStripButton6 As ToolStripButton
+    Friend WithEvents ToolStripButton7 As ToolStripButton
+    Friend WithEvents ToolStripButton8 As ToolStripButton
+    Friend WithEvents ToolStripLabel2 As ToolStripLabel
+    Friend WithEvents AboutToolStripButton As ToolStripButton
+    Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class
