@@ -68,7 +68,7 @@ Public Class _4X4
 
     Private Sub ToolStripButton5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton5.Click
         Welcome.QuickVerify = True
-        Verify4X6Form()
+        Verify4X4Form()
         Welcome.QuickVerify = False
         My.Forms.District.Show()
         Me.Visible = False
@@ -77,7 +77,7 @@ Public Class _4X4
 
     Private Sub ToolStripButton6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton6.Click
         Welcome.QuickVerify = True
-        Verify4X6Form()
+        Verify4X4Form()
         Welcome.QuickVerify = False
         My.Forms.IntersectionType.Show()
         Me.Visible = False
