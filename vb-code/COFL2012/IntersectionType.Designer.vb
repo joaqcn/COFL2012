@@ -48,6 +48,21 @@ Partial Class IntersectionType
         PictureBox11 = New PictureBox()
         btnPrevious = New Button()
         btnNext = New Button()
+        ToolStrip1 = New ToolStrip()
+        NewToolStripButton = New ToolStripButton()
+        SaveToolStripButton = New ToolStripButton()
+        OpenToolStripButton = New ToolStripButton()
+        ToolStripSeparator1 = New ToolStripSeparator()
+        ToolStripLabel1 = New ToolStripLabel()
+        TitleToolStripButton = New ToolStripButton()
+        DistrictToolStripButton = New ToolStripButton()
+        IntersectionTypeToolStripButton = New ToolStripButton()
+        IntersectionDataToolStripButton = New ToolStripButton()
+        RunToolStripButton = New ToolStripButton()
+        ToolStripLabel2 = New ToolStripLabel()
+        AboutToolStripButton = New ToolStripButton()
+        SaveFileDialog1 = New SaveFileDialog()
+        OpenFileDialog1 = New OpenFileDialog()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
@@ -59,13 +74,14 @@ Partial Class IntersectionType
         CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox10, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
+        ToolStrip1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.Location = New Point(515, 9)
+        Label1.Location = New Point(515, 25)
         Label1.Name = "Label1"
         Label1.Size = New Size(307, 32)
         Label1.TabIndex = 0
@@ -74,7 +90,7 @@ Partial Class IntersectionType
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources._4x4
-        PictureBox1.Location = New Point(31, 70)
+        PictureBox1.Location = New Point(31, 99)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(228, 127)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
@@ -85,7 +101,7 @@ Partial Class IntersectionType
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(119, 203)
+        Label2.Location = New Point(119, 232)
         Label2.Name = "Label2"
         Label2.Size = New Size(53, 25)
         Label2.TabIndex = 13
@@ -95,7 +111,7 @@ Partial Class IntersectionType
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(450, 203)
+        Label3.Location = New Point(450, 232)
         Label3.Name = "Label3"
         Label3.Size = New Size(53, 25)
         Label3.TabIndex = 14
@@ -104,7 +120,7 @@ Partial Class IntersectionType
         ' PictureBox3
         ' 
         PictureBox3.Image = My.Resources.Resources._4x6
-        PictureBox3.Location = New Point(369, 70)
+        PictureBox3.Location = New Point(369, 99)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(228, 127)
         PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
@@ -115,7 +131,7 @@ Partial Class IntersectionType
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(814, 203)
+        Label4.Location = New Point(814, 232)
         Label4.Name = "Label4"
         Label4.Size = New Size(53, 25)
         Label4.TabIndex = 16
@@ -124,7 +140,7 @@ Partial Class IntersectionType
         ' PictureBox4
         ' 
         PictureBox4.Image = My.Resources.Resources._6x4
-        PictureBox4.Location = New Point(726, 70)
+        PictureBox4.Location = New Point(726, 99)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(228, 127)
         PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
@@ -135,7 +151,7 @@ Partial Class IntersectionType
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label5.Location = New Point(1166, 201)
+        Label5.Location = New Point(1166, 230)
         Label5.Name = "Label5"
         Label5.Size = New Size(53, 25)
         Label5.TabIndex = 18
@@ -144,7 +160,7 @@ Partial Class IntersectionType
         ' PictureBox2
         ' 
         PictureBox2.Image = My.Resources.Resources._6x6
-        PictureBox2.Location = New Point(1075, 70)
+        PictureBox2.Location = New Point(1075, 99)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(228, 127)
         PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
@@ -156,7 +172,7 @@ Partial Class IntersectionType
         Label6.AutoSize = True
         Label6.FlatStyle = FlatStyle.System
         Label6.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label6.Location = New Point(230, 433)
+        Label6.Location = New Point(230, 462)
         Label6.Name = "Label6"
         Label6.Size = New Size(79, 25)
         Label6.TabIndex = 20
@@ -167,7 +183,7 @@ Partial Class IntersectionType
         Label7.AutoSize = True
         Label7.FlatStyle = FlatStyle.System
         Label7.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label7.Location = New Point(591, 435)
+        Label7.Location = New Point(591, 464)
         Label7.Name = "Label7"
         Label7.Size = New Size(94, 25)
         Label7.TabIndex = 21
@@ -178,7 +194,7 @@ Partial Class IntersectionType
         Label8.AutoSize = True
         Label8.FlatStyle = FlatStyle.System
         Label8.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label8.Location = New Point(972, 435)
+        Label8.Location = New Point(972, 464)
         Label8.Name = "Label8"
         Label8.Size = New Size(96, 25)
         Label8.TabIndex = 22
@@ -189,7 +205,7 @@ Partial Class IntersectionType
         Label9.AutoSize = True
         Label9.FlatStyle = FlatStyle.System
         Label9.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label9.Location = New Point(95, 687)
+        Label9.Location = New Point(95, 716)
         Label9.Name = "Label9"
         Label9.Size = New Size(86, 25)
         Label9.TabIndex = 23
@@ -200,7 +216,7 @@ Partial Class IntersectionType
         Label10.AutoSize = True
         Label10.FlatStyle = FlatStyle.System
         Label10.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label10.Location = New Point(432, 687)
+        Label10.Location = New Point(432, 716)
         Label10.Name = "Label10"
         Label10.Size = New Size(94, 25)
         Label10.TabIndex = 24
@@ -211,7 +227,7 @@ Partial Class IntersectionType
         Label11.AutoSize = True
         Label11.FlatStyle = FlatStyle.System
         Label11.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label11.Location = New Point(782, 687)
+        Label11.Location = New Point(782, 716)
         Label11.Name = "Label11"
         Label11.Size = New Size(122, 100)
         Label11.TabIndex = 25
@@ -222,7 +238,7 @@ Partial Class IntersectionType
         Label12.AutoSize = True
         Label12.FlatStyle = FlatStyle.System
         Label12.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label12.Location = New Point(1135, 687)
+        Label12.Location = New Point(1135, 716)
         Label12.Name = "Label12"
         Label12.Size = New Size(122, 100)
         Label12.TabIndex = 26
@@ -231,7 +247,7 @@ Partial Class IntersectionType
         ' PictureBox5
         ' 
         PictureBox5.Image = My.Resources.Resources.East_Tee
-        PictureBox5.Location = New Point(151, 303)
+        PictureBox5.Location = New Point(151, 332)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(228, 127)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
@@ -241,7 +257,7 @@ Partial Class IntersectionType
         ' PictureBox8
         ' 
         PictureBox8.Image = My.Resources.Resources.North_Tee
-        PictureBox8.Location = New Point(515, 305)
+        PictureBox8.Location = New Point(515, 334)
         PictureBox8.Name = "PictureBox8"
         PictureBox8.Size = New Size(228, 127)
         PictureBox8.SizeMode = PictureBoxSizeMode.StretchImage
@@ -251,7 +267,7 @@ Partial Class IntersectionType
         ' PictureBox9
         ' 
         PictureBox9.Image = My.Resources.Resources.Tool_Booth
-        PictureBox9.Location = New Point(892, 303)
+        PictureBox9.Location = New Point(892, 332)
         PictureBox9.Name = "PictureBox9"
         PictureBox9.Size = New Size(228, 127)
         PictureBox9.SizeMode = PictureBoxSizeMode.StretchImage
@@ -261,7 +277,7 @@ Partial Class IntersectionType
         ' PictureBox7
         ' 
         PictureBox7.Image = My.Resources.Resources.West_Tee
-        PictureBox7.Location = New Point(31, 557)
+        PictureBox7.Location = New Point(31, 586)
         PictureBox7.Name = "PictureBox7"
         PictureBox7.Size = New Size(228, 127)
         PictureBox7.SizeMode = PictureBoxSizeMode.StretchImage
@@ -271,7 +287,7 @@ Partial Class IntersectionType
         ' PictureBox6
         ' 
         PictureBox6.Image = My.Resources.Resources.South_Tee
-        PictureBox6.Location = New Point(369, 557)
+        PictureBox6.Location = New Point(369, 586)
         PictureBox6.Name = "PictureBox6"
         PictureBox6.Size = New Size(228, 127)
         PictureBox6.SizeMode = PictureBoxSizeMode.StretchImage
@@ -281,7 +297,7 @@ Partial Class IntersectionType
         ' PictureBox10
         ' 
         PictureBox10.Image = My.Resources.Resources.N_S_Freeway
-        PictureBox10.Location = New Point(726, 557)
+        PictureBox10.Location = New Point(726, 586)
         PictureBox10.Name = "PictureBox10"
         PictureBox10.Size = New Size(228, 127)
         PictureBox10.SizeMode = PictureBoxSizeMode.StretchImage
@@ -291,7 +307,7 @@ Partial Class IntersectionType
         ' PictureBox11
         ' 
         PictureBox11.Image = My.Resources.Resources.E_W_Freeway
-        PictureBox11.Location = New Point(1075, 557)
+        PictureBox11.Location = New Point(1075, 586)
         PictureBox11.Name = "PictureBox11"
         PictureBox11.Size = New Size(228, 127)
         PictureBox11.SizeMode = PictureBoxSizeMode.StretchImage
@@ -320,11 +336,125 @@ Partial Class IntersectionType
         btnNext.Text = "Next"
         btnNext.UseVisualStyleBackColor = False
         ' 
+        ' ToolStrip1
+        ' 
+        ToolStrip1.BackColor = SystemColors.InactiveCaption
+        ToolStrip1.Items.AddRange(New ToolStripItem() {NewToolStripButton, SaveToolStripButton, OpenToolStripButton, ToolStripSeparator1, ToolStripLabel1, TitleToolStripButton, DistrictToolStripButton, IntersectionTypeToolStripButton, IntersectionDataToolStripButton, RunToolStripButton, ToolStripLabel2, AboutToolStripButton})
+        ToolStrip1.Location = New Point(0, 0)
+        ToolStrip1.Name = "ToolStrip1"
+        ToolStrip1.Size = New Size(1351, 25)
+        ToolStrip1.TabIndex = 36
+        ToolStrip1.Text = "ToolStrip1"
+        ' 
+        ' NewToolStripButton
+        ' 
+        NewToolStripButton.AccessibleRole = AccessibleRole.Equation
+        NewToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        NewToolStripButton.Image = My.Resources.Resources.new_file
+        NewToolStripButton.ImageTransparentColor = Color.Magenta
+        NewToolStripButton.Name = "NewToolStripButton"
+        NewToolStripButton.Size = New Size(23, 22)
+        NewToolStripButton.Text = "New"
+        ' 
+        ' SaveToolStripButton
+        ' 
+        SaveToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        SaveToolStripButton.Image = My.Resources.Resources.folder
+        SaveToolStripButton.ImageTransparentColor = Color.Magenta
+        SaveToolStripButton.Name = "SaveToolStripButton"
+        SaveToolStripButton.Size = New Size(23, 22)
+        SaveToolStripButton.Text = "Open"
+        ' 
+        ' OpenToolStripButton
+        ' 
+        OpenToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        OpenToolStripButton.Image = My.Resources.Resources.save_file
+        OpenToolStripButton.ImageTransparentColor = Color.Magenta
+        OpenToolStripButton.Name = "OpenToolStripButton"
+        OpenToolStripButton.Size = New Size(23, 22)
+        OpenToolStripButton.Text = "Save"
+        ' 
+        ' ToolStripSeparator1
+        ' 
+        ToolStripSeparator1.Name = "ToolStripSeparator1"
+        ToolStripSeparator1.Size = New Size(6, 25)
+        ' 
+        ' ToolStripLabel1
+        ' 
+        ToolStripLabel1.Name = "ToolStripLabel1"
+        ToolStripLabel1.Size = New Size(37, 22)
+        ToolStripLabel1.Text = "          "
+        ' 
+        ' TitleToolStripButton
+        ' 
+        TitleToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        TitleToolStripButton.Image = CType(resources.GetObject("TitleToolStripButton.Image"), Image)
+        TitleToolStripButton.ImageTransparentColor = Color.Magenta
+        TitleToolStripButton.Name = "TitleToolStripButton"
+        TitleToolStripButton.Size = New Size(23, 22)
+        TitleToolStripButton.Text = "Title"
+        ' 
+        ' DistrictToolStripButton
+        ' 
+        DistrictToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        DistrictToolStripButton.Image = My.Resources.Resources._2408276
+        DistrictToolStripButton.ImageTransparentColor = Color.Magenta
+        DistrictToolStripButton.Name = "DistrictToolStripButton"
+        DistrictToolStripButton.Size = New Size(23, 22)
+        DistrictToolStripButton.Text = "District"
+        ' 
+        ' IntersectionTypeToolStripButton
+        ' 
+        IntersectionTypeToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        IntersectionTypeToolStripButton.Image = My.Resources.Resources.Intersection_icon
+        IntersectionTypeToolStripButton.ImageTransparentColor = Color.Magenta
+        IntersectionTypeToolStripButton.Name = "IntersectionTypeToolStripButton"
+        IntersectionTypeToolStripButton.Size = New Size(23, 22)
+        IntersectionTypeToolStripButton.Text = "Interesection Type"
+        ' 
+        ' IntersectionDataToolStripButton
+        ' 
+        IntersectionDataToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        IntersectionDataToolStripButton.Image = My.Resources.Resources.data_type_number
+        IntersectionDataToolStripButton.ImageTransparentColor = Color.Magenta
+        IntersectionDataToolStripButton.Name = "IntersectionDataToolStripButton"
+        IntersectionDataToolStripButton.Size = New Size(23, 22)
+        IntersectionDataToolStripButton.Text = "Interesection Data"
+        ' 
+        ' RunToolStripButton
+        ' 
+        RunToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        RunToolStripButton.Image = My.Resources.Resources.button_icon_png_21060
+        RunToolStripButton.ImageTransparentColor = Color.Magenta
+        RunToolStripButton.Name = "RunToolStripButton"
+        RunToolStripButton.Size = New Size(23, 22)
+        RunToolStripButton.Text = "Run"
+        ' 
+        ' ToolStripLabel2
+        ' 
+        ToolStripLabel2.Name = "ToolStripLabel2"
+        ToolStripLabel2.Size = New Size(37, 22)
+        ToolStripLabel2.Text = "          "
+        ' 
+        ' AboutToolStripButton
+        ' 
+        AboutToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        AboutToolStripButton.Image = My.Resources.Resources.Info
+        AboutToolStripButton.ImageTransparentColor = Color.Magenta
+        AboutToolStripButton.Name = "AboutToolStripButton"
+        AboutToolStripButton.Size = New Size(23, 22)
+        AboutToolStripButton.Text = "About"
+        ' 
+        ' OpenFileDialog1
+        ' 
+        OpenFileDialog1.FileName = "OpenFileDialog1"
+        ' 
         ' IntersectionType
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
+        Controls.Add(ToolStrip1)
         Controls.Add(btnNext)
         Controls.Add(btnPrevious)
         Controls.Add(PictureBox11)
@@ -364,6 +494,8 @@ Partial Class IntersectionType
         CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox10, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox11, ComponentModel.ISupportInitialize).EndInit()
+        ToolStrip1.ResumeLayout(False)
+        ToolStrip1.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -393,4 +525,19 @@ Partial Class IntersectionType
     Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents btnPrevious As Button
     Friend WithEvents btnNext As Button
+    Friend WithEvents ToolStrip1 As ToolStrip
+    Friend WithEvents NewToolStripButton As ToolStripButton
+    Friend WithEvents SaveToolStripButton As ToolStripButton
+    Friend WithEvents OpenToolStripButton As ToolStripButton
+    Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents ToolStripLabel1 As ToolStripLabel
+    Friend WithEvents TitleToolStripButton As ToolStripButton
+    Friend WithEvents DistrictToolStripButton As ToolStripButton
+    Friend WithEvents IntersectionTypeToolStripButton As ToolStripButton
+    Friend WithEvents IntersectionDataToolStripButton As ToolStripButton
+    Friend WithEvents RunToolStripButton As ToolStripButton
+    Friend WithEvents ToolStripLabel2 As ToolStripLabel
+    Friend WithEvents AboutToolStripButton As ToolStripButton
+    Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class
