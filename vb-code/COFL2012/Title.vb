@@ -43,164 +43,164 @@ Public Class Title
 
 
 
-    ''*************************************************************************************************************************************
-    ''************************************************Top Navigation Menus and Buttons*****************************************************
-    ''*************************************************************************************************************************************
+    '*************************************************************************************************************************************
+    '************************************************Top Navigation Menus and Buttons*****************************************************
+    '*************************************************************************************************************************************
 
-    'Private Sub NewToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NewToolStripButton.Click
-    '    ClearAll()
-    '    District.InitDistrict()
-    '    IntersectionType.InitIntType()
-    '    InitTitle()
-    'End Sub
+    Private Sub NewToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NewToolStripButton.Click
+        Welcome.ClearAll()
+        District.InitDistrict()
+        IntersectionType.InitIntType()
+        InitTitle()
+    End Sub
 
-    'Private Sub SaveToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SaveToolStripButton.Click
-    '    'Writes user program run inputs to text file
+    Private Sub SaveToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SaveToolStripButton.Click
+        'Writes user program run inputs to text file
 
-    '    SaveFileDialog1.InitialDirectory = PrimaryDirectory & "\UsrFiles\"
-    '    SaveFileDialog1.Filter = "Input files (*.in)|*.in|All files (*.*)|*.*"
-    '    SaveFileDialog1.FileName = ""
+        SaveFileDialog1.InitialDirectory = Welcome.PrimaryDirectory & "\UsrFiles\"
+        SaveFileDialog1.Filter = "Input files (*.in)|*.in|All files (*.*)|*.*"
+        SaveFileDialog1.FileName = ""
 
-    '    If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
-    '        FDOTin = SaveFileDialog1.FileName
-    '        SaveFile()
-    '    End If
-    'End Sub
+        If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
+            Welcome.FDOTin = SaveFileDialog1.FileName
+            Welcome.SaveFile()
+        End If
+    End Sub
 
-    'Private Sub OpenToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OpenToolStripButton.Click
-    '    OpenFileDialog1.InitialDirectory = PrimaryDirectory & "\UsrFiles\"
-    '    OpenFileDialog1.Filter = "Input files (*in)|*.in|All files (*.*)|*.*"
-    '    OpenFileDialog1.FileName = ""
+    Private Sub OpenToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OpenToolStripButton.Click
+        OpenFileDialog1.InitialDirectory = Welcome.PrimaryDirectory & "\UsrFiles\"
+        OpenFileDialog1.Filter = "Input files (*in)|*.in|All files (*.*)|*.*"
+        OpenFileDialog1.FileName = ""
 
-    '    If OpenFileDialog1.ShowDialog() = DialogResult.OK Then
-    '        FDOTin = OpenFileDialog1.FileName
-    '        OpenFile()
-    '        InitTitle()
-    '        District.InitDistrict()
-    '        IntersectionType.InitIntType()
-    '    End If
-    'End Sub
-
-
-    'Private Sub DistrictToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DistrictToolStripButton.Click
-    '    'Call the routine to check form inputs
-    '    VerifyTitleForm()
-
-    '    'Verifies that all fields have been completed, then advances to selected form
-    '    If InputsCorrect(1) = True Then
-    '        My.Forms.District.Show()
-    '        Me.Visible = False
-    '    Else
-    '        MsgBox("All fields must be completed to proceed.", 0, "CO Florida 2012")
-    '    End If
-    'End Sub
+        If OpenFileDialog1.ShowDialog() = DialogResult.OK Then
+            Welcome.FDOTin = OpenFileDialog1.FileName
+            Welcome.OpenFile()
+            InitTitle()
+            District.InitDistrict()
+            IntersectionType.InitIntType()
+        End If
+    End Sub
 
 
-    'Private Sub IntersectionTypeToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles IntersectionTypeToolStripButton.Click
-    '    'Call the routine to check form inputs
-    '    VerifyTitleForm()
+    Private Sub DistrictToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DistrictToolStripButton.Click
+        'Call the routine to check form inputs
+        VerifyTitleForm()
 
-    '    'Verifies that all fields have been completed, then advances to selected form
-    '    If InputsCorrect(1) = True Then
-    '        If InputsCorrect(2) = True Then
-    '            My.Forms.IntersectionType.Show()
-    '            Me.Visible = False
-    '        Else
-    '            MsgBox("All intermediary screens must be completed to proceed.", 0, "CO Florida 2012")
-    '        End If
-    '    Else
-    '        MsgBox("All fields must be completed to proceed.", 0, "CO Florida 2012")
-    '    End If
-    'End Sub
+        'Verifies that all fields have been completed, then advances to selected form
+        If Welcome.InputsCorrect(1) = True Then
+            My.Forms.District.Show()
+            Me.Visible = False
+        Else
+            MsgBox("All fields must be completed to proceed.", 0, "CO Florida 2012")
+        End If
+    End Sub
 
 
-    'Private Sub AboutToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripButton.Click
-    '    My.Forms.About.Show()
-    'End Sub
+    Private Sub IntersectionTypeToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles IntersectionTypeToolStripButton.Click
+        'Call the routine to check form inputs
+        VerifyTitleForm()
 
-    'Private Sub IntersectionDataToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles IntersectionDataToolStripButton.Click
-    '    'Call the routine to check form inputs
-    '    VerifyTitleForm()
+        'Verifies that all fields have been completed, then advances to selected form
+        If Welcome.InputsCorrect(1) = True Then
+            If Welcome.InputsCorrect(2) = True Then
+                My.Forms.IntersectionType.Show()
+                Me.Visible = False
+            Else
+                MsgBox("All intermediary screens must be completed to proceed.", 0, "CO Florida 2012")
+            End If
+        Else
+            MsgBox("All fields must be completed to proceed.", 0, "CO Florida 2012")
+        End If
+    End Sub
 
-    '    If InputsCorrect(1) = True Then
-    '        If (InputsCorrect(2) = True And InputsCorrect(3) = True) Then
-    '            Select Case IntType
-    '                Case ""
-    '                    My.Forms.Int4X4.Show()
-    '                Case "4 X 4"
-    '                    My.Forms.Int4X4.Show()
-    '                Case "4 X 6"
-    '                    My.Forms.Int4X6.Show()
-    '                Case "6 X 4"
-    '                    My.Forms.Int6X4.Show()
-    '                Case "6 X 6"
-    '                    My.Forms.Int6X6.Show()
-    '                Case "East Tee"
-    '                    My.Forms.EastTee.Show()
-    '                Case "North Tee"
-    '                    My.Forms.NorthTee.Show()
-    '                Case "Toll Booth"
-    '                    My.Forms.TollBooth.Show()
-    '                Case "West Tee"
-    '                    My.Forms.WestTee.Show()
-    '                Case "South Tee"
-    '                    My.Forms.SouthTee.Show()
-    '                Case "N-S Diamond"
-    '                    My.Forms.NSDiamond.Show()
-    '                Case "E-W Diamond"
-    '                    My.Forms.I11.Show()
-    '            End Select
 
-    '            Me.Visible = False
-    '        Else
-    '            MsgBox("All intermediary screens must be completed to proceed.", 0, "CO Florida 2012")
-    '        End If
-    '    Else
-    '        MsgBox("All fields must be completed to proceed.", 0, "CO Florida 2012")
-    '    End If
-    'End Sub
+    Private Sub AboutToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripButton.Click
+        My.Forms.About.Show()
+    End Sub
 
-    'Private Sub RunToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RunToolStripButton.Click
-    '    'Call the routine to check form inputs
-    '    VerifyTitleForm()
+    Private Sub IntersectionDataToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles IntersectionDataToolStripButton.Click
+        'Call the routine to check form inputs
+        VerifyTitleForm()
 
-    '    If InputsCorrect(1) = True Then
-    '        If (InputsCorrect(2) = True And InputsCorrect(3) = True And InputsCorrect(4)) Then
-    '            Select Case IntType
-    '                Case ""
-    '                    My.Forms.Int4X4.Show()
-    '                Case "4 X 4"
-    '                    My.Forms.Int4X4.Show()
-    '                Case "4 X 6"
-    '                    My.Forms.Int4X6.Show()
-    '                Case "6 X 4"
-    '                    My.Forms.Int6X4.Show()
-    '                Case "6 X 6"
-    '                    My.Forms.Int6X6.Show()
-    '                Case "East Tee"
-    '                    My.Forms.EastTee.Show()
-    '                Case "North Tee"
-    '                    My.Forms.NorthTee.Show()
-    '                Case "Toll Booth"
-    '                    My.Forms.TollBooth.Show()
-    '                Case "West Tee"
-    '                    My.Forms.WestTee.Show()
-    '                Case "South Tee"
-    '                    My.Forms.SouthTee.Show()
-    '                Case "N-S Diamond"
-    '                    My.Forms.NSDiamond.Show()
-    '                Case "E-W Diamond"
-    '                    My.Forms.I11.Show()
-    '            End Select
+        If Welcome.InputsCorrect(1) = True Then
+            If (Welcome.InputsCorrect(2) = True And Welcome.InputsCorrect(3) = True) Then
+                Select Case Welcome.IntType
+                    Case ""
+                        My.Forms._4X4.Show()
+                    Case "4 X 4"
+                        My.Forms._4X4.Show()
+                    Case "4 X 6"
+                        My.Forms._4X6.Show()
+                    Case "6 X 4"
+                        My.Forms._6X4.Show()
+                    Case "6 X 6"
+                        My.Forms._6X6.Show()
+                    Case "East Tee"
+                        My.Forms.East_Tee.Show()
+                    Case "North Tee"
+                        My.Forms.North_Tee.Show()
+                    Case "Toll Booth"
+                        My.Forms.TollBoothEW.Show()
+                    Case "West Tee"
+                        My.Forms.WestTee.Show()
+                    Case "South Tee"
+                        My.Forms.SouthTee.Show()
+                    Case "N-S Diamond"
+                        My.Forms.NorthSouthFreeway.Show()
+                    Case "E-W Diamond"
+                        My.Forms.EastWestFreeway.Show()
+                End Select
 
-    '            Me.Visible = False
-    '        Else
-    '            MsgBox("All intermediary screens must be completed to proceed.", 0, "CO Florida 2012")
-    '        End If
-    '    Else
-    '        MsgBox("All fields must be completed to proceed.", 0, "CO Florida 2012")
-    '    End If
-    'End Sub
+                Me.Visible = False
+            Else
+                MsgBox("All intermediary screens must be completed to proceed.", 0, "CO Florida 2012")
+            End If
+        Else
+            MsgBox("All fields must be completed to proceed.", 0, "CO Florida 2012")
+        End If
+    End Sub
+
+    Private Sub RunToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RunToolStripButton.Click
+        'Call the routine to check form inputs
+        VerifyTitleForm()
+
+        If Welcome.InputsCorrect(1) = True Then
+            If (Welcome.InputsCorrect(2) = True And Welcome.InputsCorrect(3) = True And Welcome.InputsCorrect(4)) Then
+                Select Case Welcome.IntType
+                    Case ""
+                        My.Forms._4X4.Show()
+                    Case "4 X 4"
+                        My.Forms._4X4.Show()
+                    Case "4 X 6"
+                        My.Forms._4X6.Show()
+                    Case "6 X 4"
+                        My.Forms._6X4.Show()
+                    Case "6 X 6"
+                        My.Forms._6X6.Show()
+                    Case "East Tee"
+                        My.Forms.East_Tee.Show()
+                    Case "North Tee"
+                        My.Forms.North_Tee.Show()
+                    Case "Toll Booth"
+                        My.Forms.TollBoothEW.Show()
+                    Case "West Tee"
+                        My.Forms.WestTee.Show()
+                    Case "South Tee"
+                        My.Forms.SouthTee.Show()
+                    Case "N-S Diamond"
+                        My.Forms.NorthSouthFreeway.Show()
+                    Case "E-W Diamond"
+                        My.Forms.EastWestFreeway.Show()
+                End Select
+
+                Me.Visible = False
+            Else
+                MsgBox("All intermediary screens must be completed to proceed.", 0, "CO Florida 2012")
+            End If
+        Else
+            MsgBox("All fields must be completed to proceed.", 0, "CO Florida 2012")
+        End If
+    End Sub
 
 
 
