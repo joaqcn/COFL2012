@@ -143,13 +143,28 @@ Partial Class Results
         SaveFileDialog1 = New SaveFileDialog()
         PrintDialog1 = New PrintDialog()
         PrintDocument1 = New Printing.PrintDocument()
+        ToolStrip1 = New ToolStrip()
+        NewToolStripButton = New ToolStripButton()
+        OpenToolStripButton = New ToolStripButton()
+        SaveToolStripButton = New ToolStripButton()
+        ToolStripSeparator1 = New ToolStripSeparator()
+        ToolStripLabel1 = New ToolStripLabel()
+        TitleToolStripButton = New ToolStripButton()
+        DistrictToolStripButton = New ToolStripButton()
+        IntersectionTypeToolStripButton = New ToolStripButton()
+        IntersectionDataToolStripButton = New ToolStripButton()
+        RunToolStripButton = New ToolStripButton()
+        ToolStripLabel2 = New ToolStripLabel()
+        AboutToolStripButton = New ToolStripButton()
+        OpenFileDialog1 = New OpenFileDialog()
+        ToolStrip1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI Semibold", 21.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.Location = New Point(498, 9)
+        Label1.Location = New Point(498, 37)
         Label1.Name = "Label1"
         Label1.Size = New Size(345, 40)
         Label1.TabIndex = 0
@@ -404,7 +419,7 @@ Partial Class Results
         ' TextBox2
         ' 
         TextBox2.BorderStyle = BorderStyle.None
-        TextBox2.Location = New Point(586, 52)
+        TextBox2.Location = New Point(586, 80)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(171, 16)
         TextBox2.TabIndex = 82
@@ -1319,11 +1334,125 @@ Partial Class Results
         ' PrintDocument1
         ' 
         ' 
+        ' ToolStrip1
+        ' 
+        ToolStrip1.BackColor = SystemColors.InactiveCaption
+        ToolStrip1.Items.AddRange(New ToolStripItem() {NewToolStripButton, OpenToolStripButton, SaveToolStripButton, ToolStripSeparator1, ToolStripLabel1, TitleToolStripButton, DistrictToolStripButton, IntersectionTypeToolStripButton, IntersectionDataToolStripButton, RunToolStripButton, ToolStripLabel2, AboutToolStripButton})
+        ToolStrip1.Location = New Point(0, 0)
+        ToolStrip1.Name = "ToolStrip1"
+        ToolStrip1.Size = New Size(1351, 25)
+        ToolStrip1.TabIndex = 195
+        ToolStrip1.Text = "ToolStrip1"
+        ' 
+        ' NewToolStripButton
+        ' 
+        NewToolStripButton.AccessibleRole = AccessibleRole.Equation
+        NewToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        NewToolStripButton.Image = My.Resources.Resources.new_file
+        NewToolStripButton.ImageTransparentColor = Color.Magenta
+        NewToolStripButton.Name = "NewToolStripButton"
+        NewToolStripButton.Size = New Size(23, 22)
+        NewToolStripButton.Text = "New"
+        ' 
+        ' OpenToolStripButton
+        ' 
+        OpenToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        OpenToolStripButton.Image = My.Resources.Resources.folder
+        OpenToolStripButton.ImageTransparentColor = Color.Magenta
+        OpenToolStripButton.Name = "OpenToolStripButton"
+        OpenToolStripButton.Size = New Size(23, 22)
+        OpenToolStripButton.Text = "Open"
+        ' 
+        ' SaveToolStripButton
+        ' 
+        SaveToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        SaveToolStripButton.Image = My.Resources.Resources.save_file
+        SaveToolStripButton.ImageTransparentColor = Color.Magenta
+        SaveToolStripButton.Name = "SaveToolStripButton"
+        SaveToolStripButton.Size = New Size(23, 22)
+        SaveToolStripButton.Text = "Save"
+        ' 
+        ' ToolStripSeparator1
+        ' 
+        ToolStripSeparator1.Name = "ToolStripSeparator1"
+        ToolStripSeparator1.Size = New Size(6, 25)
+        ' 
+        ' ToolStripLabel1
+        ' 
+        ToolStripLabel1.Name = "ToolStripLabel1"
+        ToolStripLabel1.Size = New Size(37, 22)
+        ToolStripLabel1.Text = "          "
+        ' 
+        ' TitleToolStripButton
+        ' 
+        TitleToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        TitleToolStripButton.Image = CType(resources.GetObject("TitleToolStripButton.Image"), Image)
+        TitleToolStripButton.ImageTransparentColor = Color.Magenta
+        TitleToolStripButton.Name = "TitleToolStripButton"
+        TitleToolStripButton.Size = New Size(23, 22)
+        TitleToolStripButton.Text = "Title"
+        ' 
+        ' DistrictToolStripButton
+        ' 
+        DistrictToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        DistrictToolStripButton.Image = My.Resources.Resources._2408276
+        DistrictToolStripButton.ImageTransparentColor = Color.Magenta
+        DistrictToolStripButton.Name = "DistrictToolStripButton"
+        DistrictToolStripButton.Size = New Size(23, 22)
+        DistrictToolStripButton.Text = "District"
+        ' 
+        ' IntersectionTypeToolStripButton
+        ' 
+        IntersectionTypeToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        IntersectionTypeToolStripButton.Image = My.Resources.Resources.Intersection_icon
+        IntersectionTypeToolStripButton.ImageTransparentColor = Color.Magenta
+        IntersectionTypeToolStripButton.Name = "IntersectionTypeToolStripButton"
+        IntersectionTypeToolStripButton.Size = New Size(23, 22)
+        IntersectionTypeToolStripButton.Text = "Interesection Type"
+        ' 
+        ' IntersectionDataToolStripButton
+        ' 
+        IntersectionDataToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        IntersectionDataToolStripButton.Image = My.Resources.Resources.data_type_number
+        IntersectionDataToolStripButton.ImageTransparentColor = Color.Magenta
+        IntersectionDataToolStripButton.Name = "IntersectionDataToolStripButton"
+        IntersectionDataToolStripButton.Size = New Size(23, 22)
+        IntersectionDataToolStripButton.Text = "Interesection Data"
+        ' 
+        ' RunToolStripButton
+        ' 
+        RunToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        RunToolStripButton.Image = My.Resources.Resources.button_icon_png_21060
+        RunToolStripButton.ImageTransparentColor = Color.Magenta
+        RunToolStripButton.Name = "RunToolStripButton"
+        RunToolStripButton.Size = New Size(23, 22)
+        RunToolStripButton.Text = "Run"
+        ' 
+        ' ToolStripLabel2
+        ' 
+        ToolStripLabel2.Name = "ToolStripLabel2"
+        ToolStripLabel2.Size = New Size(37, 22)
+        ToolStripLabel2.Text = "          "
+        ' 
+        ' AboutToolStripButton
+        ' 
+        AboutToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image
+        AboutToolStripButton.Image = My.Resources.Resources.Info
+        AboutToolStripButton.ImageTransparentColor = Color.Magenta
+        AboutToolStripButton.Name = "AboutToolStripButton"
+        AboutToolStripButton.Size = New Size(23, 22)
+        AboutToolStripButton.Text = "About"
+        ' 
+        ' OpenFileDialog1
+        ' 
+        OpenFileDialog1.FileName = "OpenFileDialog1"
+        ' 
         ' Results
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 966)
+        Controls.Add(ToolStrip1)
         Controls.Add(TextBox169)
         Controls.Add(TextBox171)
         Controls.Add(TextBox123)
@@ -1445,6 +1574,8 @@ Partial Class Results
         Name = "Results"
         RightToLeftLayout = True
         Text = "CO Florida 2012 - Results"
+        ToolStrip1.ResumeLayout(False)
+        ToolStrip1.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -1569,4 +1700,18 @@ Partial Class Results
     Friend WithEvents SaveFileDialog1 As SaveFileDialog
     Friend WithEvents PrintDialog1 As PrintDialog
     Friend WithEvents PrintDocument1 As Printing.PrintDocument
+    Friend WithEvents ToolStrip1 As ToolStrip
+    Friend WithEvents NewToolStripButton As ToolStripButton
+    Friend WithEvents OpenToolStripButton As ToolStripButton
+    Friend WithEvents SaveToolStripButton As ToolStripButton
+    Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents ToolStripLabel1 As ToolStripLabel
+    Friend WithEvents TitleToolStripButton As ToolStripButton
+    Friend WithEvents DistrictToolStripButton As ToolStripButton
+    Friend WithEvents IntersectionTypeToolStripButton As ToolStripButton
+    Friend WithEvents IntersectionDataToolStripButton As ToolStripButton
+    Friend WithEvents RunToolStripButton As ToolStripButton
+    Friend WithEvents ToolStripLabel2 As ToolStripLabel
+    Friend WithEvents AboutToolStripButton As ToolStripButton
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class
