@@ -9,7 +9,7 @@ Public Class WestTee
         InitWestTee()
     End Sub
 
-    Private Sub Form_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+    Private Sub Form_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
         Application.Exit()
     End Sub
 
@@ -304,6 +304,33 @@ Public Class WestTee
         Welcome.ATEB = TextBox5.Text
     End Sub
 
+    '***************************************************************************************************************************
+    '***********************************************Bottom navigation buttons***************************************************
+    '***************************************************************************************************************************
 
+    Private Sub btnNext_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnNext.Click
+        'Call the routine to check form inputs
+        VerifyWestTeeForm()
+
+        'Verifies that all input forms have been completed before making a run
+        If (Welcome.InputsCorrect(1) = True And Welcome.InputsCorrect(2) = True And Welcome.InputsCorrect(3) = True And Welcome.InputsCorrect(4) = True) Then
+            Welcome.BuildWestTee()
+            Welcome.MakeARun()
+            Me.Visible = False
+        Else
+            If Welcome.InputsCorrect(4) = True Then
+                MsgBox("A run cannot be made until all input forms have been completed.", 0, "CO Florida 2012")
+            End If
+        End If
+    End Sub
+
+
+    Private Sub btnPrevious_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPrevious.Click
+        Welcome.QuickVerify = True
+        VerifyWestTeeForm()
+        Welcome.QuickVerify = False
+        My.Forms.IntersectionType.Show()
+        Me.Visible = False
+    End Sub
 
 End Class

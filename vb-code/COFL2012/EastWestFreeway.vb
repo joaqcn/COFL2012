@@ -407,7 +407,7 @@ Public Class EastWestFreeway
     End Sub
 
 
-    Private Sub btnRun_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub btnRun_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRun.Click
         'Call the routine to check form inputs
         VerifyEWDiamondForm()
 
@@ -476,7 +476,5 @@ Public Class EastWestFreeway
         Welcome.OREB = TextBox6.Text
     End Sub
 
-    Private Sub btnRun_Click_1(sender As Object, e As EventArgs) Handles btnRun.Click
 
-    End Sub
 End Class
