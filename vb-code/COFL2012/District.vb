@@ -49,7 +49,7 @@ Public Class District
 
     Private Sub SaveToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SaveToolStripButton.Click
         'Writes user program run inputs to text file
-        SaveFileDialog1.InitialDirectory = PrimaryDirectory & "\UsrFiles\"
+        SaveFileDialog1.InitialDirectory = Welcome.PrimaryDirectory & "\UsrFiles\"
         SaveFileDialog1.Filter = "Input files (*.in)|*.in|All files (*.*)|*.*"
         SaveFileDialog1.FileName = ""
 
