@@ -149,7 +149,46 @@ Public Class Welcome
 
     End Sub
 
+
+    Private Sub RoundButton(btn As Button)
+
+        btn.FlatStyle = FlatStyle.Flat
+        btn.FlatAppearance.BorderSize = 1
+        btn.BackColor = Color.LightGray
+        btn.ForeColor = Color.Black
+        btn.Cursor = Cursors.Hand
+        ' btn.Font = New Font("Trebuchet MS", 15)
+
+        Dim Raduis As New Drawing2D.GraphicsPath
+
+        Raduis.StartFigure()
+        'appends an elliptical arc to the current figure
+        'left corner top
+        Raduis.AddArc(New Rectangle(0, 0, 20, 20), 180, 90)
+        'appends a line segment to the current figure
+        Raduis.AddLine(10, 0, btn.Width - 20, 0)
+        'appends an elliptical arc to the current figure
+        'right corner top
+        Raduis.AddArc(New Rectangle(btn.Width - 20, 0, 20, 20), -90, 90)
+        'appends a line segment to the current figure
+        Raduis.AddLine(Button1.Width, 20, btn.Width, btn.Height - 10)
+        'appends an elliptical arc to the current figure 
+        'right corner buttom
+        Raduis.AddArc(New Rectangle(btn.Width - 25, btn.Height - 25, 25, 25), 0, 90)
+        'appends a line segment to the current figure
+        'left corner bottom
+        Raduis.AddLine(btn.Width - 10, btn.Width, 20, btn.Height)
+        'appends an elliptical arc to the current figure
+        Raduis.AddArc(New Rectangle(0, btn.Height - 20, 20, 20), 90, 90)
+        'Close the current figure and start a new one.
+        Raduis.CloseFigure()
+        'set the window associated with the control
+        Button1.Region = New Region(Raduis)
+    End Sub
+
+
     Private Sub Welcome_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        RoundButton(Button1)
         'Gets the primary directory
         PrimaryDirectory = Directory.GetCurrentDirectory()
 
