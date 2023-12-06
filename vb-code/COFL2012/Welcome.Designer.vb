@@ -133,7 +133,6 @@ Partial Class Welcome
         ' Button1
         ' 
         Button1.FlatAppearance.BorderColor = Color.Black
-        Button1.FlatAppearance.BorderSize = 6
         Button1.Font = New Font("Trebuchet MS", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
         Button1.Location = New Point(730, 352)
         Button1.Name = "Button1"

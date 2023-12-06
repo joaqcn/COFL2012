@@ -150,11 +150,11 @@ Public Class Welcome
     End Sub
 
 
-    Private Sub RoundButton(btn As Button)
+    Public Sub RoundButton(btn As Button)
 
         btn.FlatStyle = FlatStyle.Flat
         btn.FlatAppearance.BorderSize = 1
-        btn.BackColor = Color.LightGray
+        btn.BackColor = Color.White
         btn.ForeColor = Color.Black
         btn.Cursor = Cursors.Hand
         ' btn.Font = New Font("Trebuchet MS", 15)
@@ -2948,5 +2948,7 @@ Public Class Welcome
         sWriter.Close()
     End Sub
 
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
 
+    End Sub
 End Class
