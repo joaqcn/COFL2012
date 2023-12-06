@@ -2,6 +2,8 @@
 
 Public Class Title
     Private roadType As String
+
+
     Private Sub getDataFromTitle()
         Welcome.Job = TextBox1.Text
         Welcome.FacilityName = TextBox2.Text
@@ -32,8 +34,10 @@ Public Class Title
     '******************************************************Form Load and Close Subroutines***********************************************************
     '*************************************************************************************************************************************
     Private Sub Title_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Welcome.RoundButton(Button4)
         'Calls the subroutine to initialize the Title Form
         InitTitle()
+
 
     End Sub
 
