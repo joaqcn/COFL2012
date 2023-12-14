@@ -80,19 +80,19 @@ Partial Class IntersectionType
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.Location = New Point(515, 25)
+        Label1.Font = New Font("Trebuchet MS", 18F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Location = New Point(409, 42)
         Label1.Name = "Label1"
-        Label1.Size = New Size(307, 32)
+        Label1.Size = New Size(321, 29)
         Label1.TabIndex = 0
         Label1.Text = "Intersection Type Selection"
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources._4x4
-        PictureBox1.Location = New Point(31, 99)
+        PictureBox1.Location = New Point(27, 106)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(228, 127)
+        PictureBox1.Size = New Size(195, 135)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 12
         PictureBox1.TabStop = False
@@ -100,29 +100,29 @@ Partial Class IntersectionType
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(119, 232)
+        Label2.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Location = New Point(101, 244)
         Label2.Name = "Label2"
-        Label2.Size = New Size(53, 25)
+        Label2.Size = New Size(45, 22)
         Label2.TabIndex = 13
         Label2.Text = "4 X 4"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(450, 232)
+        Label3.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(390, 244)
         Label3.Name = "Label3"
-        Label3.Size = New Size(53, 25)
+        Label3.Size = New Size(45, 22)
         Label3.TabIndex = 14
         Label3.Text = "4 X 6"
         ' 
         ' PictureBox3
         ' 
         PictureBox3.Image = My.Resources.Resources._4x6
-        PictureBox3.Location = New Point(369, 99)
+        PictureBox3.Location = New Point(316, 106)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(228, 127)
+        PictureBox3.Size = New Size(195, 135)
         PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox3.TabIndex = 15
         PictureBox3.TabStop = False
@@ -130,19 +130,19 @@ Partial Class IntersectionType
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(814, 232)
+        Label4.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Location = New Point(698, 244)
         Label4.Name = "Label4"
-        Label4.Size = New Size(53, 25)
+        Label4.Size = New Size(45, 22)
         Label4.TabIndex = 16
         Label4.Text = "6 X 4"
         ' 
         ' PictureBox4
         ' 
         PictureBox4.Image = My.Resources.Resources._6x4
-        PictureBox4.Location = New Point(726, 99)
+        PictureBox4.Location = New Point(622, 106)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(228, 127)
+        PictureBox4.Size = New Size(195, 135)
         PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox4.TabIndex = 17
         PictureBox4.TabStop = False
@@ -150,19 +150,19 @@ Partial Class IntersectionType
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label5.Location = New Point(1166, 230)
+        Label5.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label5.Location = New Point(997, 244)
         Label5.Name = "Label5"
-        Label5.Size = New Size(53, 25)
+        Label5.Size = New Size(45, 22)
         Label5.TabIndex = 18
         Label5.Text = "6 X 6"
         ' 
         ' PictureBox2
         ' 
         PictureBox2.Image = My.Resources.Resources._6x6
-        PictureBox2.Location = New Point(1075, 99)
+        PictureBox2.Location = New Point(921, 106)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(228, 127)
+        PictureBox2.Size = New Size(195, 135)
         PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox2.TabIndex = 19
         PictureBox2.TabStop = False
@@ -171,10 +171,10 @@ Partial Class IntersectionType
         ' 
         Label6.AutoSize = True
         Label6.FlatStyle = FlatStyle.System
-        Label6.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label6.Location = New Point(230, 462)
+        Label6.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label6.Location = New Point(173, 440)
         Label6.Name = "Label6"
-        Label6.Size = New Size(79, 25)
+        Label6.Size = New Size(69, 22)
         Label6.TabIndex = 20
         Label6.Text = "East Tee"
         ' 
@@ -182,10 +182,10 @@ Partial Class IntersectionType
         ' 
         Label7.AutoSize = True
         Label7.FlatStyle = FlatStyle.System
-        Label7.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label7.Location = New Point(591, 464)
+        Label7.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label7.Location = New Point(486, 440)
         Label7.Name = "Label7"
-        Label7.Size = New Size(94, 25)
+        Label7.Size = New Size(80, 22)
         Label7.TabIndex = 21
         Label7.Text = "North Tee"
         ' 
@@ -193,10 +193,10 @@ Partial Class IntersectionType
         ' 
         Label8.AutoSize = True
         Label8.FlatStyle = FlatStyle.System
-        Label8.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label8.Location = New Point(972, 464)
+        Label8.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label8.Location = New Point(814, 440)
         Label8.Name = "Label8"
-        Label8.Size = New Size(96, 25)
+        Label8.Size = New Size(81, 22)
         Label8.TabIndex = 22
         Label8.Text = "Toll Booth"
         ' 
@@ -204,10 +204,10 @@ Partial Class IntersectionType
         ' 
         Label9.AutoSize = True
         Label9.FlatStyle = FlatStyle.System
-        Label9.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label9.Location = New Point(95, 716)
+        Label9.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label9.Location = New Point(99, 643)
         Label9.Name = "Label9"
-        Label9.Size = New Size(86, 25)
+        Label9.Size = New Size(75, 22)
         Label9.TabIndex = 23
         Label9.Text = "West Tee"
         ' 
@@ -215,10 +215,10 @@ Partial Class IntersectionType
         ' 
         Label10.AutoSize = True
         Label10.FlatStyle = FlatStyle.System
-        Label10.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label10.Location = New Point(432, 716)
+        Label10.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label10.Location = New Point(388, 643)
         Label10.Name = "Label10"
-        Label10.Size = New Size(94, 25)
+        Label10.Size = New Size(80, 22)
         Label10.TabIndex = 24
         Label10.Text = "South Tee"
         ' 
@@ -226,10 +226,10 @@ Partial Class IntersectionType
         ' 
         Label11.AutoSize = True
         Label11.FlatStyle = FlatStyle.System
-        Label11.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label11.Location = New Point(782, 716)
+        Label11.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label11.Location = New Point(688, 643)
         Label11.Name = "Label11"
-        Label11.Size = New Size(122, 100)
+        Label11.Size = New Size(104, 88)
         Label11.TabIndex = 25
         Label11.Text = "Diamond " & vbCrLf & "Interchange: " & vbCrLf & "N-S Freeway" & vbCrLf
         ' 
@@ -237,19 +237,19 @@ Partial Class IntersectionType
         ' 
         Label12.AutoSize = True
         Label12.FlatStyle = FlatStyle.System
-        Label12.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label12.Location = New Point(1135, 716)
+        Label12.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label12.Location = New Point(991, 643)
         Label12.Name = "Label12"
-        Label12.Size = New Size(122, 100)
+        Label12.Size = New Size(106, 88)
         Label12.TabIndex = 26
         Label12.Text = "Diamond " & vbCrLf & "Interchange: " & vbCrLf & "E-W Freeway" & vbCrLf
         ' 
         ' PictureBox5
         ' 
         PictureBox5.Image = My.Resources.Resources.East_Tee
-        PictureBox5.Location = New Point(151, 332)
+        PictureBox5.Location = New Point(116, 302)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(228, 127)
+        PictureBox5.Size = New Size(195, 135)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 27
         PictureBox5.TabStop = False
@@ -257,9 +257,9 @@ Partial Class IntersectionType
         ' PictureBox8
         ' 
         PictureBox8.Image = My.Resources.Resources.North_Tee
-        PictureBox8.Location = New Point(515, 334)
+        PictureBox8.Location = New Point(430, 302)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(228, 127)
+        PictureBox8.Size = New Size(195, 135)
         PictureBox8.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox8.TabIndex = 28
         PictureBox8.TabStop = False
@@ -267,9 +267,9 @@ Partial Class IntersectionType
         ' PictureBox9
         ' 
         PictureBox9.Image = My.Resources.Resources.Tool_Booth
-        PictureBox9.Location = New Point(892, 332)
+        PictureBox9.Location = New Point(757, 302)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(228, 127)
+        PictureBox9.Size = New Size(195, 135)
         PictureBox9.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox9.TabIndex = 29
         PictureBox9.TabStop = False
@@ -277,9 +277,9 @@ Partial Class IntersectionType
         ' PictureBox7
         ' 
         PictureBox7.Image = My.Resources.Resources.West_Tee
-        PictureBox7.Location = New Point(31, 586)
+        PictureBox7.Location = New Point(45, 504)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(228, 127)
+        PictureBox7.Size = New Size(195, 135)
         PictureBox7.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox7.TabIndex = 30
         PictureBox7.TabStop = False
@@ -287,9 +287,9 @@ Partial Class IntersectionType
         ' PictureBox6
         ' 
         PictureBox6.Image = My.Resources.Resources.South_Tee
-        PictureBox6.Location = New Point(369, 586)
+        PictureBox6.Location = New Point(334, 504)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(228, 127)
+        PictureBox6.Size = New Size(195, 135)
         PictureBox6.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox6.TabIndex = 31
         PictureBox6.TabStop = False
@@ -297,9 +297,9 @@ Partial Class IntersectionType
         ' PictureBox10
         ' 
         PictureBox10.Image = My.Resources.Resources.N_S_Freeway
-        PictureBox10.Location = New Point(726, 586)
+        PictureBox10.Location = New Point(640, 504)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(228, 127)
+        PictureBox10.Size = New Size(195, 135)
         PictureBox10.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox10.TabIndex = 32
         PictureBox10.TabStop = False
@@ -307,9 +307,9 @@ Partial Class IntersectionType
         ' PictureBox11
         ' 
         PictureBox11.Image = My.Resources.Resources.E_W_Freeway
-        PictureBox11.Location = New Point(1075, 586)
+        PictureBox11.Location = New Point(939, 504)
         PictureBox11.Name = "PictureBox11"
-        PictureBox11.Size = New Size(228, 127)
+        PictureBox11.Size = New Size(195, 135)
         PictureBox11.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox11.TabIndex = 33
         PictureBox11.TabStop = False
@@ -317,10 +317,10 @@ Partial Class IntersectionType
         ' btnPrevious
         ' 
         btnPrevious.BackColor = SystemColors.ButtonShadow
-        btnPrevious.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        btnPrevious.Location = New Point(548, 797)
+        btnPrevious.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        btnPrevious.Location = New Point(79, 732)
         btnPrevious.Name = "btnPrevious"
-        btnPrevious.Size = New Size(100, 29)
+        btnPrevious.Size = New Size(113, 31)
         btnPrevious.TabIndex = 34
         btnPrevious.Text = "Previous"
         btnPrevious.UseVisualStyleBackColor = False
@@ -328,10 +328,10 @@ Partial Class IntersectionType
         ' btnNext
         ' 
         btnNext.BackColor = SystemColors.ButtonShadow
-        btnNext.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        btnNext.Location = New Point(665, 797)
+        btnNext.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        btnNext.Location = New Point(966, 734)
         btnNext.Name = "btnNext"
-        btnNext.Size = New Size(100, 29)
+        btnNext.Size = New Size(113, 31)
         btnNext.TabIndex = 35
         btnNext.Text = "Next"
         btnNext.UseVisualStyleBackColor = False
@@ -342,7 +342,7 @@ Partial Class IntersectionType
         ToolStrip1.Items.AddRange(New ToolStripItem() {NewToolStripButton, SaveToolStripButton, OpenToolStripButton, ToolStripSeparator1, ToolStripLabel1, TitleToolStripButton, DistrictToolStripButton, IntersectionTypeToolStripButton, IntersectionDataToolStripButton, RunToolStripButton, ToolStripLabel2, AboutToolStripButton})
         ToolStrip1.Location = New Point(0, 0)
         ToolStrip1.Name = "ToolStrip1"
-        ToolStrip1.Size = New Size(1351, 25)
+        ToolStrip1.Size = New Size(1158, 25)
         ToolStrip1.TabIndex = 36
         ToolStrip1.Text = "ToolStrip1"
         ' 
@@ -451,9 +451,10 @@ Partial Class IntersectionType
         ' 
         ' IntersectionType
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(6F, 16F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1351, 838)
+        BackColor = Color.LightGray
+        ClientSize = New Size(1158, 797)
         Controls.Add(ToolStrip1)
         Controls.Add(btnNext)
         Controls.Add(btnPrevious)
@@ -480,6 +481,7 @@ Partial Class IntersectionType
         Controls.Add(Label2)
         Controls.Add(PictureBox1)
         Controls.Add(Label1)
+        Font = New Font("Trebuchet MS", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "IntersectionType"
         Text = "CO Florida 2012 - Intersection Type"

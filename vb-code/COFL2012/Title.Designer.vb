@@ -122,7 +122,7 @@ Partial Class Title
         ' TextBox1
         ' 
         TextBox1.BackColor = SystemColors.Control
-        TextBox1.Font = New Font("Trebuchet MS", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox1.Font = New Font("Trebuchet MS", 9F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox1.Location = New Point(52, 129)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(348, 21)
@@ -131,7 +131,7 @@ Partial Class Title
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Font = New Font("Trebuchet MS", 18.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Font = New Font("Trebuchet MS", 18F, FontStyle.Bold, GraphicsUnit.Point)
         Label7.Location = New Point(194, 61)
         Label7.Name = "Label7"
         Label7.Size = New Size(230, 29)
@@ -217,7 +217,8 @@ Partial Class Title
         Button4.Size = New Size(132, 39)
         Button4.TabIndex = 17
         Button4.Text = "Next"
-
+        Button4.UseVisualStyleBackColor = False
+        ' 
         ' ToolStrip1
         ' 
         ToolStrip1.BackColor = SystemColors.InactiveCaption
