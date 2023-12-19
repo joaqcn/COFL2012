@@ -35,21 +35,21 @@ Partial Class About
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(321, 80)
+        Label2.Font = New Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Location = New Point(235, 81)
         Label2.Name = "Label2"
         Label2.RightToLeft = RightToLeft.No
-        Label2.Size = New Size(655, 24)
+        Label2.Size = New Size(770, 21)
         Label2.TabIndex = 1
         Label2.Text = "CO Florida 2012 is the FDOT's latest version of Florida's CO screening model"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(272, 130)
+        Label3.Font = New Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(222, 130)
         Label3.Name = "Label3"
-        Label3.Size = New Size(770, 72)
+        Label3.Size = New Size(850, 63)
         Label3.TabIndex = 2
         Label3.Text = resources.GetString("Label3.Text")
         Label3.TextAlign = ContentAlignment.MiddleCenter
@@ -57,10 +57,10 @@ Partial Class About
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(160, 224)
+        Label4.Font = New Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Location = New Point(46, 227)
         Label4.Name = "Label4"
-        Label4.Size = New Size(1041, 48)
+        Label4.Size = New Size(1250, 42)
         Label4.TabIndex = 3
         Label4.Text = resources.GetString("Label4.Text")
         Label4.TextAlign = ContentAlignment.MiddleCenter
@@ -68,30 +68,30 @@ Partial Class About
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Trebuchet MS", 20.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Font = New Font("Roboto Mono", 20.25F, FontStyle.Bold, GraphicsUnit.Point)
         Label1.Location = New Point(511, 21)
         Label1.Name = "Label1"
-        Label1.Size = New Size(304, 35)
+        Label1.Size = New Size(351, 35)
         Label1.TabIndex = 4
         Label1.Text = "About CO Florida 2012"
         ' 
         ' Button1
         ' 
         Button1.BackColor = SystemColors.ButtonShadow
-        Button1.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Button1.Location = New Point(1094, 767)
+        Button1.Font = New Font("Roboto Mono", 18.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Button1.Location = New Point(581, 597)
         Button1.Name = "Button1"
         Button1.Size = New Size(201, 39)
         Button1.TabIndex = 7
-        Button1.Text = "Close ""About"""
+        Button1.Text = "Close"
         Button1.UseVisualStyleBackColor = False
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.fdot_logo
-        PictureBox1.Location = New Point(304, 308)
+        PictureBox1.Location = New Point(418, 285)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(760, 333)
+        PictureBox1.Size = New Size(527, 252)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 8
         PictureBox1.TabStop = False
@@ -101,7 +101,7 @@ Partial Class About
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.LightGray
-        ClientSize = New Size(1351, 838)
+        ClientSize = New Size(1351, 670)
         Controls.Add(PictureBox1)
         Controls.Add(Button1)
         Controls.Add(Label1)
