@@ -5,6 +5,8 @@ Public Class District
     '******************************************************Form Load and Close Subroutines***********************************************************
     '*************************************************************************************************************************************
     Private Sub District_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Welcome.RoundButton(btnPrevious)
+        Welcome.RoundButton(btnNext)
         'Gets the primary directory
         Welcome.PrimaryDirectory = Directory.GetCurrentDirectory()
         Welcome.InputsCorrect(2) = False

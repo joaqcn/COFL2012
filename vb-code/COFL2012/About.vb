@@ -4,6 +4,9 @@
         Me.Visible = False
     End Sub
 
+    Private Sub About_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Welcome.RoundButton(Button1)
+    End Sub
     'Private Sub About_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
     '    'Makes PictureBox1 visible and hides the rest
     '    PictureBox1.Visible = True

@@ -149,7 +149,35 @@ Public Class Welcome
 
     End Sub
 
+    Public Sub RoundButton(btn As Button)
+        btn.FlatStyle = FlatStyle.Flat
+        btn.FlatAppearance.BorderSize = 0
+        btn.BackColor = Color.LightGray
+        btn.ForeColor = Color.Black
+        btn.Cursor = Cursors.Hand
+
+        Dim Path As New Drawing2D.GraphicsPath
+
+        Path.StartFigure()
+        ' Append a line segment to the current figure (left-top corner)
+        Path.AddLine(0, 0, 50, 0)
+        ' Append a line segment to the current figure (right-top corner)
+        Path.AddLine(btn.Width - 50, 0, btn.Width, 0)
+        ' Append a line segment to the current figure (right-bottom corner)
+        Path.AddLine(btn.Width, btn.Height, btn.Width - 50, btn.Height)
+        ' Append a line segment to the current figure (left-bottom corner)
+        Path.AddLine(50, btn.Height, 0, btn.Height)
+        ' Close the current figure
+        Path.CloseFigure()
+
+        ' Set the region associated with the control
+        btn.Region = New Region(Path)
+    End Sub
+
+
+
     Private Sub Welcome_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        RoundButton(Button1)
         'Gets the primary directory
         PrimaryDirectory = Directory.GetCurrentDirectory()
 
@@ -2908,6 +2936,5 @@ Public Class Welcome
         sWriter.Flush()
         sWriter.Close()
     End Sub
-
 
 End Class
