@@ -161,6 +161,7 @@ Partial Class Title
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(348, 23)
         TextBox3.TabIndex = 9
+        TextBox3.Text = "dfdsas"
         ' 
         ' TextBox4
         ' 
