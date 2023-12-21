@@ -1,8 +1,39 @@
 ﻿
+Imports System.Drawing.Drawing2D
 
 Public Class Title
     Private roadType As String
+    Private isClickedForFirstTime As Boolean = True
 
+
+
+    Private Sub TextBox_Click(sender As Object, e As EventArgs) Handles TextBox1.Click, TextBox2.Click, TextBox3.Click
+        Dim clickedTextBox As TextBox = DirectCast(sender, TextBox)
+
+        If clickedTextBox.Tag Is Nothing OrElse CBool(clickedTextBox.Tag) = True Then
+            clickedTextBox.Text = ""
+            clickedTextBox.Tag = False
+        End If
+    End Sub
+
+    Private Sub RoundedCornersForTextBox(textBox As TextBox)
+        ' Create a GraphicsPath with rounded corners
+        Dim path As New GraphicsPath()
+        Dim radius As Integer = 15
+        Dim rect As New Rectangle(0, 0, textBox.Width - 1, textBox.Height - 1)
+
+        ' Add arcs to the GraphicsPath to create rounded corners
+        path.AddArc(rect.Left, rect.Top, radius * 2, radius * 2, 180, 90) ' Top-left corner
+        path.AddArc(rect.Right - radius * 2, rect.Top, radius * 2, radius * 2, 270, 90) ' Top-right corner
+        path.AddArc(rect.Right - radius * 2, rect.Bottom - radius * 2, radius * 2, radius * 2, 0, 90) ' Bottom-right corner
+        path.AddArc(rect.Left, rect.Bottom - radius * 2, radius * 2, radius * 2, 90, 90) ' Bottom-left corner
+
+        ' Close the path
+        path.CloseFigure()
+
+        ' Set the region of the TextBox to the created path
+        textBox.Region = New Region(path)
+    End Sub
 
     Private Sub getDataFromTitle()
         Welcome.Job = TextBox1.Text
@@ -34,6 +65,8 @@ Public Class Title
     '******************************************************Form Load and Close Subroutines***********************************************************
     '*************************************************************************************************************************************
     Private Sub Title_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        RoundedCornersForTextBox(TextBox1)
+        RoundedCornersForTextBox(TextBox2)
         Welcome.RoundButton(Button4)
         'Calls the subroutine to initialize the Title Form
         InitTitle()
