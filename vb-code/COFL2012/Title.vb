@@ -7,7 +7,7 @@ Public Class Title
 
 
 
-    Private Sub TextBox_Click(sender As Object, e As EventArgs) Handles TextBox1.Click, TextBox2.Click, TextBox3.Click
+    Private Sub TextBox_Click(sender As Object, e As EventArgs) Handles TextBox1.Click, TextBox2.Click, TextBox3.Click, TextBox4.Click, TextBox5.Click
         Dim clickedTextBox As TextBox = DirectCast(sender, TextBox)
 
         If clickedTextBox.Tag Is Nothing OrElse CBool(clickedTextBox.Tag) = True Then
@@ -67,7 +67,14 @@ Public Class Title
     Private Sub Title_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         RoundedCornersForTextBox(TextBox1)
         RoundedCornersForTextBox(TextBox2)
+        RoundedCornersForTextBox(TextBox3)
+        RoundedCornersForTextBox(TextBox4)
+        RoundedCornersForTextBox(TextBox5)
+        Welcome.RoundButton(Button1)
+        Welcome.RoundButton(Button2)
+        Welcome.RoundButton(Button3)
         Welcome.RoundButton(Button4)
+
         'Calls the subroutine to initialize the Title Form
         InitTitle()
 

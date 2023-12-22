@@ -156,28 +156,38 @@ Partial Class Title
         ' 
         ' TextBox3
         ' 
-        TextBox3.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox3.BackColor = Color.Gainsboro
+        TextBox3.BorderStyle = BorderStyle.None
+        TextBox3.Font = New Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox3.Location = New Point(52, 260)
+        TextBox3.Multiline = True
         TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(348, 23)
+        TextBox3.Size = New Size(348, 32)
         TextBox3.TabIndex = 9
-        TextBox3.Text = "dfdsas"
+        TextBox3.Text = "Enter the user name"
         ' 
         ' TextBox4
         ' 
-        TextBox4.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox4.Location = New Point(52, 325)
+        TextBox4.BackColor = Color.Gainsboro
+        TextBox4.BorderStyle = BorderStyle.None
+        TextBox4.Font = New Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox4.Location = New Point(52, 326)
+        TextBox4.Multiline = True
         TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(348, 23)
+        TextBox4.Size = New Size(348, 32)
         TextBox4.TabIndex = 10
+        TextBox4.Text = "Enter run name"
         ' 
         ' TextBox5
         ' 
-        TextBox5.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox5.BackColor = Color.Gainsboro
+        TextBox5.Font = New Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox5.Location = New Point(52, 392)
+        TextBox5.Multiline = True
         TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(348, 23)
+        TextBox5.Size = New Size(348, 34)
         TextBox5.TabIndex = 11
+        TextBox5.Text = "Enter the project year"
         ' 
         ' Button1
         ' 
