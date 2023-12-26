@@ -70,9 +70,9 @@ Public Class Title
         RoundedCornersForTextBox(TextBox3)
         RoundedCornersForTextBox(TextBox4)
         RoundedCornersForTextBox(TextBox5)
-        Welcome.RoundButton(Button1)
-        Welcome.RoundButton(Button2)
-        Welcome.RoundButton(Button3)
+        ' Welcome.RoundButton(Button1)
+        ' Welcome.RoundButton(Button2)
+        ' Welcome.RoundButton(Button3)
         Welcome.RoundButton(Button4)
 
         'Calls the subroutine to initialize the Title Form
