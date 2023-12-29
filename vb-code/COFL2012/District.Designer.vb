@@ -58,10 +58,10 @@ Partial Class District
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Trebuchet MS", 18F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Font = New Font("Roboto Mono", 18F, FontStyle.Bold, GraphicsUnit.Point)
         Label1.Location = New Point(424, 53)
         Label1.Name = "Label1"
-        Label1.Size = New Size(205, 29)
+        Label1.Size = New Size(266, 32)
         Label1.TabIndex = 0
         Label1.Text = "District Selection"
         ' 
@@ -76,19 +76,19 @@ Partial Class District
         Panel1.Controls.Add(Button3)
         Panel1.Controls.Add(Button2)
         Panel1.Controls.Add(Button1)
-        Panel1.Location = New Point(143, 121)
+        Panel1.Location = New Point(80, 130)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(138, 420)
+        Panel1.Size = New Size(209, 410)
         Panel1.TabIndex = 1
         ' 
         ' Button7
         ' 
         Button7.BackColor = Color.LightGray
-        Button7.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button7.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button7.ImageAlign = ContentAlignment.TopCenter
-        Button7.Location = New Point(16, 360)
+        Button7.Location = New Point(16, 334)
         Button7.Name = "Button7"
-        Button7.Size = New Size(104, 32)
+        Button7.Size = New Size(164, 47)
         Button7.TabIndex = 10
         Button7.Text = "District 7"
         Button7.UseVisualStyleBackColor = False
@@ -96,11 +96,11 @@ Partial Class District
         ' Button6
         ' 
         Button6.BackColor = Color.LightGray
-        Button6.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button6.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button6.ImageAlign = ContentAlignment.TopCenter
-        Button6.Location = New Point(16, 303)
+        Button6.Location = New Point(16, 289)
         Button6.Name = "Button6"
-        Button6.Size = New Size(104, 32)
+        Button6.Size = New Size(164, 39)
         Button6.TabIndex = 9
         Button6.Text = "District 6"
         Button6.UseVisualStyleBackColor = False
@@ -108,11 +108,11 @@ Partial Class District
         ' Button5
         ' 
         Button5.BackColor = Color.LightGray
-        Button5.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button5.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button5.ImageAlign = ContentAlignment.TopCenter
-        Button5.Location = New Point(16, 251)
+        Button5.Location = New Point(16, 237)
         Button5.Name = "Button5"
-        Button5.Size = New Size(104, 32)
+        Button5.Size = New Size(164, 46)
         Button5.TabIndex = 8
         Button5.Text = "District 5"
         Button5.UseVisualStyleBackColor = False
@@ -120,11 +120,11 @@ Partial Class District
         ' Button4
         ' 
         Button4.BackColor = Color.LightGray
-        Button4.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button4.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button4.ImageAlign = ContentAlignment.TopCenter
-        Button4.Location = New Point(17, 194)
+        Button4.Location = New Point(18, 180)
         Button4.Name = "Button4"
-        Button4.Size = New Size(104, 32)
+        Button4.Size = New Size(163, 51)
         Button4.TabIndex = 7
         Button4.Text = "District 4"
         Button4.UseVisualStyleBackColor = False
@@ -132,11 +132,11 @@ Partial Class District
         ' Button3
         ' 
         Button3.BackColor = Color.LightGray
-        Button3.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button3.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button3.ImageAlign = ContentAlignment.TopCenter
-        Button3.Location = New Point(16, 140)
+        Button3.Location = New Point(16, 126)
         Button3.Name = "Button3"
-        Button3.Size = New Size(104, 32)
+        Button3.Size = New Size(164, 48)
         Button3.TabIndex = 6
         Button3.Text = "District 3"
         Button3.UseVisualStyleBackColor = False
@@ -144,11 +144,11 @@ Partial Class District
         ' Button2
         ' 
         Button2.BackColor = Color.LightGray
-        Button2.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button2.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button2.ImageAlign = ContentAlignment.TopCenter
-        Button2.Location = New Point(16, 87)
+        Button2.Location = New Point(17, 73)
         Button2.Name = "Button2"
-        Button2.Size = New Size(104, 32)
+        Button2.Size = New Size(164, 47)
         Button2.TabIndex = 5
         Button2.Text = "District 2"
         Button2.UseVisualStyleBackColor = False
@@ -156,11 +156,11 @@ Partial Class District
         ' Button1
         ' 
         Button1.BackColor = Color.LightGray
-        Button1.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button1.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button1.ImageAlign = ContentAlignment.TopCenter
-        Button1.Location = New Point(17, 35)
+        Button1.Location = New Point(17, 20)
         Button1.Name = "Button1"
-        Button1.Size = New Size(104, 32)
+        Button1.Size = New Size(163, 47)
         Button1.TabIndex = 4
         Button1.Text = "District 1"
         Button1.UseVisualStyleBackColor = False
@@ -168,9 +168,9 @@ Partial Class District
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.district_map
-        PictureBox1.Location = New Point(324, 111)
+        PictureBox1.Location = New Point(354, 109)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(550, 468)
+        PictureBox1.Size = New Size(597, 483)
         PictureBox1.SizeMode = PictureBoxSizeMode.CenterImage
         PictureBox1.TabIndex = 2
         PictureBox1.TabStop = False
@@ -178,11 +178,11 @@ Partial Class District
         ' btnPrevious
         ' 
         btnPrevious.BackColor = SystemColors.ButtonShadow
-        btnPrevious.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        btnPrevious.Font = New Font("Roboto Mono", 18F, FontStyle.Bold, GraphicsUnit.Point)
         btnPrevious.ImageAlign = ContentAlignment.TopCenter
-        btnPrevious.Location = New Point(188, 649)
+        btnPrevious.Location = New Point(188, 634)
         btnPrevious.Name = "btnPrevious"
-        btnPrevious.Size = New Size(104, 32)
+        btnPrevious.Size = New Size(168, 47)
         btnPrevious.TabIndex = 11
         btnPrevious.Text = "Previous"
         btnPrevious.UseVisualStyleBackColor = False
@@ -190,11 +190,11 @@ Partial Class District
         ' btnNext
         ' 
         btnNext.BackColor = SystemColors.ButtonShadow
-        btnNext.Font = New Font("Trebuchet MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        btnNext.Font = New Font("Roboto Mono", 18F, FontStyle.Bold, GraphicsUnit.Point)
         btnNext.ImageAlign = ContentAlignment.TopCenter
-        btnNext.Location = New Point(871, 649)
+        btnNext.Location = New Point(759, 635)
         btnNext.Name = "btnNext"
-        btnNext.Size = New Size(104, 32)
+        btnNext.Size = New Size(168, 47)
         btnNext.TabIndex = 12
         btnNext.Text = "Next"
         btnNext.UseVisualStyleBackColor = False

@@ -38,7 +38,6 @@ Partial Class Title
         Button1 = New Button()
         Button2 = New Button()
         Button3 = New Button()
-        PictureBox1 = New PictureBox()
         Button4 = New Button()
         ToolStrip1 = New ToolStrip()
         NewToolStripButton = New ToolStripButton()
@@ -55,7 +54,6 @@ Partial Class Title
         AboutToolStripButton = New ToolStripButton()
         SaveFileDialog1 = New SaveFileDialog()
         OpenFileDialog1 = New OpenFileDialog()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         ToolStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -63,7 +61,7 @@ Partial Class Title
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Roboto Mono", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(52, 82)
+        Label1.Location = New Point(108, 82)
         Label1.Name = "Label1"
         Label1.Size = New Size(181, 28)
         Label1.TabIndex = 1
@@ -73,7 +71,7 @@ Partial Class Title
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Roboto Mono", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(51, 230)
+        Label2.Location = New Point(108, 230)
         Label2.Name = "Label2"
         Label2.Size = New Size(155, 28)
         Label2.TabIndex = 2
@@ -83,7 +81,7 @@ Partial Class Title
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Roboto Mono", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(52, 158)
+        Label3.Location = New Point(108, 158)
         Label3.Name = "Label3"
         Label3.Size = New Size(181, 28)
         Label3.TabIndex = 2
@@ -93,7 +91,7 @@ Partial Class Title
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Roboto Mono", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(51, 295)
+        Label4.Location = New Point(108, 295)
         Label4.Name = "Label4"
         Label4.Size = New Size(116, 28)
         Label4.TabIndex = 3
@@ -103,7 +101,7 @@ Partial Class Title
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Roboto Mono", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label5.Location = New Point(52, 361)
+        Label5.Location = New Point(108, 361)
         Label5.Name = "Label5"
         Label5.Size = New Size(324, 28)
         Label5.TabIndex = 4
@@ -113,18 +111,18 @@ Partial Class Title
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Roboto Mono", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label6.Location = New Point(51, 429)
+        Label6.Location = New Point(108, 429)
         Label6.Name = "Label6"
-        Label6.Size = New Size(116, 28)
+        Label6.Size = New Size(272, 28)
         Label6.TabIndex = 5
-        Label6.Text = "Land Use"
+        Label6.Text = "Land Use (Click one)" & vbCrLf
         ' 
         ' TextBox1
         ' 
         TextBox1.BackColor = Color.Gainsboro
         TextBox1.BorderStyle = BorderStyle.None
         TextBox1.Font = New Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox1.Location = New Point(52, 113)
+        TextBox1.Location = New Point(108, 113)
         TextBox1.Multiline = True
         TextBox1.Name = "TextBox1"
         TextBox1.RightToLeft = RightToLeft.No
@@ -136,7 +134,7 @@ Partial Class Title
         ' 
         Label7.AutoSize = True
         Label7.Font = New Font("Roboto Mono", 18F, FontStyle.Bold, GraphicsUnit.Point)
-        Label7.Location = New Point(120, 50)
+        Label7.Location = New Point(269, 43)
         Label7.Name = "Label7"
         Label7.Size = New Size(280, 32)
         Label7.TabIndex = 7
@@ -147,7 +145,7 @@ Partial Class Title
         TextBox2.BackColor = Color.Gainsboro
         TextBox2.BorderStyle = BorderStyle.None
         TextBox2.Font = New Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox2.Location = New Point(52, 194)
+        TextBox2.Location = New Point(108, 194)
         TextBox2.Multiline = True
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(348, 33)
@@ -156,34 +154,46 @@ Partial Class Title
         ' 
         ' TextBox3
         ' 
-        TextBox3.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox3.Location = New Point(52, 260)
+        TextBox3.BackColor = Color.Gainsboro
+        TextBox3.BorderStyle = BorderStyle.None
+        TextBox3.Font = New Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox3.Location = New Point(108, 261)
+        TextBox3.Multiline = True
         TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(348, 23)
+        TextBox3.Size = New Size(348, 32)
         TextBox3.TabIndex = 9
-        TextBox3.Text = "dfdsas"
+        TextBox3.Text = "Enter the user name"
         ' 
         ' TextBox4
         ' 
-        TextBox4.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox4.Location = New Point(52, 325)
+        TextBox4.BackColor = Color.Gainsboro
+        TextBox4.BorderStyle = BorderStyle.None
+        TextBox4.Font = New Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox4.Location = New Point(108, 326)
+        TextBox4.Multiline = True
         TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(348, 23)
+        TextBox4.Size = New Size(348, 32)
         TextBox4.TabIndex = 10
+        TextBox4.Text = "Enter run name"
         ' 
         ' TextBox5
         ' 
-        TextBox5.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox5.Location = New Point(52, 392)
+        TextBox5.BackColor = Color.Gainsboro
+        TextBox5.BorderStyle = BorderStyle.None
+        TextBox5.Font = New Font("Roboto Mono", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox5.Location = New Point(108, 392)
+        TextBox5.Multiline = True
         TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(348, 23)
+        TextBox5.Size = New Size(348, 34)
         TextBox5.TabIndex = 11
+        TextBox5.Text = "Enter the project year"
         ' 
         ' Button1
         ' 
         Button1.BackColor = SystemColors.Control
-        Button1.Font = New Font("Roboto Mono", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Button1.Location = New Point(51, 460)
+        Button1.FlatAppearance.BorderColor = Color.Black
+        Button1.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button1.Location = New Point(108, 470)
         Button1.Name = "Button1"
         Button1.Size = New Size(132, 34)
         Button1.TabIndex = 12
@@ -192,8 +202,8 @@ Partial Class Title
         ' 
         ' Button2
         ' 
-        Button2.Font = New Font("Roboto Mono", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Button2.Location = New Point(189, 460)
+        Button2.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button2.Location = New Point(251, 470)
         Button2.Name = "Button2"
         Button2.Size = New Size(132, 34)
         Button2.TabIndex = 13
@@ -202,30 +212,20 @@ Partial Class Title
         ' 
         ' Button3
         ' 
-        Button3.Font = New Font("Roboto Mono", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Button3.Location = New Point(327, 460)
+        Button3.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Button3.Location = New Point(399, 470)
         Button3.Name = "Button3"
         Button3.Size = New Size(132, 34)
         Button3.TabIndex = 14
         Button3.Text = "Rural"
         Button3.UseVisualStyleBackColor = True
         ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(580, 28)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(660, 724)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 15
-        PictureBox1.TabStop = False
-        ' 
         ' Button4
         ' 
         Button4.BackColor = Color.White
         Button4.FlatAppearance.BorderColor = Color.Black
         Button4.Font = New Font("Roboto Mono", 21.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Button4.Location = New Point(178, 567)
+        Button4.Location = New Point(350, 582)
         Button4.Name = "Button4"
         Button4.Size = New Size(164, 53)
         Button4.TabIndex = 17
@@ -238,7 +238,7 @@ Partial Class Title
         ToolStrip1.Items.AddRange(New ToolStripItem() {NewToolStripButton, SaveToolStripButton, OpenToolStripButton, ToolStripSeparator1, ToolStripLabel1, TitleToolStripButton, DistrictToolStripButton, IntersectionTypeToolStripButton, IntersectionDataToolStripButton, RunToolStripButton, ToolStripLabel2, AboutToolStripButton})
         ToolStrip1.Location = New Point(0, 0)
         ToolStrip1.Name = "ToolStrip1"
-        ToolStrip1.Size = New Size(1239, 25)
+        ToolStrip1.Size = New Size(825, 25)
         ToolStrip1.TabIndex = 18
         ToolStrip1.Text = "ToolStrip1"
         ' 
@@ -350,10 +350,9 @@ Partial Class Title
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.LightGray
-        ClientSize = New Size(1239, 739)
+        ClientSize = New Size(825, 739)
         Controls.Add(ToolStrip1)
         Controls.Add(Button4)
-        Controls.Add(PictureBox1)
         Controls.Add(Button3)
         Controls.Add(Button2)
         Controls.Add(Button1)
@@ -372,7 +371,6 @@ Partial Class Title
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         MaximizeBox = False
         Name = "Title"
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ToolStrip1.ResumeLayout(False)
         ToolStrip1.PerformLayout()
         ResumeLayout(False)
@@ -393,7 +391,6 @@ Partial Class Title
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Button4 As Button
     Friend WithEvents ToolStrip1 As ToolStrip
     Friend WithEvents NewToolStripButton As ToolStripButton

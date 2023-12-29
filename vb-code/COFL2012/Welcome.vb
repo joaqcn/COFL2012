@@ -151,7 +151,7 @@ Public Class Welcome
 
     Public Sub RoundButton(btn As Button)
         btn.FlatStyle = FlatStyle.Flat
-        btn.FlatAppearance.BorderSize = 0
+        btn.FlatAppearance.BorderSize = 0.5
         btn.BackColor = Color.LightGray
         btn.ForeColor = Color.Black
         btn.Cursor = Cursors.Hand
