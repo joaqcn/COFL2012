@@ -88,43 +88,43 @@ Partial Class _4X4
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI Semibold", 20.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.Location = New Point(499, 26)
+        Label1.Font = New Font("Roboto Mono", 20.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Location = New Point(474, 42)
         Label1.Name = "Label1"
-        Label1.Size = New Size(315, 37)
+        Label1.Size = New Size(415, 35)
         Label1.TabIndex = 1
         Label1.Text = "Intersection Data - 4 X 4"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label2.Location = New Point(720, 130)
+        Label2.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Location = New Point(704, 134)
         Label2.Name = "Label2"
-        Label2.Size = New Size(104, 21)
+        Label2.Size = New Size(120, 21)
         Label2.TabIndex = 2
         Label2.Text = "Speed (mph)"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label3.Location = New Point(694, 181)
         Label3.Name = "Label3"
-        Label3.Size = New Size(132, 42)
+        Label3.Size = New Size(170, 42)
         Label3.TabIndex = 3
         Label3.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(830, 132)
+        TextBox1.Location = New Point(836, 130)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(100, 23)
         TextBox1.TabIndex = 4
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(830, 181)
+        TextBox2.Location = New Point(861, 181)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(100, 23)
         TextBox2.TabIndex = 5
@@ -142,25 +142,26 @@ Partial Class _4X4
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label5.Location = New Point(537, 114)
+        Label5.Font = New Font("Roboto Mono", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label5.Location = New Point(554, 116)
         Label5.Name = "Label5"
-        Label5.Size = New Size(140, 25)
+        Label5.Size = New Size(122, 25)
         Label5.TabIndex = 8
         Label5.Text = "SOUTHBOUND"
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label4.Location = New Point(194, 467)
+        Label4.Font = New Font("Roboto Mono", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label4.Location = New Point(182, 464)
         Label4.Name = "Label4"
-        Label4.Size = New Size(122, 25)
+        Label4.Size = New Size(111, 25)
         Label4.TabIndex = 14
         Label4.Text = "EASTBOUND"
         ' 
         ' PictureBox3
         ' 
+        PictureBox3.BackColor = SystemColors.Control
         PictureBox3.Image = My.Resources.Resources.blue_arrow_right
         PictureBox3.Location = New Point(299, 434)
         PictureBox3.Name = "PictureBox3"
@@ -186,40 +187,40 @@ Partial Class _4X4
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label6.Location = New Point(161, 389)
+        Label6.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label6.Location = New Point(123, 391)
         Label6.Name = "Label6"
-        Label6.Size = New Size(132, 42)
+        Label6.Size = New Size(170, 42)
         Label6.TabIndex = 10
         Label6.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
         ' 
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label7.Location = New Point(179, 342)
         Label7.Name = "Label7"
-        Label7.Size = New Size(104, 21)
+        Label7.Size = New Size(120, 21)
         Label7.TabIndex = 9
         Label7.Text = "Speed (mph)"
         ' 
         ' Label14
         ' 
         Label14.AutoSize = True
-        Label14.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label14.Location = New Point(1071, 451)
+        Label14.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label14.Location = New Point(1048, 453)
         Label14.Name = "Label14"
-        Label14.Size = New Size(104, 21)
+        Label14.Size = New Size(120, 21)
         Label14.TabIndex = 15
         Label14.Text = "Speed (mph)"
         ' 
         ' Label15
         ' 
         Label15.AutoSize = True
-        Label15.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label15.Location = New Point(1061, 491)
+        Label15.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label15.Location = New Point(1048, 493)
         Label15.Name = "Label15"
-        Label15.Size = New Size(132, 42)
+        Label15.Size = New Size(170, 42)
         Label15.TabIndex = 16
         Label15.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
         ' 
@@ -250,30 +251,30 @@ Partial Class _4X4
         ' Label16
         ' 
         Label16.AutoSize = True
-        Label16.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label16.Location = New Point(1019, 391)
+        Label16.Font = New Font("Roboto Mono", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label16.Location = New Point(1035, 391)
         Label16.Name = "Label16"
-        Label16.Size = New Size(127, 25)
+        Label16.Size = New Size(111, 25)
         Label16.TabIndex = 20
         Label16.Text = "WESTBOUND"
         ' 
         ' Label17
         ' 
         Label17.AutoSize = True
-        Label17.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label17.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label17.Location = New Point(418, 676)
         Label17.Name = "Label17"
-        Label17.Size = New Size(104, 21)
+        Label17.Size = New Size(120, 21)
         Label17.TabIndex = 15
         Label17.Text = "Speed (mph)"
         ' 
         ' Label18
         ' 
         Label18.AutoSize = True
-        Label18.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label18.Location = New Point(405, 725)
+        Label18.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label18.Location = New Point(368, 727)
         Label18.Name = "Label18"
-        Label18.Size = New Size(132, 42)
+        Label18.Size = New Size(170, 42)
         Label18.TabIndex = 16
         Label18.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
         ' 
@@ -304,10 +305,10 @@ Partial Class _4X4
         ' Label19
         ' 
         Label19.AutoSize = True
-        Label19.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label19.Location = New Point(654, 760)
+        Label19.Font = New Font("Roboto Mono", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label19.Location = New Point(662, 780)
         Label19.Name = "Label19"
-        Label19.Size = New Size(144, 25)
+        Label19.Size = New Size(122, 25)
         Label19.TabIndex = 20
         Label19.Text = "NORTHBOUND"
         ' 
@@ -315,20 +316,21 @@ Partial Class _4X4
         ' 
         Label8.AutoSize = True
         Label8.BorderStyle = BorderStyle.FixedSingle
-        Label8.Location = New Point(37, 655)
+        Label8.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label8.Location = New Point(12, 651)
         Label8.Name = "Label8"
-        Label8.Size = New Size(236, 167)
+        Label8.Size = New Size(317, 178)
         Label8.TabIndex = 21
         Label8.Text = resources.GetString("Label8.Text")
         ' 
         ' btnPrevious
         ' 
         btnPrevious.BackColor = SystemColors.AppWorkspace
-        btnPrevious.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
+        btnPrevious.Font = New Font("Roboto Mono", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
         btnPrevious.ForeColor = SystemColors.ControlText
-        btnPrevious.Location = New Point(1094, 749)
+        btnPrevious.Location = New Point(1048, 750)
         btnPrevious.Name = "btnPrevious"
-        btnPrevious.Size = New Size(105, 36)
+        btnPrevious.Size = New Size(136, 36)
         btnPrevious.TabIndex = 22
         btnPrevious.Text = "Previous"
         btnPrevious.UseVisualStyleBackColor = False
@@ -336,11 +338,11 @@ Partial Class _4X4
         ' btnNext
         ' 
         btnNext.BackColor = SystemColors.AppWorkspace
-        btnNext.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
+        btnNext.Font = New Font("Roboto Mono", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
         btnNext.ForeColor = SystemColors.ControlText
-        btnNext.Location = New Point(1205, 749)
+        btnNext.Location = New Point(1190, 750)
         btnNext.Name = "btnNext"
-        btnNext.Size = New Size(105, 36)
+        btnNext.Size = New Size(122, 36)
         btnNext.TabIndex = 25
         btnNext.Text = "Run"
         btnNext.UseVisualStyleBackColor = False
