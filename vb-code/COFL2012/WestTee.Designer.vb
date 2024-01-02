@@ -60,6 +60,7 @@ Partial Class WestTee
         AboutToolStripButton = New ToolStripButton()
         OpenFileDialog1 = New OpenFileDialog()
         SaveFileDialog1 = New SaveFileDialog()
+        Label9 = New Label()
         CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -70,7 +71,7 @@ Partial Class WestTee
         ' btnNext
         ' 
         btnNext.BackColor = SystemColors.AppWorkspace
-        btnNext.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
+        btnNext.Font = New Font("Roboto Mono", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
         btnNext.ForeColor = SystemColors.ControlText
         btnNext.Location = New Point(1207, 744)
         btnNext.Name = "btnNext"
@@ -82,11 +83,11 @@ Partial Class WestTee
         ' btnPrevious
         ' 
         btnPrevious.BackColor = SystemColors.AppWorkspace
-        btnPrevious.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
+        btnPrevious.Font = New Font("Roboto Mono", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
         btnPrevious.ForeColor = SystemColors.ControlText
-        btnPrevious.Location = New Point(1096, 744)
+        btnPrevious.Location = New Point(1071, 744)
         btnPrevious.Name = "btnPrevious"
-        btnPrevious.Size = New Size(105, 36)
+        btnPrevious.Size = New Size(130, 36)
         btnPrevious.TabIndex = 110
         btnPrevious.Text = "Previous"
         btnPrevious.UseVisualStyleBackColor = False
@@ -95,9 +96,10 @@ Partial Class WestTee
         ' 
         Label8.AutoSize = True
         Label8.BorderStyle = BorderStyle.FixedSingle
-        Label8.Location = New Point(39, 650)
+        Label8.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label8.Location = New Point(0, 651)
         Label8.Name = "Label8"
-        Label8.Size = New Size(236, 167)
+        Label8.Size = New Size(317, 178)
         Label8.TabIndex = 109
         Label8.Text = resources.GetString("Label8.Text")
         ' 
@@ -128,30 +130,30 @@ Partial Class WestTee
         ' Label18
         ' 
         Label18.AutoSize = True
-        Label18.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label18.Location = New Point(439, 723)
+        Label18.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label18.Location = New Point(389, 725)
         Label18.Name = "Label18"
-        Label18.Size = New Size(132, 42)
+        Label18.Size = New Size(170, 42)
         Label18.TabIndex = 101
         Label18.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
         ' 
         ' Label17
         ' 
         Label17.AutoSize = True
-        Label17.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label17.Location = New Point(452, 674)
+        Label17.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label17.Location = New Point(439, 678)
         Label17.Name = "Label17"
-        Label17.Size = New Size(104, 21)
+        Label17.Size = New Size(120, 21)
         Label17.TabIndex = 98
         Label17.Text = "Speed (mph)"
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label4.Location = New Point(196, 462)
+        Label4.Font = New Font("Roboto Mono", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label4.Location = New Point(181, 463)
         Label4.Name = "Label4"
-        Label4.Size = New Size(122, 25)
+        Label4.Size = New Size(111, 25)
         Label4.TabIndex = 97
         Label4.Text = "EASTBOUND"
         ' 
@@ -182,30 +184,31 @@ Partial Class WestTee
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label6.Location = New Point(163, 384)
+        Label6.FlatStyle = FlatStyle.Flat
+        Label6.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label6.Location = New Point(125, 386)
         Label6.Name = "Label6"
-        Label6.Size = New Size(132, 42)
+        Label6.Size = New Size(170, 42)
         Label6.TabIndex = 93
         Label6.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
         ' 
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label7.Location = New Point(181, 337)
         Label7.Name = "Label7"
-        Label7.Size = New Size(104, 21)
+        Label7.Size = New Size(120, 21)
         Label7.TabIndex = 92
         Label7.Text = "Speed (mph)"
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label5.Location = New Point(568, 107)
+        Label5.Font = New Font("Roboto Mono", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label5.Location = New Point(576, 88)
         Label5.Name = "Label5"
-        Label5.Size = New Size(140, 25)
+        Label5.Size = New Size(122, 25)
         Label5.TabIndex = 91
         Label5.Text = "SOUTHBOUND"
         ' 
@@ -221,7 +224,7 @@ Partial Class WestTee
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(861, 174)
+        TextBox2.Location = New Point(901, 174)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(100, 23)
         TextBox2.TabIndex = 89
@@ -236,30 +239,30 @@ Partial Class WestTee
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label3.Location = New Point(725, 174)
         Label3.Name = "Label3"
-        Label3.Size = New Size(132, 42)
+        Label3.Size = New Size(170, 42)
         Label3.TabIndex = 87
         Label3.Text = "Approach Traffic" & vbCrLf & " (veh/hr)"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label2.Location = New Point(751, 123)
+        Label2.Font = New Font("Roboto Mono", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Location = New Point(725, 125)
         Label2.Name = "Label2"
-        Label2.Size = New Size(104, 21)
+        Label2.Size = New Size(120, 21)
         Label2.TabIndex = 86
         Label2.Text = "Speed (mph)"
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI Semibold", 20.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.Location = New Point(501, 21)
+        Label1.Font = New Font("Roboto Mono", 20.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Location = New Point(475, 43)
         Label1.Name = "Label1"
-        Label1.Size = New Size(360, 37)
+        Label1.Size = New Size(463, 35)
         Label1.TabIndex = 85
         Label1.Text = "Intersection Data - West Tee"
         ' 
@@ -386,11 +389,22 @@ Partial Class WestTee
         ' 
         OpenFileDialog1.FileName = "OpenFileDialog1"
         ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Roboto Mono", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label9.Location = New Point(702, 778)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(122, 25)
+        Label9.TabIndex = 118
+        Label9.Text = "NORTHBOUND"
+        ' 
         ' WestTee
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1351, 838)
+        Controls.Add(Label9)
         Controls.Add(ToolStrip1)
         Controls.Add(btnNext)
         Controls.Add(btnPrevious)
@@ -464,4 +478,5 @@ Partial Class WestTee
     Friend WithEvents AboutToolStripButton As ToolStripButton
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents Label9 As Label
 End Class
