@@ -7,6 +7,8 @@ Public Class _6X4
     '******************************************************Form Load and Close Subroutines***********************************************************
     '*************************************************************************************************************************************
     Private Sub I03_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Welcome.RoundButton(btnPrevious)
+        Welcome.RoundButton(btnNext)
         Init6X4()
     End Sub
 
@@ -45,7 +47,7 @@ Public Class _6X4
         End If
     End Sub
 
-    Private Sub ToolStripButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton3.Click
+    Private Sub ToolStripButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         'Writes user program run inputs to text file
         SaveFileDialog1.InitialDirectory = Welcome.PrimaryDirectory & "\UsrFiles\"
         SaveFileDialog1.Filter = "Input files (*.in)|*.in|All files (*.*)|*.*"
