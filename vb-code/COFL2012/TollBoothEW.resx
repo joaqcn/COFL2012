@@ -120,14 +120,15 @@
   <data name="Label8.Text" xml:space="preserve">
     <value>NOTES:
 
-1) Click on the image to flip geografic orientation
+1) Click on the image to flip
+     geografic orientation
 
 2) ETC is the abbreviation for 
      Electronic Toll Collection
 
-3) If there are no ETC-Only lanes for the scenario,
-    input a 0 in the "% of Vehicles
-    Using ETC-Only Lanes" box.
+3) If there are no ETC-Only lanes 
+   for the scenario, input a 0 in the "% 
+   of Vehicles Using ETC-Only Lanes" box.
 </value>
   </data>
   <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
