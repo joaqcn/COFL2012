@@ -3,6 +3,8 @@
     '******************************************************Form Load and Close Subroutines***********************************************************
     '*************************************************************************************************************************************
     Private Sub I04_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Welcome.RoundButton(btnPrevious)
+        Welcome.RoundButton(btnNext)
         Init6X6()
     End Sub
 
@@ -78,7 +80,7 @@
         Me.Visible = False
     End Sub
 
-    Private Sub ToolStripButton11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RunToolStripButton.Click
+    Private Sub ToolStripButton11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         'Call the routine to check form inputs
         Verify6X6Form()
 
@@ -368,6 +370,10 @@
     End Sub
 
     Private Sub ToolStripButton8_Click(sender As Object, e As EventArgs) Handles RunToolStripButton.Click
+
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
 
     End Sub
 End Class

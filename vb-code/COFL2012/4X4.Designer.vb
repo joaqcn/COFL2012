@@ -143,7 +143,7 @@ Partial Class _4X4
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Roboto Mono", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label5.Location = New Point(554, 116)
+        Label5.Location = New Point(551, 102)
         Label5.Name = "Label5"
         Label5.Size = New Size(122, 25)
         Label5.TabIndex = 8

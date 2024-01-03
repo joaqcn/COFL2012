@@ -5,6 +5,8 @@ Public Class East_Tee
     '******************************************************Form Load and Close Subroutines***********************************************************
     '*************************************************************************************************************************************
     Private Sub East_Tee_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Welcome.RoundButton(btnPrevious)
+        Welcome.RoundButton(btnNext)
         InitEastTee()
     End Sub
 

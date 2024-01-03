@@ -5,6 +5,8 @@ Public Class SouthTee
     '******************************************************Form Load and Close Subroutines***********************************************************
     '*************************************************************************************************************************************
     Private Sub SouthTee_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Welcome.RoundButton(btnPrevious)
+        Welcome.RoundButton(btnNext)
         InitSouthTee()
     End Sub
 
