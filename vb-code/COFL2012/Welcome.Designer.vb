@@ -39,7 +39,7 @@ Partial Class Welcome
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Roboto Mono", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.Location = New Point(268, 134)
+        Label1.Location = New Point(254, 115)
         Label1.Name = "Label1"
         Label1.Size = New Size(605, 84)
         Label1.TabIndex = 0
@@ -48,7 +48,7 @@ Partial Class Welcome
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Font = New Font("Roboto Mono", 18F, FontStyle.Bold, GraphicsUnit.Point)
+        Label5.Font = New Font("Roboto Mono", 18F, FontStyle.Regular, GraphicsUnit.Point)
         Label5.Location = New Point(153, 11)
         Label5.Name = "Label5"
         Label5.Size = New Size(238, 32)
@@ -58,7 +58,7 @@ Partial Class Welcome
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Roboto Mono", 18F, FontStyle.Bold, GraphicsUnit.Point)
+        Label6.Font = New Font("Roboto Mono", 18F, FontStyle.Regular, GraphicsUnit.Point)
         Label6.Location = New Point(651, 11)
         Label6.Name = "Label6"
         Label6.Size = New Size(252, 32)
@@ -93,7 +93,7 @@ Partial Class Welcome
         Button1.Font = New Font("Roboto Mono", 26.25F, FontStyle.Bold, GraphicsUnit.Point)
         Button1.Location = New Point(438, 305)
         Button1.Name = "Button1"
-        Button1.Size = New Size(266, 62)
+        Button1.Size = New Size(240, 62)
         Button1.TabIndex = 9
         Button1.Text = "Start..."
         Button1.UseVisualStyleBackColor = True
