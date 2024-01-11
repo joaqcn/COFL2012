@@ -837,7 +837,7 @@ Public Class IntersectionType
     '******************************************************************************************************************
     '****************************************Bottom Navigation Buttons*************************************************
     '******************************************************************************************************************
-    Private Sub btnPrevious_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub btnPrevious_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPrevious.Click
         My.Forms.District.Show()
         Me.Visible = False
     End Sub
