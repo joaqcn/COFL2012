@@ -63,7 +63,7 @@ Partial Class District
         Label1.Name = "Label1"
         Label1.Size = New Size(266, 32)
         Label1.TabIndex = 0
-        Label1.Text = "District Selection"
+        Label1.Text = "DISTRICT SELECTION"
         ' 
         ' Panel1
         ' 
@@ -84,6 +84,7 @@ Partial Class District
         ' Button7
         ' 
         Button7.BackColor = Color.LightGray
+        Button7.Cursor = Cursors.Hand
         Button7.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button7.ImageAlign = ContentAlignment.TopCenter
         Button7.Location = New Point(16, 334)
@@ -96,6 +97,7 @@ Partial Class District
         ' Button6
         ' 
         Button6.BackColor = Color.LightGray
+        Button6.Cursor = Cursors.Hand
         Button6.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button6.ImageAlign = ContentAlignment.TopCenter
         Button6.Location = New Point(16, 289)
@@ -108,6 +110,7 @@ Partial Class District
         ' Button5
         ' 
         Button5.BackColor = Color.LightGray
+        Button5.Cursor = Cursors.Hand
         Button5.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button5.ImageAlign = ContentAlignment.TopCenter
         Button5.Location = New Point(16, 237)
@@ -120,6 +123,7 @@ Partial Class District
         ' Button4
         ' 
         Button4.BackColor = Color.LightGray
+        Button4.Cursor = Cursors.Hand
         Button4.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button4.ImageAlign = ContentAlignment.TopCenter
         Button4.Location = New Point(18, 180)
@@ -132,6 +136,7 @@ Partial Class District
         ' Button3
         ' 
         Button3.BackColor = Color.LightGray
+        Button3.Cursor = Cursors.Hand
         Button3.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button3.ImageAlign = ContentAlignment.TopCenter
         Button3.Location = New Point(16, 126)
@@ -144,6 +149,7 @@ Partial Class District
         ' Button2
         ' 
         Button2.BackColor = Color.LightGray
+        Button2.Cursor = Cursors.Hand
         Button2.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button2.ImageAlign = ContentAlignment.TopCenter
         Button2.Location = New Point(17, 73)
@@ -156,6 +162,7 @@ Partial Class District
         ' Button1
         ' 
         Button1.BackColor = Color.LightGray
+        Button1.Cursor = Cursors.Hand
         Button1.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button1.ImageAlign = ContentAlignment.TopCenter
         Button1.Location = New Point(17, 20)
@@ -167,6 +174,7 @@ Partial Class District
         ' 
         ' PictureBox1
         ' 
+        PictureBox1.BorderStyle = BorderStyle.FixedSingle
         PictureBox1.Image = My.Resources.Resources.district_map
         PictureBox1.Location = New Point(354, 109)
         PictureBox1.Name = "PictureBox1"
