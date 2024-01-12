@@ -67,7 +67,7 @@ Partial Class District
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = Color.LightGray
+        Panel1.BackColor = Color.White
         Panel1.BorderStyle = BorderStyle.FixedSingle
         Panel1.Controls.Add(Button7)
         Panel1.Controls.Add(Button6)

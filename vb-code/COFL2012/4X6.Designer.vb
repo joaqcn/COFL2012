@@ -47,7 +47,6 @@ Partial Class _4X6
         Label5 = New Label()
         PictureBox2 = New PictureBox()
         TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
@@ -67,6 +66,7 @@ Partial Class _4X6
         ToolStripButton9 = New ToolStripButton()
         OpenFileDialog1 = New OpenFileDialog()
         SaveFileDialog1 = New SaveFileDialog()
+        TextBox1 = New TextBox()
         CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
@@ -142,10 +142,13 @@ Partial Class _4X6
         ' 
         ' TextBox3
         ' 
+        TextBox3.BorderStyle = BorderStyle.FixedSingle
+        TextBox3.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox3.Location = New Point(944, 488)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(100, 23)
         TextBox3.TabIndex = 47
+        TextBox3.TextAlign = HorizontalAlignment.Center
         ' 
         ' PictureBox8
         ' 
@@ -159,17 +162,22 @@ Partial Class _4X6
         ' 
         ' TextBox4
         ' 
-        TextBox4.Location = New Point(944, 446)
+        TextBox4.BorderStyle = BorderStyle.FixedSingle
+        TextBox4.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox4.Location = New Point(944, 448)
         TextBox4.Name = "TextBox4"
         TextBox4.Size = New Size(100, 23)
         TextBox4.TabIndex = 45
+        TextBox4.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox5
         ' 
+        TextBox5.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox5.Location = New Point(544, 722)
         TextBox5.Name = "TextBox5"
         TextBox5.Size = New Size(100, 23)
         TextBox5.TabIndex = 46
+        TextBox5.TextAlign = HorizontalAlignment.Center
         ' 
         ' Label15
         ' 
@@ -183,10 +191,12 @@ Partial Class _4X6
         ' 
         ' TextBox6
         ' 
+        TextBox6.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox6.Location = New Point(544, 673)
         TextBox6.Name = "TextBox6"
         TextBox6.Size = New Size(100, 23)
         TextBox6.TabIndex = 44
+        TextBox6.TextAlign = HorizontalAlignment.Center
         ' 
         ' Label14
         ' 
@@ -294,17 +304,13 @@ Partial Class _4X6
         ' 
         ' TextBox2
         ' 
+        TextBox2.BorderStyle = BorderStyle.FixedSingle
+        TextBox2.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox2.Location = New Point(872, 178)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(100, 23)
         TextBox2.TabIndex = 31
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.Location = New Point(832, 127)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(100, 23)
-        TextBox1.TabIndex = 30
+        TextBox2.TextAlign = HorizontalAlignment.Center
         ' 
         ' Label3
         ' 
@@ -459,11 +465,23 @@ Partial Class _4X6
         ' 
         OpenFileDialog1.FileName = "OpenFileDialog1"
         ' 
+        ' TextBox1
+        ' 
+        TextBox1.BorderStyle = BorderStyle.FixedSingle
+        TextBox1.Font = New Font("Roboto Mono", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox1.Location = New Point(872, 125)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(100, 23)
+        TextBox1.TabIndex = 56
+        TextBox1.TextAlign = HorizontalAlignment.Right
+        ' 
         ' _4X6
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.LightGray
         ClientSize = New Size(1351, 838)
+        Controls.Add(TextBox1)
         Controls.Add(ToolStrip1)
         Controls.Add(btnNext)
         Controls.Add(btnPrevious)
@@ -489,7 +507,6 @@ Partial Class _4X6
         Controls.Add(Label5)
         Controls.Add(PictureBox2)
         Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
@@ -532,7 +549,6 @@ Partial Class _4X6
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -552,4 +568,5 @@ Partial Class _4X6
     Friend WithEvents ToolStripButton9 As ToolStripButton
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents TextBox1 As TextBox
 End Class
