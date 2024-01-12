@@ -95,7 +95,7 @@ Partial Class Welcome
         Button1.Name = "Button1"
         Button1.Size = New Size(240, 62)
         Button1.TabIndex = 9
-        Button1.Text = "Start..."
+        Button1.Text = "Start"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Panel1
@@ -114,7 +114,7 @@ Partial Class Welcome
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.LightGray
+        BackColor = Color.Silver
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(1108, 636)
         Controls.Add(Panel1)

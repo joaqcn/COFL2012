@@ -119,7 +119,7 @@ Partial Class Title
         ' 
         ' TextBox1
         ' 
-        TextBox1.BackColor = Color.Gainsboro
+        TextBox1.BackColor = Color.LightGray
         TextBox1.BorderStyle = BorderStyle.None
         TextBox1.Font = New Font("Roboto Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox1.Location = New Point(12, 104)
@@ -133,7 +133,7 @@ Partial Class Title
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Font = New Font("Roboto Mono", 18.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Font = New Font("Roboto Mono", 18F, FontStyle.Bold, GraphicsUnit.Point)
         Label7.Location = New Point(214, 37)
         Label7.Name = "Label7"
         Label7.Size = New Size(280, 32)
@@ -142,7 +142,7 @@ Partial Class Title
         ' 
         ' TextBox2
         ' 
-        TextBox2.BackColor = Color.Gainsboro
+        TextBox2.BackColor = Color.LightGray
         TextBox2.BorderStyle = BorderStyle.None
         TextBox2.Font = New Font("Roboto Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox2.Location = New Point(12, 185)
@@ -154,7 +154,7 @@ Partial Class Title
         ' 
         ' TextBox3
         ' 
-        TextBox3.BackColor = Color.Gainsboro
+        TextBox3.BackColor = Color.LightGray
         TextBox3.BorderStyle = BorderStyle.None
         TextBox3.Font = New Font("Roboto Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox3.Location = New Point(12, 252)
@@ -166,7 +166,7 @@ Partial Class Title
         ' 
         ' TextBox4
         ' 
-        TextBox4.BackColor = Color.Gainsboro
+        TextBox4.BackColor = Color.LightGray
         TextBox4.BorderStyle = BorderStyle.None
         TextBox4.Font = New Font("Roboto Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox4.Location = New Point(12, 317)
@@ -178,7 +178,7 @@ Partial Class Title
         ' 
         ' TextBox5
         ' 
-        TextBox5.BackColor = Color.Gainsboro
+        TextBox5.BackColor = Color.LightGray
         TextBox5.BorderStyle = BorderStyle.None
         TextBox5.Font = New Font("Roboto Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         TextBox5.Location = New Point(12, 383)
@@ -190,7 +190,7 @@ Partial Class Title
         ' 
         ' Button1
         ' 
-        Button1.BackColor = SystemColors.Control
+        Button1.BackColor = Color.LightGray
         Button1.FlatAppearance.BorderColor = Color.Black
         Button1.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button1.Location = New Point(12, 461)
@@ -202,23 +202,25 @@ Partial Class Title
         ' 
         ' Button2
         ' 
+        Button2.BackColor = Color.LightGray
         Button2.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button2.Location = New Point(155, 461)
         Button2.Name = "Button2"
         Button2.Size = New Size(132, 34)
         Button2.TabIndex = 13
         Button2.Text = "Suburban"
-        Button2.UseVisualStyleBackColor = True
+        Button2.UseVisualStyleBackColor = False
         ' 
         ' Button3
         ' 
+        Button3.BackColor = Color.LightGray
         Button3.Font = New Font("Roboto Mono", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Button3.Location = New Point(303, 461)
         Button3.Name = "Button3"
         Button3.Size = New Size(132, 34)
         Button3.TabIndex = 14
         Button3.Text = "Rural"
-        Button3.UseVisualStyleBackColor = True
+        Button3.UseVisualStyleBackColor = False
         ' 
         ' Button4
         ' 
@@ -347,9 +349,9 @@ Partial Class Title
         ' 
         ' Title
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.LightGray
+        BackColor = Color.Silver
         ClientSize = New Size(712, 644)
         Controls.Add(ToolStrip1)
         Controls.Add(Button4)

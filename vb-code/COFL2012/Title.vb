@@ -16,7 +16,7 @@ Public Class Title
         End If
     End Sub
 
-    Private Sub RoundedCornersForTextBox(textBox As TextBox)
+    Public Sub RoundedCornersForTextBox(textBox As TextBox)
         ' Create a GraphicsPath with rounded corners
         Dim path As New GraphicsPath()
         Dim radius As Integer = 15
@@ -419,8 +419,8 @@ Public Class Title
         'Button4.Visible = True
         'Button1.Visible = False
         Button1.BackColor = Color.Gray
-        Button2.BackColor = DefaultBackColor
-        Button3.BackColor = DefaultBackColor
+        Button2.BackColor = Color.LightGray
+        Button3.BackColor = Color.LightGray
 
         Welcome.LandUse = "Urban"
         Welcome.ZO = 175
@@ -440,9 +440,9 @@ Public Class Title
         'Button5.Visible = True
         'Button2.Visible = False
 
-        Button1.BackColor = DefaultBackColor
+        Button1.BackColor = Color.LightGray
         Button2.BackColor = Color.Gray
-        Button3.BackColor = DefaultBackColor
+        Button3.BackColor = Color.LightGray
 
         Welcome.LandUse = "Suburban"
         Welcome.ZO = 108
@@ -459,8 +459,8 @@ Public Class Title
         'Highlights the selected button and assigns global variable values
         'Button6.Visible = True
         'Button3.Visible = False
-        Button1.BackColor = DefaultBackColor
-        Button2.BackColor = DefaultBackColor
+        Button1.BackColor = Color.LightGray
+        Button2.BackColor = Color.LightGray
         Button3.BackColor = Color.Gray
 
 
