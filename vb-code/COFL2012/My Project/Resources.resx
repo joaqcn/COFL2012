@@ -136,8 +136,14 @@
   <data name="new-file" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\new-file.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="black-arrow-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\black-arrow-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="down-arrow_608258" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\down-arrow_608258.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="district-map" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\district-map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,14 +151,17 @@
   <data name="4x6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\4x6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blue-arrow-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\blue-arrow-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="black-arrow-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\black-arrow-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="button-icon-png-21060" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\button-icon-png-21060.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="N-S Freeway" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\N-S Freeway.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="road" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\road.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="6x6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\6x6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -180,6 +189,9 @@
   </data>
   <data name="florida-beach" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\florida-beach.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue-arrow-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\blue-arrow-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="North Tee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\North Tee.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,7 +232,7 @@
   <data name="Tool Booth" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Tool Booth.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="road" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\road.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="black-arrow-top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\black-arrow-top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
