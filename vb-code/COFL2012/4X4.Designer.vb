@@ -117,24 +117,29 @@ Partial Class _4X4
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(836, 130)
+        TextBox1.Font = New Font("Roboto Mono Medium", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        TextBox1.Location = New Point(861, 132)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(100, 23)
         TextBox1.TabIndex = 4
+        TextBox1.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox2
         ' 
+        TextBox2.Font = New Font("Roboto Mono Medium", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox2.Location = New Point(861, 181)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(100, 23)
         TextBox2.TabIndex = 5
+        TextBox2.TextAlign = HorizontalAlignment.Center
         ' 
         ' PictureBox2
         ' 
-        PictureBox2.Image = My.Resources.Resources.blue_arrow_down
-        PictureBox2.Location = New Point(537, 130)
+        PictureBox2.BackColor = Color.LightGray
+        PictureBox2.Image = My.Resources.Resources.down_arrow_608258
+        PictureBox2.Location = New Point(589, 151)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(150, 94)
+        PictureBox2.Size = New Size(53, 73)
         PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox2.TabIndex = 6
         PictureBox2.TabStop = False
@@ -143,7 +148,7 @@ Partial Class _4X4
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Roboto Mono", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label5.Location = New Point(551, 102)
+        Label5.Location = New Point(557, 114)
         Label5.Name = "Label5"
         Label5.Size = New Size(122, 25)
         Label5.TabIndex = 8
@@ -161,28 +166,32 @@ Partial Class _4X4
         ' 
         ' PictureBox3
         ' 
-        PictureBox3.BackColor = SystemColors.Control
-        PictureBox3.Image = My.Resources.Resources.blue_arrow_right
-        PictureBox3.Location = New Point(299, 434)
+        PictureBox3.BackColor = Color.LightGray
+        PictureBox3.Image = My.Resources.Resources.black_arrow_right
+        PictureBox3.Location = New Point(299, 451)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(104, 94)
+        PictureBox3.Size = New Size(104, 52)
         PictureBox3.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox3.TabIndex = 13
         PictureBox3.TabStop = False
         ' 
         ' TextBox8
         ' 
+        TextBox8.Font = New Font("Roboto Mono Medium", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox8.Location = New Point(299, 391)
         TextBox8.Name = "TextBox8"
         TextBox8.Size = New Size(100, 23)
         TextBox8.TabIndex = 12
+        TextBox8.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox7
         ' 
+        TextBox7.Font = New Font("Roboto Mono Medium", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox7.Location = New Point(299, 342)
         TextBox7.Name = "TextBox7"
         TextBox7.Size = New Size(100, 23)
         TextBox7.TabIndex = 11
+        TextBox7.TextAlign = HorizontalAlignment.Center
         ' 
         ' Label6
         ' 
@@ -226,24 +235,28 @@ Partial Class _4X4
         ' 
         ' TextBox3
         ' 
+        TextBox3.Font = New Font("Roboto Mono Medium", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox3.Location = New Point(942, 451)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(100, 23)
         TextBox3.TabIndex = 17
+        TextBox3.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox4
         ' 
+        TextBox4.Font = New Font("Roboto Mono Medium", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox4.Location = New Point(942, 493)
         TextBox4.Name = "TextBox4"
         TextBox4.Size = New Size(100, 23)
         TextBox4.TabIndex = 18
+        TextBox4.TextAlign = HorizontalAlignment.Center
         ' 
         ' PictureBox7
         ' 
-        PictureBox7.Image = My.Resources.Resources.blue_arrow_left
-        PictureBox7.Location = New Point(942, 356)
+        PictureBox7.Image = My.Resources.Resources.black_arrow_left
+        PictureBox7.Location = New Point(942, 379)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(87, 89)
+        PictureBox7.Size = New Size(87, 54)
         PictureBox7.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox7.TabIndex = 19
         PictureBox7.TabStop = False
@@ -280,24 +293,28 @@ Partial Class _4X4
         ' 
         ' TextBox5
         ' 
+        TextBox5.Font = New Font("Roboto Mono Medium", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox5.Location = New Point(542, 678)
         TextBox5.Name = "TextBox5"
         TextBox5.Size = New Size(100, 23)
         TextBox5.TabIndex = 17
+        TextBox5.TextAlign = HorizontalAlignment.Center
         ' 
         ' TextBox6
         ' 
+        TextBox6.Font = New Font("Roboto Mono Medium", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox6.Location = New Point(542, 727)
         TextBox6.Name = "TextBox6"
         TextBox6.Size = New Size(100, 23)
         TextBox6.TabIndex = 18
+        TextBox6.TextAlign = HorizontalAlignment.Center
         ' 
         ' PictureBox8
         ' 
-        PictureBox8.Image = My.Resources.Resources.blue_arrow_top
-        PictureBox8.Location = New Point(648, 673)
+        PictureBox8.Image = My.Resources.Resources.black_arrow_top
+        PictureBox8.Location = New Point(694, 673)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(150, 94)
+        PictureBox8.Size = New Size(55, 77)
         PictureBox8.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox8.TabIndex = 19
         PictureBox8.TabStop = False
@@ -306,7 +323,7 @@ Partial Class _4X4
         ' 
         Label19.AutoSize = True
         Label19.Font = New Font("Roboto Mono", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label19.Location = New Point(662, 780)
+        Label19.Location = New Point(662, 761)
         Label19.Name = "Label19"
         Label19.Size = New Size(122, 25)
         Label19.TabIndex = 20
@@ -464,6 +481,7 @@ Partial Class _4X4
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.LightGray
         ClientSize = New Size(1351, 838)
         Controls.Add(ToolStrip1)
         Controls.Add(btnNext)

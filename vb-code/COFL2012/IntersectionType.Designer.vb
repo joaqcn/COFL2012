@@ -476,7 +476,7 @@ Partial Class IntersectionType
         ' 
         AutoScaleDimensions = New SizeF(6F, 16F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.Silver
+        BackColor = Color.LightGray
         ClientSize = New Size(1158, 797)
         Controls.Add(PictureBox1)
         Controls.Add(ToolStrip1)

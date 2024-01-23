@@ -30,6 +30,7 @@ Partial Class Welcome
         PictureBox3 = New PictureBox()
         Button1 = New Button()
         Panel1 = New Panel()
+        Label2 = New Label()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         Panel1.SuspendLayout()
@@ -39,7 +40,7 @@ Partial Class Welcome
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Roboto Mono", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.Location = New Point(254, 115)
+        Label1.Location = New Point(242, 114)
         Label1.Name = "Label1"
         Label1.Size = New Size(605, 84)
         Label1.TabIndex = 0
@@ -88,15 +89,16 @@ Partial Class Welcome
         ' 
         ' Button1
         ' 
+        Button1.BackColor = Color.Transparent
         Button1.BackgroundImageLayout = ImageLayout.Center
         Button1.FlatAppearance.BorderColor = Color.Black
         Button1.Font = New Font("Roboto Mono", 26.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Button1.Location = New Point(438, 305)
+        Button1.Location = New Point(438, 312)
         Button1.Name = "Button1"
         Button1.Size = New Size(240, 62)
         Button1.TabIndex = 9
         Button1.Text = "Start"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Panel1
         ' 
@@ -110,13 +112,24 @@ Partial Class Welcome
         Panel1.Size = New Size(1107, 171)
         Panel1.TabIndex = 10
         ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Roboto Mono Medium", 18F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
+        Label2.Location = New Point(362, 219)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(364, 32)
+        Label2.TabIndex = 11
+        Label2.Text = "For Florida Interesctions" & vbCrLf
+        ' 
         ' Welcome
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.Silver
+        BackColor = Color.LightGray
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(1108, 636)
+        Controls.Add(Label2)
         Controls.Add(Panel1)
         Controls.Add(Button1)
         Controls.Add(Label1)
@@ -141,4 +154,5 @@ Partial Class Welcome
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents Label2 As Label
 End Class
