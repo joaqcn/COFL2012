@@ -8,6 +8,8 @@ Public Class NorthSouthFreeway
     '******************************************************Form Load and Close Subroutines***********************************************************
     '*************************************************************************************************************************************
     Private Sub NorthSouthFreeway_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Welcome.RoundButton(btnPrevious)
+        Welcome.RoundButton(btnRun)
         InitNSDiamond()
     End Sub
 

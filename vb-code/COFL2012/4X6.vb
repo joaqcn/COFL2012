@@ -8,6 +8,8 @@ Public Class _4X6
     '*************************************************************************************************************************************
     Private Sub I02_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Init4X6()
+        Welcome.RoundButton(btnPrevious)
+        Welcome.RoundButton(btnNext)
     End Sub
 
     Private Sub Form_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
@@ -347,7 +349,7 @@ Public Class _4X6
     '*******************************************Changes to variables in input fields********************************************
     '***************************************************************************************************************************
 
-    Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.TextChanged
+    Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Welcome.SSB = TextBox1.Text
     End Sub
 

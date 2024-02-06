@@ -4,6 +4,8 @@ Public Class TollBoothEW
 
 
     Private Sub TollBoothEW_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Welcome.RoundButton(btnPrevious)
+        Welcome.RoundButton(btnNext)
         InitTollBooth()
     End Sub
 

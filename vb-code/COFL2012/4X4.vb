@@ -5,6 +5,8 @@ Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Public Class _4X4
 
     Private Sub _4X4_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Welcome.RoundButton(btnPrevious)
+        Welcome.RoundButton(btnNext)
         Init4X4()
     End Sub
 
