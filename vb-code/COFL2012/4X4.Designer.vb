@@ -22,7 +22,7 @@ Partial Class _4X4
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(_4X4))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(_4X4))
         PictureBox1 = New PictureBox()
         Label1 = New Label()
         Label2 = New Label()

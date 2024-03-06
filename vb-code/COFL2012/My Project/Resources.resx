@@ -127,17 +127,20 @@
   <data name="save-file" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\save-file.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="diamond-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\diamond-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="data-type-number" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\data-type-number.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fdot-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\fdot-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blue-arrow-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\blue-arrow-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="new-file" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\new-file.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="black-arrow-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\black-arrow-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,8 +166,11 @@
   <data name="road" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\road.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="6x6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\6x6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tool Booth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Tool Booth.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="South Tee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\South Tee.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="swamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\swamp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,14 +190,17 @@
   <data name="East Tee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\East Tee.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ucf-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ucf-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diamond-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\diamond-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="6x4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\6x4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="florida-beach" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\florida-beach.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blue-arrow-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\blue-arrow-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="North Tee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\North Tee.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,14 +211,14 @@
   <data name="4x4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\4x4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fdot-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\fdot-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="6x6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\6x6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="document-export-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\document-export-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ucf-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\ucf-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="black-arrow-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\black-arrow-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blue-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\blue-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,8 +226,8 @@
   <data name="continue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\continue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="South Tee" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\South Tee.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blue-arrow-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\blue-arrow-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ToolBoothN-S" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\ToolBoothN-S.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,10 +238,10 @@
   <data name="blue-arrow-top" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\blue-arrow-top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tool Booth" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Tool Booth.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="black-arrow-top" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\black-arrow-top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diamond-right1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\diamond-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

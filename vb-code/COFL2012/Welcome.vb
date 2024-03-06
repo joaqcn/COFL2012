@@ -273,6 +273,8 @@ Public Class Welcome
                 NorthSouthFreeway.InitNSDiamond()
             Case ("E-W Diamond")
                 EastWestFreeway.InitEWDiamond()
+            Case ("Diamond")
+                'Diamond.InitDiamond()
         End Select
     End Sub
 

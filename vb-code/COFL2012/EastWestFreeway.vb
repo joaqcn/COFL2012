@@ -320,10 +320,9 @@ Public Class EastWestFreeway
         End Try
 
         '************************************************************************************************************************
-
-
         'Checks other input conditions*******************************************************************************************
         'Verify that all data fields have been completed
+
         If Not (Welcome.SSB <> "" And Welcome.SWB <> "" And Welcome.SNB <> "" And Welcome.SEB <> "" And Welcome.ATSB <> "" And Welcome.ORSB <> "" _
                 And Welcome.ATWB <> "" And Welcome.ORWB <> "" And Welcome.ATNB <> "" And Welcome.ORWB <> "" _
                 And Welcome.ATEB <> "" And Welcome.OREB <> "") Then
